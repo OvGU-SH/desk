@@ -1,0 +1,20 @@
+#' Average Basic Rent in City Districts
+#'
+#' @description This is a data set on twelve districts of a city. The data describe the district's distance to the city center and the average basic rent (it excludes additional costs).
+#'
+#' @format A data frame with 12 observations on the following two variables:
+#' \tabular{ll}{
+#' \code{dist} \tab distance between district and city center (in km).\cr
+#' \code{rent} \tab district's basic rent (in euro per square meter).\cr
+#' }
+#'
+#' @details
+#' In Auer, L von (2016, Chap. 17) and Auer, L. von, S. Hoffmann (2017, Chap. 17) these hypothetical data are used to illustrate the consequences of heteroskedastic error terms.
+#'
+#' @source
+#' Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#'
+#' @references
+#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#'
+"data.rent"

@@ -1,0 +1,97 @@
+#' Prognostic Chow Test on Structural Break
+#'
+#' @description Performs prognostic Chow test on structural break. The object of test results returned by this command can be plotted using the \code{plot()} function.
+#'
+#' @param mod the regular model (estimated or formula) without dummy variables.
+#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param split number of periods in phase I (last period before suspected break). Phase II is the total of remaining periods.
+#' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
+#' @param details logical value indicating whether specific details (null distribution, number of periods, and SSRs) of the test should be displayed.
+#' @param hyp logical value indicating whether the hypotheses should be displayed.
+#'
+#' @return A list object including:
+#' \tabular{ll}{
+#' \code{hyp} \tab the null-hypothesis to be tested.\cr
+#' \code{results} \tab dataframe of test results.\cr
+#' \code{SSR1} \tab sum of squared residuals of phase I.\cr
+#' \code{SSR} \tab sum of squared residuals of phase I + II.\cr
+#' \code{periods1} \tab	number of periods in Phase I.\cr
+#' \code{periods.total} \tab total number of periods.\cr
+#' \code{nulldist} \tab the nulldistribution in the test.\cr
+#' }
+#'
+#' @export
+#'
+#' @examples
+#' ## Estimate model
+#' unemp.est <- ols(unempl ~ gdp, data = data.unempl[1:14,])
+#'
+#' ## Test for immediate structural break after t = 13
+#' X <- pc.test(unemp.est, split = 13, details = TRUE)
+#' X
+#'
+#' plot(X)
+#'
+pc.test = function(mod,
+                   data = list(),
+                   split,
+                   sig.level = 0.05,
+                   details = FALSE,
+                   hyp = TRUE){
+
+if (!inherits(mod, "formula")){ # if mod is a fitted lm object ...
+  X = model.matrix(terms(mod), model.frame(mod))
+  y = model.response(model.frame(mod))
+} else { # if mod is a formula...
+  X = model.matrix(mod, data = data)
+  y = model.response(model.frame(mod, data = data))
+}
+
+k = ncol(X) # Number of coefs in the model
+n = nrow(X) # Number of observations
+
+phase2 = n - split
+
+SSR1 = sum(lm.fit(X[1:split,],y[1:split])$residuals^2)
+SSR = sum(lm.fit(X[1:(split + phase2),],y[1:(split + phase2)])$residuals^2)
+
+if (hyp){
+  H = c(paste("No immediate break after t =", split), paste("Immediate break after t =", split))
+  names(H) = c("H0:", "H1:")
+  H = t(H)
+} else {
+  H = NULL
+}
+
+# F-Value
+f.val = (1/phase2 * (SSR - SSR1)) / (1/(split - k) * SSR1)
+p.val = 1 - pf(f.val, phase2, split - k)
+f.crit = qf(1 - sig.level, phase2, split - k)
+
+## Generate other data
+test.result = if (p.val < sig.level) "rejected" else "not rejected"
+results = data.frame(f.value = f.val,
+                     crit.value = f.crit,
+                     p.value = p.val,
+                     sig.level = sig.level,
+                     H0 = test.result,
+                     row.names = "")
+
+out = list()
+attr(out, "title") = "Prognostic Chow test on structural break"
+out$hyp = H # Null and alternative hypothesis
+out$results = results # Basic test results
+out$SSR1 = SSR1
+out$SSR = SSR
+out$periods1 = split
+out$periods.total = n
+out$nulldist = list(type = "f", df = c(phase2, split - k))
+
+attr(out, "direction") = "right"
+attr(out, "details") = if (details) {T} else {F}
+attr(out, "type") = "htest"
+attr(out, "test.type") = "pctest"
+class(out) = c("desk")
+
+return(out)
+}
