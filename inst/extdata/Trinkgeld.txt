@@ -1,0 +1,4 @@
+"t" 	"rechnungsbetrag"	"trinkgeld"
+1	10	2
+2	30	3
+3	50	7
