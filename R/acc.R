@@ -22,7 +22,7 @@
 #' ## Equivalent result using acf (stats)
 #' acf(X$u.sim, lag.max = 1, plot = FALSE)$acf[2]
 #'
-#' @keywords Autocorrelation, autoregressive model, AR(1), lagged variables
+#' @keywords autocorrelation, autoregressive model, AR(1), lagged variables
 #'
 acc = function(x, lag = 1){
   n = length(x)
