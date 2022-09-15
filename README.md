@@ -8,3 +8,22 @@
 - @importFrom für Cross-refs
 - Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
   - exp.def -> def.exp
+  - log.def -> def.log
+  - rep.sample -> sample.rep
+  - t.coef.test -> par.t.test
+  - f.coef.test -> par.F.test (aus Konsistenz)
+- @examples: Console output gelöscht (da sonst teilweise 500 Zeilen) 
+
+## Offene Fragen
+- help-files ergänzen (z.B. data.tsls/theil; ref von data.burglary; Konsistenz ref/source?)
+- Code ergänzen? z.B. IV in plot.desk
+- www.oekonometrie-lernen.de -> https
+- andronikoss/desk ist noch online
+- onAttach.R -> message ok?
+- datasets() -> Labor & Trinkgeld?
+- online Murray 2006 data? (cochorc.R/ivr.R examples)
+- Erklärende Kommentare in examples (z.B. gq.test)
+- RESET test!
+- return/value: "A list object" / "None"?
+- rprofile.add("library(desk)") (Permission denied) -> Error
+
