@@ -3,7 +3,7 @@
 #' @description Performs prognostic Chow test on structural break. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod the regular model (estimated or formula) without dummy variables.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param split number of periods in phase I (last period before suspected break). Phase II is the total of remaining periods.
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details (null distribution, number of periods, and SSRs) of the test should be displayed.
@@ -12,12 +12,12 @@
 #' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab the null-hypothesis to be tested.\cr
-#' \code{results} \tab dataframe of test results.\cr
+#' \code{results} \tab data frame of test results.\cr
 #' \code{SSR1} \tab sum of squared residuals of phase I.\cr
 #' \code{SSR} \tab sum of squared residuals of phase I + II.\cr
 #' \code{periods1} \tab	number of periods in Phase I.\cr
 #' \code{periods.total} \tab total number of periods.\cr
-#' \code{nulldist} \tab the nulldistribution in the test.\cr
+#' \code{nulldist} \tab the null distribution in the test.\cr
 #' }
 #'
 #' @export
@@ -31,6 +31,8 @@
 #' X
 #'
 #' plot(X)
+#'
+#' @concept structural break, chow test, prognostic chow test
 #'
 pc.test = function(mod,
                    data = list(),

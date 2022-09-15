@@ -3,19 +3,19 @@
 #' @description If autocorrelated errors can be modeled by an AR(1) process (rho as parameter) then this function finds the rho value that that minimizes SSR in a Prais-Winsten transformed linear model. This is known as Hildreth and Lu estimation. The object returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod estimated linear model object or formula.
-#' @param data dataframe to be specified if \code{mod} is a formula.
-#' @param range defines the range and stepsize of rho values.
+#' @param data data frame to be specified if \code{mod} is a formula.
+#' @param range defines the range and step size of rho values.
 #' @param details logical value, indicating whether details should be printed.
 #'
-#' @return List object including:
+#' @return A list object including:
 #' \tabular{ll}{
-#' \code{results} \tab dataframe of basic regression results.\cr
+#' \code{results} \tab data frame of basic regression results.\cr
 #' \code{idx.opt} \tab index of regression that minimizes SSR.\cr
 #' \code{nregs} \tab number of regressions performed.\cr
 #' \code{rho.opt} \tab rho-value of regression that minimizes SSR.\cr
 #' \code{y.trans} \tab optimal transformed y-values.\cr
 #' \code{X.trans} \tab optimal transformed x-values (incl. z).\cr
-#' \code{all.regs} \tab dataframe of regression results for all considered rho values.\cr
+#' \code{all.regs} \tab data frame of regression results for all considered rho values.\cr
 #' \code{rho.vals} \tab vector of used rho values.\cr
 #' }
 #'
@@ -39,6 +39,8 @@
 #'
 #' ## Plot SSR over rho-values to see minimum
 #' plot(X)
+#'
+#' @concept VKQ, Hildreth-Lu, autocorrelation, AR1 process
 #'
 hilu = function(mod, data = list(), range = seq(-1, 1, 0.01), details = FALSE){
 

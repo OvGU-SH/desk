@@ -16,7 +16,7 @@ bc.test(
 \arguments{
 \item{basemod}{estimated linear model object or formula taken as the base model for comparison. Has to have a non-transformed endogenous variable.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
 \item{exo}{vector or matrix of transformed exogenous variables to be used in the comparison model. If not specified the same variables from the base model are used ("same").}
 
@@ -27,10 +27,10 @@ bc.test(
 \item{hyp}{logical value indicating whether the Hypotheses should be returned.}
 }
 \value{
-List including:
+A list object including:
 \tabular{ll}{
 \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-\code{results} \tab a dataframe of basic test results.\cr
+\code{results} \tab a data frame of basic test results.\cr
 \code{stats} \tab additional statistic of aux. regression.\cr
 \code{nulldist} \tab type of the Null distribution with its parameters.\cr
 }
@@ -48,13 +48,14 @@ plot(results)
 
 ## Example with transformed exogenous variables
 lin.est <- ols(rent ~ mult + mem + access, data = data.comp)
-A = lin.est$data
+A <- lin.est$data
 bc.test(lin.est, exo = log(cbind(A$mult, A$mem, A$access)))
 
 }
 \references{
-Box, G. E. P. and Cox, D. R. (1964), An analysis of transformations. \emph{Journal of the Royal Statistical Society}, Series B. \strong{26}, 211-243.
+Box, G.E.P. and Cox, D.R. (1964): An analysis of transformations. Journal of the Royal Statistical Society, Series B. 26, 211-243.
 }
 \seealso{
 \code{\link[MASS]{boxcox}}.
 }
+\concept{htest}

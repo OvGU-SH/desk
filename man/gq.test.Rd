@@ -19,9 +19,9 @@ gq.test(
 \arguments{
 \item{mod}{estimated linear model object or formula. If only a model formula is passed then the \code{data} argument must be specified.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
-\item{split}{partitions the dataset into two groups. If <= 1 then \code{split} is a percentage value such that \code{T*split} observations are in the first partition. If \code{split} >= 1 it is interpreted as the index of the partitioning observation, i.e. the number of observations in the first group.}
+\item{split}{partitions the data set into two groups. If <= 1 then \code{split} is a percentage value such that \code{T*split} observations are in the first partition. If \code{split} >= 1 it is interpreted as the index of the partitioning observation, i.e. the number of observations in the first group.}
 
 \item{omit.obs}{the number of central observations to be omitted. Might increase the power of the test. If <= 1 then \code{split} is the percentage value of all observations, otherwise it is interpreted as absolute number.}
 
@@ -36,10 +36,10 @@ gq.test(
 \item{hyp}{logical value indicating whether the Hypotheses should be returned.}
 }
 \value{
-List including:
+A list object including:
 \tabular{ll}{
 \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-\code{results} \tab a dataframe of basic test results.\cr
+\code{results} \tab a data frame of basic test results.\cr
 \code{hreg1} \tab matrix of regression results in Group I.\cr
 \code{stats1} \tab additional statistic of regression in Group I.\cr
 \code{hreg2}\tab matrix of regression results in Group II.\cr
@@ -51,10 +51,11 @@ List including:
 Goldfeld-Quandt test for heteroskedastic errors. The object of test results returned by this command can be plotted using the \code{plot()} function.
 }
 \examples{
+## 5 observations in group 1 with the hypothesis that the variance of group 2 is larger
 gq.test(rent ~ dist, split = 5, ah = "increasing", data = data.rent)
 
 eu.mod <- ols(expend ~ pop + gdp + farm + votes + mship, data = data.eu)
-results <- gq.test(eu.mod, split = 13, order.by = data.eu$pop, details = TRUE)
+results <- gq.test(eu.mod, split = 13, order.by = data.eu$pop, details = TRUE) # ordered by population size
 results
 
 plot(results)

@@ -20,3 +20,4 @@ get.group() # Draw group from group numbers 1 to 5
 get.group(c(1,6,3)) # Draw group from specified group numbers
 
 }
+\concept{sample}

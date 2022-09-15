@@ -1,6 +1,6 @@
 #' Critical Values of the Quandt Likelihood Ratio-test (QLR-test)
 #'
-#' @description Returns critical values of the Quandt Liekelihood Ratio test according to Andrews (2003).
+#' @description Returns critical values of the Quandt Likelihood Ratio-test according to Andrews (2003).
 #'
 #' @param tAll total number of periods.
 #' @param from start period for Chow-F-statistics.
@@ -23,6 +23,8 @@
 #'
 #' @examples
 #' qlr.cv(tAll = 60)
+#'
+#' @concept Quandt Likelihood Ratio, QLR, critical value, structural break
 #'
 qlr.cv = function(tAll, from = round(0.15*tAll), to = round(0.85*tAll), L = 2, sig.level = list(0.05, 0.01, 0.1)){
 

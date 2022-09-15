@@ -3,16 +3,16 @@
 #' @description Box-Cox test for functional form. Compares a base model with non transformed endogenous variable to a model with logarithmic endogenous variable. Exogenous variables can be transformed or non-transformed. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param basemod estimated linear model object or formula taken as the base model for comparison. Has to have a non-transformed endogenous variable.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param exo vector or matrix of transformed exogenous variables to be used in the comparison model. If not specified the same variables from the base model are used ("same").
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #' @param hyp logical value indicating whether the Hypotheses should be returned.
 #'
-#' @return List including:
+#' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-#' \code{results} \tab a dataframe of basic test results.\cr
+#' \code{results} \tab a data frame of basic test results.\cr
 #' \code{stats} \tab additional statistic of aux. regression.\cr
 #' \code{nulldist} \tab type of the Null distribution with its parameters.\cr
 #' }
@@ -22,7 +22,7 @@
 #' @importFrom stats qchisq pchisq
 #'
 #' @references
-#' Box, G. E. P. and Cox, D. R. (1964), An analysis of transformations. \emph{Journal of the Royal Statistical Society}, Series B. \strong{26}, 211-243.
+#' Box, G.E.P. and Cox, D.R. (1964): An analysis of transformations. Journal of the Royal Statistical Society, Series B. 26, 211-243.
 #'
 #' @seealso \code{\link[MASS]{boxcox}}.
 #'
@@ -36,8 +36,10 @@
 #'
 #' ## Example with transformed exogenous variables
 #' lin.est <- ols(rent ~ mult + mem + access, data = data.comp)
-#' A = lin.est$data
+#' A <- lin.est$data
 #' bc.test(lin.est, exo = log(cbind(A$mult, A$mem, A$access)))
+#'
+#' @concept htest
 #'
 bc.test = function(basemod, data = list(), exo = "same", sig.level = 0.05, details = TRUE, hyp = TRUE){
 

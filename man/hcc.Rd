@@ -9,9 +9,9 @@ hcc(mod, data = list(), digits = 4)
 \arguments{
 \item{mod}{estimated linear model object or formula.}
 
-\item{data}{number of decimal digits in rounded values.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
-\item{digits}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{digits}{number of decimal digits in rounded values.}
 }
 \value{
 The heteroskedasticity corrected covariance matrix.
@@ -32,3 +32,4 @@ White, H. (1980): A Heteroskedasticity-Consistent Covariance Matrix Estimator an
 \seealso{
 \code{\link{wh.test}}, \code{\link[lmtest]{bptest}}.
 }
+\concept{heteroskedasticity, correction}

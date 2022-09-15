@@ -3,7 +3,7 @@
 #' @description Calculates the variation of one variable or the covariation of two different variables.
 #'
 #' @param x vector of one variable.
-#' @param y vector of another variable (optional). If specified then the covariation of \code{x} and \code{y} is calculated. If ommitted then the variation of \code{x} is calculated.
+#' @param y vector of another variable (optional). If specified then the covariation of \code{x} and \code{y} is calculated. If omitted then the variation of \code{x} is calculated.
 #' @param na.rm a logical value indicating whether NA values should be stripped before the computation proceeds.
 #'
 #' @return The variaion of \code{x} or the covariation of \code{x} and \code{y}.
@@ -20,6 +20,8 @@
 #' x = c(1, 2, NA, 4)
 #' Sxy(x)
 #' Sxy(x, na.rm = TRUE)
+#'
+#' @concept variation, covariation, variance, covariance
 #'
 Sxy = function(x, y = x, na.rm = FALSE){
   if(na.rm){

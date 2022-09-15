@@ -8,7 +8,7 @@
 A data frame with 12 observations on the following two variables:
 \tabular{ll}{
 \code{feed} \tab concentrated feed given to the cow (in units of 50kg per year).\cr
-\code{milk} \tab milk output of the cow (in litres per year).\cr
+\code{milk} \tab milk output of the cow (in liters per year).\cr
 }
 }
 \source{

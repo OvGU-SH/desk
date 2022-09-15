@@ -2,14 +2,14 @@
 % Please edit documentation in R/qlr.test.R
 \name{qlr.test}
 \alias{qlr.test}
-\title{Quandt Likelihood Ratio Test for Structural Breaks in any Parameter with Unknown Breakdate}
+\title{Quandt Likelihood Ratio-Test for Structural Breaks in any Parameter with Unknown Break Date}
 \usage{
 qlr.test(mod, data = list(), from, to, sig.level = 0.05, details = FALSE)
 }
 \arguments{
 \item{mod}{the regular model object (without dummies) estimated by \code{ols()} or \code{lm()}.}
 
-\item{data}{name of the dataframe to be used if \code{mod} is only a formula.}
+\item{data}{name of the data frame to be used if \code{mod} is only a formula.}
 
 \item{from}{start period of range to be analyzed for a break.}
 
@@ -23,7 +23,7 @@ qlr.test(mod, data = list(), from, to, sig.level = 0.05, details = FALSE)
 A list object including:
 \tabular{ll}{
 \code{hyp} \tab the null-hypothesis to be tested.\cr
-\code{results} \tab dataframe of test results.\cr
+\code{results} \tab data frame of test results.\cr
 \code{chi2.stats} \tab	chi^2-test statistics calculated between from and to.\cr
 \code{f.stats} \tab F-test statistics calculated between from and to.\cr
 \code{f.crit} \tab lower and upper critical F-value.\cr
@@ -35,7 +35,7 @@ A list object including:
 }
 }
 \description{
-Performs Quandt Likelihood Ratio test (QLR) for structural breaks with unknown breakdate. The object returned by this command can be plotted using the \code{plot()} function.
+Performs Quandt Likelihood Ratio-test (QLR) for structural breaks with unknown break date. The object returned by this command can be plotted using the \code{plot()} function.
 }
 \examples{
 unemp.est <- ols(unempl ~ gdp, data = data.unempl)
@@ -45,3 +45,4 @@ my.qlr # Print test results
 plot(my.qlr) # Plot test results
 
 }
+\concept{structural break, unknown breakdate, Quandt Likelihod Ratio test}

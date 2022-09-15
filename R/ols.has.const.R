@@ -2,9 +2,9 @@
 #'
 #' @description Checks if a linear model included a constant level parameter (alpha).
 #'
-#' @param mod linear model object of class "desk" or "lm".
+#' @param mod linear model object of class \code{"desk"} or \code{"lm"}.
 #'
-#' @return Logical value TRUE (has contant), FALSE (has no constant).
+#' @return A logical value: \code{TRUE} (has contant) or \code{FALSE} (has no constant).
 #'
 #' @export
 #'
@@ -13,6 +13,8 @@
 #' my.modB = ols(y ~ 0 + x, data = data.tip)
 #' ols.has.const(my.modA)
 #' ols.has.const(my.modB)
+#'
+#' @concept level parameter, constant, intercept, linear model
 #'
 ols.has.const = function(mod){
   if (attr(mod$terms,"intercept") == 0){

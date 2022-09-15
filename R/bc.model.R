@@ -3,8 +3,8 @@
 #' @description Finds lambda-values for which the one dimensional Box-Cox model has lowest SSR.
 #'
 #' @param mod estimated linear model object or formula.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
-#' @param range range and stepsize of lambda values. Default is a range from -2 to 2 at a stepsize of 0.1.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
+#' @param range range and step size of lambda values. Default is a range from -2 to 2 at a step size of 0.1.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #'
 #' @return A list object including:
@@ -26,8 +26,7 @@
 #' my.mod <- ols(y ~ x)
 #' bc.model(my.mod)
 #'
-#' @keywords Box-Cox-Model
-#' @concept deformed logarithm
+#' @concept Box-Cox-Model, deformed logarithm
 #'
 bc.model = function(mod, data = list(), range = seq(-2,2,0.1), details = FALSE){
 

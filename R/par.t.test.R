@@ -1,9 +1,9 @@
-#' t-Test on Parameters of a Linear Model
+#' t-Test on Estimated Parameters of a Linear Model
 #'
-#' @description Performs a t-test on a single paramter hypothesis or a hypothesis containing a linear combination of parameters of a linear model. The object of test results returned by this command can be plotted using the \code{plot()} function.
+#' @description Performs a t-test on a single parameter hypothesis or a hypothesis containing a linear combination of parameters of a linear model. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod model object estimated by \code{ols()} or \code{lm()}.
-#' @param data name of the dataframe to be used if \code{mod} is a formula and the variables are not present in the environment.
+#' @param data name of the data frame to be used if \code{mod} is a formula and the variables are not present in the environment.
 #' @param nh vector of the coefficients of the linear combination of parameters.
 #' @param q value on which parameter (combination) is to be tested against. Default value: q = 0.
 #' @param dir direction of the hypothesis: \code{"both"}, \code{"left"}, \code{"right"}, Default value: \code{"both"}.
@@ -16,7 +16,7 @@
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
 #' \code{nh} \tab null hypothesis as parameters of a linear combination (for internal purposes).\cr
 #' \code{lcomb} \tab the linear combination of parameters tested.\cr
-#' \code{results} \tab a dataframe of basic test results.\cr
+#' \code{results} \tab a data frame of basic test results.\cr
 #' \code{std.err} \tab standard error of the linear estimator.\cr
 #' \code{nulldist} \tab type of the null distribution with its parameters.\cr
 #' }
@@ -34,6 +34,8 @@
 #' ## Test H1: "phos > 0.5"
 #' x = par.t.test(fert.est, nh = c(0,1,0), q = 0.5, dir = "right")
 #' plot(x)
+#'
+#' @concept t-test, linear hypothesis, linear model
 #'
 par.t.test = function(mod,
                        data = list(),

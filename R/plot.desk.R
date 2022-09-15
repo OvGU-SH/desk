@@ -14,6 +14,8 @@
 #' @examples
 #' # see the help page of the commands, respectively
 #'
+#' @concept plot, regression results, test results
+#'
 plot.desk = function (x, ...){
 
   obj = x

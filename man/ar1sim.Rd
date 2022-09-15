@@ -78,8 +78,4 @@ for (rho in c(0.1, 0.9, 1, 1.04, -0.1, -0.9, -1, -1.04)){
 par(mfrow = c(1,1))
 
 }
-\keyword{AR(1)}
-\keyword{autocorrelated}
-\keyword{errors,}
-\keyword{process,}
-\keyword{simulation}
+\concept{AR1 process, autocorrelated errors, simulation}

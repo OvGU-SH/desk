@@ -12,7 +12,7 @@ A data frame with 24 observations on the following two variables:
 }
 }
 \source{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.filter
@@ -21,9 +21,9 @@ data.filter
 This is a data set on the prices and sales figures of water filters (in 1000 pcs.).
 }
 \details{
-In Auer, L von (2016, Chap. 18) and Auer, L. von, S.Hoffmann (2017, Chap. 18) these hypothetical data are used to illustrate the consequences of autocorrelated error terms.
+In Auer, L.v. (2016, Chap. 18) and Auer, L.v., S.Hoffmann (2017, Chap. 18) these hypothetical data are used to illustrate the consequences of autocorrelated error terms.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

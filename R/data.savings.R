@@ -1,6 +1,6 @@
 #' International Life-Cycle Savings and Disposable Income
 #'
-#' @description This data set describes the savings behaviour of 50 countries in 1960-1970. The data set includes demographical variables as well as variables on disposable income.
+#' @description This data set describes the savings behavior of 50 countries in 1960-1970. The data set includes demographical variables as well as variables on disposable income.
 #'
 #' @format A data frame with 50 observations on the following five variables.
 #' \tabular{ll}{
@@ -17,7 +17,7 @@
 #' In Auer, L. von, S. Hoffmann (2017, Chaps. 9, 10, and 12) the data set is used to illustrate the econometric analysis of a multivariate linear regression model.
 #'
 #' @source
-#' R package datasets (object LifeCycleSavings).
+#' R package data sets (object LifeCycleSavings).
 #'
 #' @references
 #' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).

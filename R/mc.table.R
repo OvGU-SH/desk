@@ -37,6 +37,8 @@
 #' ## Replicate table 21.3 in the textbook
 #' mc.table(data.printer[,-1])
 #'
+#' @concept coefficient of determination, multicollinearity
+#'
 mc.table = function(x, intercept = TRUE, digits = 3){
 
 if (intercept) a = 1 else a = 0

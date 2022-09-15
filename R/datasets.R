@@ -1,6 +1,6 @@
 #' Datasets in DESK
 #'
-#' @description Generates a table of dataset names and descriptions available in package \code{desk}.
+#' @description Generates a table of data set names and descriptions available in package \code{desk}.
 #'
 #' @return An object of class \code{table}.
 #'
@@ -10,6 +10,8 @@
 #'
 #' @examples
 #' datasets()
+#'
+#' @concept datasets, desk
 #'
 datasets = function(){
   cat("====================================\n")

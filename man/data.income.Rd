@@ -22,11 +22,11 @@ data.income
 This data set describes major macroeconomic variables determining the differences in per capita income of 75 countries in 1985.
 }
 \details{
-In Auer, L von (2016, Chap. 19) and Auer, L. von, S. Hoffmann (2017, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
+In Auer, L.v. (2016, Chap. 19) and Auer, L.v., S. Hoffmann (2017, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
 }
 \references{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

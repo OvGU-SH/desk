@@ -3,7 +3,7 @@
 #' @description Performs a two-stage least squares regression.
 #'
 #' @param formula model formula.
-#' @param data name of the dataframe used. To be specified if variables are not stored in environment.
+#' @param data name of the data frame used. To be specified if variables are not stored in environment.
 #' @param endog character vector of endogenous (to be instrumented) regressors.
 #' @param iv character vector of (exogenous) instrumental variables.
 #' @param contrasts an optional list. See the \code{contrasts.arg} of \code{\link[stats]{model.matrix.default}}.
@@ -15,7 +15,7 @@
 #' \code{adj.r.squ} \tab adjusted coefficient of determination (adj. R-squared).\cr
 #' \code{coefficients} \tab IV-estimators of model parameters.\cr
 #' \code{data/model} \tab matrix of the variables' data used.\cr
-#' \code{data.name} \tab name of the dataframe used.\cr
+#' \code{data.name} \tab name of the data frame used.\cr
 #' \code{df} \tab degrees of freedom in the model (number of observations minus rank).\cr
 #' \code{exogenous} \tab exogenous regressors.\cr
 #' \code{f.hausman} \tab exogeneity test: F-value for simultaneous significance of all instrument parameters. If H0: "Instruments are exogenous" is rejected, usage of IV-regression can be justified against OLS.\cr
@@ -110,6 +110,8 @@
 #' plot(price, consump, xlim = c(0,120), ylim = c(0,120))
 #' abline(a = aD, b = bD)
 #' abline(a = aS, b = bS)
+#'
+#' @concept endogeneity, instrument variable
 #'
 ivr = function(formula,
                data = list(),

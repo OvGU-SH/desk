@@ -1,6 +1,6 @@
 #' Burglaries and Power Blackouts
 #'
-#' @description This is a dataset on the monthly number of burglaries and the number of power blackouts in a small town.
+#' @description This is a data set on the monthly number of burglaries and the number of power blackouts in a small town.
 #' @format
 #' A data frame with 12 observations on the following three variables:
 #' \tabular{ll}{

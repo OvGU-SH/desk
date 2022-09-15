@@ -15,13 +15,13 @@ A data frame with 50 observations on the following five variables.
 }
 }
 \source{
-R package datasets (object LifeCycleSavings).
+R package data sets (object LifeCycleSavings).
 }
 \usage{
 data.savings
 }
 \description{
-This data set describes the savings behaviour of 50 countries in 1960-1970. The data set includes demographical variables as well as variables on disposable income.
+This data set describes the savings behavior of 50 countries in 1960-1970. The data set includes demographical variables as well as variables on disposable income.
 }
 \details{
 Under the life-cycle savings hypothesis as developed by Franco Modigliani, the savings ratio (aggregate personal saving divided by disposable income) is explained by per-capita disposable income, the percentage rate of change in per-capita disposable income, and two demographic variables: the percentage of population less than 15 years old and the percentage of the population over 75 years old. The data are averaged over the decade 1960-1970 to remove the business cycle or other short-term fluctuations.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/lagk.R
 \name{lagk}
 \alias{lagk}
-\title{1 to k-period Lags of Given Vector}
+\title{1 to k-Period Lags of Given Vector}
 \usage{
 lagk(u, lag = 1, delete = TRUE)
 }
@@ -17,7 +17,7 @@ lagk(u, lag = 1, delete = TRUE)
 Matrix of vector \code{u} and its 1 to k-period lags.
 }
 \description{
-Generates a matrix of a given vector and its 1 to k-period lags. Missing values due to lag are filled with NA's.
+Generates a matrix of a given vector and its 1 to k-period lags. Missing values due to lag are filled with NAs.
 }
 \examples{
 u = round(rnorm(10),2)
@@ -26,3 +26,4 @@ lagk(u,lag = 3)
 lagk(u,lag = 3, delete = FALSE)
 
 }
+\concept{lag, heteroscedasticity, lagged residuals}

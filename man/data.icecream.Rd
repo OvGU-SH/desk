@@ -12,7 +12,7 @@ A data frame with 35 observations on the following two variables:
 }
 }
 \source{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.icecream
@@ -21,6 +21,6 @@ data.icecream
 This data set is on the daily revenues from selling ice cream and the daily average temperature in some town on a sample of 35 working days.
 }
 \details{
-In Auer, L. von, S. Hoffmann (2017, Chap. 7) these hypothetical data are used to illustrate the estimation of the simple linear regression model.
+In Auer, L.v., S. Hoffmann (2017, Chap. 7) these hypothetical data are used to illustrate the estimation of the simple linear regression model.
 }
 \keyword{datasets}
