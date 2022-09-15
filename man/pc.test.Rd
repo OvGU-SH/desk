@@ -16,7 +16,7 @@ pc.test(
 \arguments{
 \item{mod}{the regular model (estimated or formula) without dummy variables.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
 \item{split}{number of periods in phase I (last period before suspected break). Phase II is the total of remaining periods.}
 
@@ -30,12 +30,12 @@ pc.test(
 A list object including:
 \tabular{ll}{
 \code{hyp} \tab the null-hypothesis to be tested.\cr
-\code{results} \tab dataframe of test results.\cr
+\code{results} \tab data frame of test results.\cr
 \code{SSR1} \tab sum of squared residuals of phase I.\cr
 \code{SSR} \tab sum of squared residuals of phase I + II.\cr
 \code{periods1} \tab	number of periods in Phase I.\cr
 \code{periods.total} \tab total number of periods.\cr
-\code{nulldist} \tab the nulldistribution in the test.\cr
+\code{nulldist} \tab the null distribution in the test.\cr
 }
 }
 \description{
@@ -52,3 +52,4 @@ X
 plot(X)
 
 }
+\concept{structural break, chow test, prognostic chow test}

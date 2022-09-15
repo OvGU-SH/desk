@@ -3,7 +3,7 @@
 #' @description White's test for heteroskedastic errors.
 #'
 #' @param mod estimated linear model object or formula.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #' @param hyp logical value indicating whether the hypotheses should be returned.
@@ -11,7 +11,7 @@
 #' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-#' \code{results} \tab a dataframe of basic test results.\cr
+#' \code{results} \tab a data frame of basic test results.\cr
 #' \code{hreg} \tab matrix of aux. regression results.\cr
 #' \code{stats} \tab additional statistic of aux. regression.\cr
 #' \code{nulldist} \tab type of the null distribution with its parameters.\cr
@@ -36,6 +36,8 @@
 #'
 #' ## Plot the test result
 #' plot(X)
+#'
+#' @concept White test, heteroscedastic errors, heteroskedastic errors
 #'
 wh.test = function(mod,
                    data = list(),

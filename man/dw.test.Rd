@@ -18,13 +18,13 @@ dw.test(
 \arguments{
 \item{mod}{estimated linear model object or formula describing the model.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
 \item{dir}{direction of the alternative hypothesis: \code{"right"} for rho > 0, \code{"left"} for rho < 0 and \code{"both"} for rho <> 0.}
 
-\item{method}{algorithm used to calculate the p-value. \code{"pan1"} and \code{"pan2"} are two implementations of Imhof's (1961) algorithm. If they provide a p-values, it is the exact one. \code{"paol"} is Paoella's (2007) re-implementation of Imhof's theory, \code{"spa"} is a saddlepoint approximation, also implemented by Paoella (2007).}
+\item{method}{algorithm used to calculate the p-value. \code{"pan1"} and \code{"pan2"} are two implementations of Imhof's (1961) algorithm. If they provide a p-values, it is the exact one. \code{"paol"} is Paoella's (2007) re-implementation of Imhof's theory, \code{"spa"} is a saddle point approximation, also implemented by Paoella (2007).}
 
-\item{crit.val}{logical value indicating whether the critical value sould be calculated.}
+\item{crit.val}{logical value indicating whether the critical value should be calculated.}
 
 \item{sig.level}{significance level. Default value: \code{sig.level = 0.05}.}
 
@@ -33,10 +33,10 @@ dw.test(
 \item{hyp}{logical value indicating whether the Hypotheses should be returned.}
 }
 \value{
-List including:
+A list object including:
 \tabular{ll}{
 \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-\code{results} \tab a dataframe of basic test results, including critical- and p-value.\cr
+\code{results} \tab a data frame of basic test results, including critical- and p-value.\cr
 \code{nulldist} \tab type of the null distribution (for internal use).\cr
 }
 }
@@ -65,3 +65,4 @@ Paolella (2007): Intermediate Probability - A Computational Approach, Wiley.
 \seealso{
 \code{\link{ddw}}, \code{\link{pdw}}.
 }
+\concept{Durbin Watson test, AR1, autocorrelation}

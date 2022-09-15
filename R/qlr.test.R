@@ -1,9 +1,9 @@
-#' Quandt Likelihood Ratio Test for Structural Breaks in any Parameter with Unknown Breakdate
+#' Quandt Likelihood Ratio-Test for Structural Breaks in any Parameter with Unknown Break Date
 #'
-#' @description Performs Quandt Likelihood Ratio test (QLR) for structural breaks with unknown breakdate. The object returned by this command can be plotted using the \code{plot()} function.
+#' @description Performs Quandt Likelihood Ratio-test (QLR) for structural breaks with unknown break date. The object returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod the regular model object (without dummies) estimated by \code{ols()} or \code{lm()}.
-#' @param data name of the dataframe to be used if \code{mod} is only a formula.
+#' @param data name of the data frame to be used if \code{mod} is only a formula.
 #' @param from start period of range to be analyzed for a break.
 #' @param to end period of range to be analyzed for a break.
 #' @param sig.level significance level. Allowed values are 0.01, 0.05 or 0.10.
@@ -12,7 +12,7 @@
 #' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab the null-hypothesis to be tested.\cr
-#' \code{results} \tab dataframe of test results.\cr
+#' \code{results} \tab data frame of test results.\cr
 #' \code{chi2.stats} \tab	chi^2-test statistics calculated between from and to.\cr
 #' \code{f.stats} \tab F-test statistics calculated between from and to.\cr
 #' \code{f.crit} \tab lower and upper critical F-value.\cr
@@ -31,6 +31,8 @@
 #' my.qlr # Print test results
 #'
 #' plot(my.qlr) # Plot test results
+#'
+#' @concept structural break, unknown breakdate, Quandt Likelihod Ratio test
 #'
 qlr.test = function(mod, data = list(), from, to, sig.level = 0.05, details = FALSE){
 

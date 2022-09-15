@@ -16,7 +16,7 @@ ols(
 \arguments{
 \item{formula}{model formula.}
 
-\item{data}{name of dataframe of variables in \code{formula}.}
+\item{data}{name of data frame of variables in \code{formula}.}
 
 \item{na.action}{function which indicates what should happen when the data contain NAs.}
 
@@ -27,7 +27,7 @@ ols(
 \item{...}{other arguments that \code{lm.fit()} supports.}
 }
 \value{
-List including:
+A list object including:
 \tabular{ll}{
 \code{coefficients/coef} \tab estimated parameters of the model.\cr
 \code{residuals/resid} \tab residuals of the estimation.\cr
@@ -51,7 +51,7 @@ List including:
 \code{f.val} \tab F-value for simultaneous significance of all slope parameters.\cr
 \code{f.pval} \tab p-value for simultaneous significance of all slope parameters.\cr
 \code{modform} \tab the model's regression R-formula.\cr
-\code{call} \tab the function call by which the regression was calcluated (including \code{modform}).\cr
+\code{call} \tab the function call by which the regression was calculated (including \code{modform}).\cr
 }
 }
 \description{
@@ -92,3 +92,4 @@ fert.est <- ols(barley ~ phos + nit, data = log(data.fertilizer), details = TRUE
 fert.est
 
 }
+\concept{ordinary least squares, linear model, regression}

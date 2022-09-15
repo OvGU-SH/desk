@@ -9,9 +9,9 @@
 #' }
 #'
 #' @details
-#' In Auer, L. von, S. Hoffmann (2017, Chap. 7) these hypothetical data are used to illustrate the estimation of the simple linear regression model.
+#' In Auer, L.v., S. Hoffmann (2017, Chap. 7) these hypothetical data are used to illustrate the estimation of the simple linear regression model.
 #'
 #' @source
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 #'
 "data.icecream"

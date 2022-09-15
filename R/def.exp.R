@@ -16,6 +16,8 @@
 #' def.exp(3)   # Natural exponential of 3
 #' def.exp(3,2) # Deformed by lambda = 2
 #'
+#' @concept deformation, exponential
+#'
 def.exp = function(x, lambda = 0, normalize = FALSE){
   if(normalize){
       corr = (exp(mean(log(x))))^(lambda - 1)

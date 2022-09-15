@@ -9,12 +9,12 @@
 #' }
 #'
 #' @details
-#' In Auer, L von (2016, Chap. 18) and Auer, L. von, S.Hoffmann (2017, Chap. 18) these hypothetical data are used to illustrate the consequences of autocorrelated error terms.
+#' In Auer, L.v. (2016, Chap. 18) and Auer, L.v., S.Hoffmann (2017, Chap. 18) these hypothetical data are used to illustrate the consequences of autocorrelated error terms.
 #'
 #' @source
-#' Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v. (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 #'
 "data.filter"

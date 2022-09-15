@@ -24,6 +24,8 @@
 #' ## Regression output with details rounded to 2 digits
 #' print(tip.est, details = TRUE, digits = 2)
 #'
+#' @concept print, console, regression results, test results
+#'
 print.desk = function (x, details, digits = 4, ...){
 
   obj = x

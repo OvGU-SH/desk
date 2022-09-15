@@ -33,9 +33,4 @@ NIST/SEMATECH e-Handbook of Statistical Methods,
 \seealso{
 \code{\link{lagk}}, \code{\link[stats]{acf}}.
 }
-\keyword{AR(1),}
-\keyword{autocorrelation,}
-\keyword{autoregressive}
-\keyword{lagged}
-\keyword{model,}
-\keyword{variables}
+\concept{autocorrelation, autoregressive model, AR1, lagged variables}

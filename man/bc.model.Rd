@@ -9,9 +9,9 @@ bc.model(mod, data = list(), range = seq(-2, 2, 0.1), details = FALSE)
 \arguments{
 \item{mod}{estimated linear model object or formula.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
-\item{range}{range and stepsize of lambda values. Default is a range from -2 to 2 at a stepsize of 0.1.}
+\item{range}{range and step size of lambda values. Default is a range from -2 to 2 at a step size of 0.1.}
 
 \item{details}{logical value indicating whether specific details about the test should be returned.}
 }
@@ -35,5 +35,4 @@ my.mod <- ols(y ~ x)
 bc.model(my.mod)
 
 }
-\concept{deformed logarithm}
-\keyword{Box-Cox-Model}
+\concept{Box-Cox-Model, deformed logarithm}

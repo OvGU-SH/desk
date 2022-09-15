@@ -1,9 +1,9 @@
 #' RESET Method for Non-linear Functional Form
 #'
-#' @description Ramsey's RESET for nonlinear functional form. The object of test results returned by this command can be plotted using the \code{plot()} function.
+#' @description Ramsey's RESET for non-linear functional form. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod estimated linear model object or formula.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param m the number of non-linear terms of fitted y values that should be included in the extended model. Default is \code{m = 2}, i.e. to add \eqn{\widehat{y}^2} and \eqn{\widehat{y}^3}.
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details about the test should be returned.
@@ -12,7 +12,7 @@
 #' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-#' \code{results} \tab a dataframe of basic test results.\cr
+#' \code{results} \tab a data frame of basic test results.\cr
 #' \code{SSR0} \tab	SSR of the H0-model.\cr
 #' \code{SSR1} \tab	SSR of the extended model.\cr
 #' \code{L} \tab numbers of parameters tested in H0.\cr
@@ -33,6 +33,8 @@
 #'
 #' ## Plot the test result
 #' plot(X)
+#'
+#' @concept RESET, specification, functional form
 #'
 reset.test = function (mod,
                        data = list(),

@@ -19,7 +19,7 @@ sample.rep(
 \arguments{
 \item{x}{(n x k) vector or matrix of exogenous data, where each column represents the data of one of k exogenous predictors. The number of rows represents the sample size n.}
 
-\item{true.par}{vector of true parameters in the linear model (level and slope parameters). If \code{true.par} is a vector without named elements then coefficeints are named "alpha", "beta1", "beta2", ..., "betak" by default. Otherwise the names specified are used.}
+\item{true.par}{vector of true parameters in the linear model (level and slope parameters). If \code{true.par} is a vector without named elements then coefficients are named "alpha", "beta1", "beta2", ..., "betak" by default. Otherwise the names specified are used.}
 
 \item{omit}{vector of indices identifying the exogenous variables to be omitted in the true model, e.g. \code{omit = 1} corresponds to the first exogenous variable to be omitted. This argument can be used to illustrate omitted variable bias in parameter and standard error estimates. Default value is \code{omit = 0}, i.e. no exogenous variable is omitted}
 
@@ -29,7 +29,7 @@ sample.rep(
 
 \item{rep}{repetitions, i.e. number of simulated samples. The samples in each matrix generated have enumerated names "SMPL1", "SMPL2", ..., "SMPLs".}
 
-\item{xnew}{(t x k) matrix of new exogenous data points at which prediction intervals shoud be calculated. t corresponds to the number of new data points, k to the number of exogenous variables in the model. If not specified regular values \code{x} are used (see first argument).}
+\item{xnew}{(t x k) matrix of new exogenous data points at which prediction intervals should be calculated. t corresponds to the number of new data points, k to the number of exogenous variables in the model. If not specified regular values \code{x} are used (see first argument).}
 
 \item{sig.level}{significance level for confidence and prediction intervals.}
 
@@ -52,7 +52,7 @@ A list of named data structures. Let s = number of samples, n = sample size, k =
 \code{confint} \tab (k x 2 x s array): confidence intervals of the coefficients in each sample. Interval bounds are named "lower" and "upper".\cr
 \code{outside.ci} \tab (k vector): percentage of confidence intervals not covering the true value for each of the regression parameters.\cr
 \code{y0} \tab	(t x s matrix): simulated real future y values at \code{xnew} in each sample (real line plus real error).\cr
-\code{y0.fitted} \tab (t x s matrix): point prediction, i.e. stimated y values at \code{xnew} in each sample (regression line).\cr
+\code{y0.fitted} \tab (t x s matrix): point prediction, i.e. estimated y values at \code{xnew} in each sample (regression line).\cr
 \code{predint} \tab (t x 2 x s array): prediction intervals of future endogenous realizations at exogenous data points specified by \code{xnew}. Intervals are calculated for each sample, respectively. Interval bounds are named "lower" and "upper".\cr
 \code{sd.pe} \tab (t x s matrix): estimated standard deviation of prediction errors at all exogenous data points in each sample.\cr
 \code{outside.pi} \tab	(t vector): percentage of prediction intervals not covering the true value \code{y0} at \code{xnew}.\cr
@@ -80,7 +80,7 @@ x = cbind(x1,x2)
 out = sample.rep(x, true.par = c(2,1,4), rep = 10)
 
 ## Extract some data
-out$coef[2,8] # Extract estimated beta1 (i.e. 2nd coeff) in the 8th sample
+out$coef[2,8] # Extract estimated beta1 (i.e. 2nd coef) in the 8th sample
 out$coef["beta1","SMPL8"] # Same as above using internal names
 out$confint["beta1","upper","SMPL5"] # Extract only upper bound of CI of beta 1 from 5th sample
 out$confint[,,5] # Extract CIs (upper and lower bound) for all parameters from 5th sample
@@ -119,7 +119,7 @@ plot(out, plot.what = "confint")
 ## Plots confidence intervals of alpha with specified \code{xlim} values.
 plot(out, plot.what = "confint", which.coef = 1, xlim = c(-15,15))
 
-## Illustrate normalitly of dependent variable
+## Illustrate normality of dependent variable
 out = sample.rep(c(10,30,50), true.par = c(0.2,0.13), rep = 200)
 plot(out, plot.what = "scatter")
 
@@ -127,3 +127,4 @@ plot(out, plot.what = "scatter")
 plot(out, plot.what = "reglines")
 
 }
+\concept{repeated samples, simulation, ordinary least squares, confidence interval, CI, prediction interval, omitted variable bias, true regression parameters}

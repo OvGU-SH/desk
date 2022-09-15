@@ -11,13 +11,13 @@ pdw(x, mod, data = list())
 
 \item{mod}{estimated linear model object, formula (with \code{data} specified), or model matrix.}
 
-\item{data}{if \code{mod} is a formula then the name of the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the name of the corresponding data frame has to be specified.}
 }
 \value{
 Numerical density value(s).
 }
 \description{
-Calculates cumulative distribution values of the null distribution in the Durbin Watson test. Uses saddlepoint approximation by Paolella (2007).
+Calculates cumulative distribution values of the null distribution in the Durbin-Watson test. Uses saddle point approximation by Paolella (2007).
 }
 \details{
 Distribution depends on values of the exogenous variables. That is why it must be calculated from each specific data set, respectively.
@@ -33,3 +33,4 @@ Paolella, M.S. (2007): Intermediate Probability - A Computational Approach, Wile
 \seealso{
 \code{\link{ddw}}, \code{\link{dw.test}}.
 }
+\concept{Durbin-Watson, null distribution}

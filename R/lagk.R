@@ -1,6 +1,6 @@
-#' 1 to k-period Lags of Given Vector
+#' 1 to k-Period Lags of Given Vector
 #'
-#' @description Generates a matrix of a given vector and its 1 to k-period lags. Missing values due to lag are filled with NA's.
+#' @description Generates a matrix of a given vector and its 1 to k-period lags. Missing values due to lag are filled with NAs.
 #'
 #' @param u a vector of one variable, usually residuals.
 #' @param lag the number of periods up to which lags should be generated.
@@ -14,6 +14,8 @@
 #' lagk(u)
 #' lagk(u,lag = 3)
 #' lagk(u,lag = 3, delete = FALSE)
+#'
+#' @concept lag, heteroscedasticity, lagged residuals
 #'
 lagk = function(u, lag = 1, delete = TRUE){
   n = length(u)

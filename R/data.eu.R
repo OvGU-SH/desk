@@ -14,11 +14,11 @@
 #' }
 #'
 #' @source
-#' downloaded in 2007 from \url{https://ec.europa.eu/budget/library}, \url{https://ec.europa.eu/eurostat}.
+#' Downloaded in 2007 from \url{https://ec.europa.eu/budget/library}, \url{https://ec.europa.eu/eurostat}.
 #'
 #' @references
-#' von Auer, L. (2008): Eine empirische Analyse der EU-Ausgabenpolitik, in H. Gischer, P. Reichling, T. Spengler, A Wenig (eds.), Transformation in der Oekonomie - Festschrift fuer Gerhard Schwoediauer zum 65. Geburtstag, Gabler.
+#' Auer, L.v. (2008): Eine empirische Analyse der EU-Ausgabenpolitik, in H. Gischer, P. Reichling, T. Spengler, A. Wenig (eds.), Transformation in der Oekonomie - Festschrift fuer Gerhard Schwoediauer zum 65. Geburtstag, Gabler.
 #'
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
 #'
 "data.eu"

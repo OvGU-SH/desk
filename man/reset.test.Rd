@@ -16,7 +16,7 @@ reset.test(
 \arguments{
 \item{mod}{estimated linear model object or formula.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
 \item{m}{the number of non-linear terms of fitted y values that should be included in the extended model. Default is \code{m = 2}, i.e. to add \eqn{\widehat{y}^2} and \eqn{\widehat{y}^3}.}
 
@@ -30,7 +30,7 @@ reset.test(
 A list object including:
 \tabular{ll}{
 \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-\code{results} \tab a dataframe of basic test results.\cr
+\code{results} \tab a data frame of basic test results.\cr
 \code{SSR0} \tab	SSR of the H0-model.\cr
 \code{SSR1} \tab	SSR of the extended model.\cr
 \code{L} \tab numbers of parameters tested in H0.\cr
@@ -38,7 +38,7 @@ A list object including:
 }
 }
 \description{
-Ramsey's RESET for nonlinear functional form. The object of test results returned by this command can be plotted using the \code{plot()} function.
+Ramsey's RESET for non-linear functional form. The object of test results returned by this command can be plotted using the \code{plot()} function.
 }
 \examples{
 ## Numerical illustration 14.2. of the textbook
@@ -55,3 +55,4 @@ J.B. Ramsey (1969): Tests for Specification Error in Classical Linear Least Squa
 \seealso{
 \code{\link[lmtest]{resettest}}.
 }
+\concept{RESET, specification, functional form}

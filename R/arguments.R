@@ -10,13 +10,12 @@
 #'
 #' @importFrom stats sd
 #'
-#' @seealso \code{\link[base]{args}}
+#' @seealso \code{\link[base]{args}}.
 #'
 #' @examples
 #' arguments(sample.rep)
 #'
-#' @keywords arguments, function, default value
-#' @concept default value
+#' @concept arguments, function, default value
 #'
 arguments = function (fun, width = options("width")$width) {
     out = paste(deparse(args(fun))[-length(deparse(args(fun)))],

@@ -9,7 +9,7 @@ jb.test(x, data = list(), sig.level = 0.05, details = FALSE, hyp = TRUE)
 \arguments{
 \item{x}{a numeric vector, an estimated linear model object or model formula (with \code{data} specified). In the two latter cases the model's residuals are tested for normality.}
 
-\item{data}{if \code{mod} is a formula then the corresponding dataframe has to be specified.}
+\item{data}{if \code{mod} is a formula then the corresponding data frame has to be specified.}
 
 \item{sig.level}{significance level. Default value: \code{sig.level = 0.05}.}
 
@@ -18,10 +18,10 @@ jb.test(x, data = list(), sig.level = 0.05, details = FALSE, hyp = TRUE)
 \item{hyp}{logical value indicating whether the hypotheses should be returned.}
 }
 \value{
-List including:
+A list object including:
 \tabular{ll}{
 \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-\code{results} \tab a dataframe of basic test results.\cr
+\code{results} \tab a data frame of basic test results.\cr
 \code{skew} \tab moment of order 3 (asymmetry, skewness).\cr
 \code{kur} \tab moment of order 4 (kurtosis).\cr
 \code{nobs} \tab number of observations (internal purpose).\cr
@@ -57,3 +57,4 @@ Jarque, C.M. & Bera, A.K. (1980): Efficient Test for Normality, Homoscedasticity
 \seealso{
 \code{\link[moments]{jarque.test}}.
 }
+\concept{normality, normal distribution, test}

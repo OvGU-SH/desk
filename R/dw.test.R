@@ -3,18 +3,18 @@
 #' @description Durbin-Watson Test on AR(1) autocorrelation of errors in a linear model. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param mod estimated linear model object or formula describing the model.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param dir direction of the alternative hypothesis: \code{"right"} for rho > 0, \code{"left"} for rho < 0 and \code{"both"} for rho <> 0.
-#' @param method algorithm used to calculate the p-value. \code{"pan1"} and \code{"pan2"} are two implementations of Imhof's (1961) algorithm. If they provide a p-values, it is the exact one. \code{"paol"} is Paoella's (2007) re-implementation of Imhof's theory, \code{"spa"} is a saddlepoint approximation, also implemented by Paoella (2007).
-#' @param crit.val logical value indicating whether the critical value sould be calculated.
+#' @param method algorithm used to calculate the p-value. \code{"pan1"} and \code{"pan2"} are two implementations of Imhof's (1961) algorithm. If they provide a p-values, it is the exact one. \code{"paol"} is Paoella's (2007) re-implementation of Imhof's theory, \code{"spa"} is a saddle point approximation, also implemented by Paoella (2007).
+#' @param crit.val logical value indicating whether the critical value should be calculated.
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #' @param hyp logical value indicating whether the Hypotheses should be returned.
 #'
-#' @return List including:
+#' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-#' \code{results} \tab a dataframe of basic test results, including critical- and p-value.\cr
+#' \code{results} \tab a data frame of basic test results, including critical- and p-value.\cr
 #' \code{nulldist} \tab type of the null distribution (for internal use).\cr
 #' }
 #'
@@ -41,6 +41,8 @@
 #'
 #' ## Calculate DW null-distribution and plot the test results
 #' plot(test.results)
+#'
+#' @concept Durbin Watson test, AR1, autocorrelation
 #'
 dw.test = function (mod, data = list(),
                     dir = c("left", "right", "both"),

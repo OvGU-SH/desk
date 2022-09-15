@@ -3,7 +3,7 @@
 #' @description Jarque-Bera test for normality. The object of test results returned by this command can be plotted using the \code{plot()} function.
 #'
 #' @param x a numeric vector, an estimated linear model object or model formula (with \code{data} specified). In the two latter cases the model's residuals are tested for normality.
-#' @param data if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
 #' @param sig.level significance level. Default value: \code{sig.level = 0.05}.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #' @param hyp logical value indicating whether the hypotheses should be returned.
@@ -11,10 +11,10 @@
 #' @details
 #' Under H0 the test statistic of the Jarque-Bera test follows a chi-squared distribution with 2 degrees of freedom. If moment of order 3 (skewness) differs significantly from 0 and/or moment of order 4 (kurtosis) differs significantly from 3, H0 is rejected.
 #'
-#' @return List including:
+#' @return A list object including:
 #' \tabular{ll}{
 #' \code{hyp} \tab character matrix of hypotheses (if \code{hyp = TRUE}).\cr
-#' \code{results} \tab a dataframe of basic test results.\cr
+#' \code{results} \tab a data frame of basic test results.\cr
 #' \code{skew} \tab moment of order 3 (asymmetry, skewness).\cr
 #' \code{kur} \tab moment of order 4 (kurtosis).\cr
 #' \code{nobs} \tab number of observations (internal purpose).\cr
@@ -43,6 +43,8 @@
 #'
 #' ## Plot the test result
 #' plot(X)
+#'
+#' @concept normality, normal distribution, test
 #'
 jb.test = function(x, data = list(), sig.level = 0.05, details = FALSE, hyp = TRUE){
 

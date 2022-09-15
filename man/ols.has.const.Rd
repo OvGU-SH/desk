@@ -7,10 +7,10 @@
 ols.has.const(mod)
 }
 \arguments{
-\item{mod}{linear model object of class "desk" or "lm".}
+\item{mod}{linear model object of class \code{"desk"} or \code{"lm"}.}
 }
 \value{
-Logical value TRUE (has contant), FALSE (has no constant).
+A logical value: \code{TRUE} (has contant) or \code{FALSE} (has no constant).
 }
 \description{
 Checks if a linear model included a constant level parameter (alpha).
@@ -22,3 +22,4 @@ ols.has.const(my.modA)
 ols.has.const(my.modB)
 
 }
+\concept{level parameter, constant, intercept, linear model}

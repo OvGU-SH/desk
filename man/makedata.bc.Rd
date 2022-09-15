@@ -30,13 +30,13 @@ makedata.bc(
 \item{seed}{randomization seed.}
 }
 \value{
-Dataframe of x- and y-values.
+Data frame of x- and y-values.
 }
 \description{
-This command generates a dataframe of two variables, x and y, which can be both transformed by a normalized, lambda-deformed logarithm (aka. Box-Cox-transformation). The purpose of this command is to generate datasets that represent a non-linear relationship between exogenous and endogenous variable. These datasets can be used to train linearization and heteroskedasticity issues. Note that the error term is also transformed to make it normal and homoscedastic after re-transformation to linearity. This is why generated datasets may have non-constant variance depending on the transformation parameters.
+This command generates a data frame of two variables, x and y, which can be both transformed by a normalized, lambda-deformed logarithm (aka. Box-Cox-transformation). The purpose of this command is to generate data sets that represent a non-linear relationship between exogenous and endogenous variable. These data sets can be used to train linearization and heteroskedasticity issues. Note that the error term is also transformed to make it normal and homoscedastic after re-transformation to linearity. This is why generated data sets may have non-constant variance depending on the transformation parameters.
 }
 \examples{
-## Compare 4 datasets generated differently
+## Compare 4 data sets generated differently
 par(mfrow = c(2,2))
 
 ## Linear data shifted by 3
@@ -58,3 +58,4 @@ plot(D.dat, main = "concave scatter, x transf.")
 par(mfrow = c(1,1))
 
 }
+\concept{plot, scatter, regression line, confidence band, prediction band}

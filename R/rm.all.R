@@ -18,6 +18,8 @@
 #' ## Delete everything
 #' rm.all()
 #'
+#' @concept objects, remove, delete, environment, .GlobalEnv
+#'
 rm.all = function(keep = NULL) {
   rm(list = ls(pos = .GlobalEnv)[! ls(pos = .GlobalEnv) %in% keep], pos = .GlobalEnv)
 }

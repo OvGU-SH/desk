@@ -36,3 +36,4 @@ print(tip.est) # same as tip.est
 print(tip.est, details = TRUE, digits = 2)
 
 }
+\concept{print, console, regression results, test results}

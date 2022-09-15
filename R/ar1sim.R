@@ -66,7 +66,7 @@
 #' }
 #' par(mfrow = c(1,1))
 #'
-#' @keywords AR(1) process, autocorrelated errors, simulation
+#' @concept AR1 process, autocorrelated errors, simulation
 #'
 ar1sim = function(n = 50, rho, u0 = 0, var.e = 1, details = FALSE, seed = NULL){
   set.seed(seed)

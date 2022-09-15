@@ -21,7 +21,7 @@ data.tip
 This is a data set on the bills and the corresponding tips given in a restaurant.
 }
 \details{
-In v.Auer, L. (2016, Chap. 17) and v.Auer, L. and Hoffmann, S. (2017, Chap. 17) these hypothetical data provide a minimal dataset for estimating a simple linear regression model.
+In v.Auer, L. (2016, Chap. 17) and v.Auer, L. and Hoffmann, S. (2017, Chap. 17) these hypothetical data provide a minimal data set for estimating a simple linear regression model.
 }
 \references{
 v.Auer, L. and Hoffmann, S. (2017) \emph{Oekonometrie - Das R-Arbeitsbuch}, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).

@@ -11,6 +11,8 @@
 #' get.group() # Draw group from group numbers 1 to 5
 #' get.group(c(1,6,3)) # Draw group from specified group numbers
 #'
+#' @concept sample
+#'
 get.group = function(grps = seq(1,5)){
   set.seed(NULL) # reset seed in case it is stored in an environment image
   dgrp = sample(grps, size = 1) # Ziehe Gruppe

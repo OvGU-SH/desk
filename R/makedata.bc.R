@@ -1,6 +1,6 @@
 #' Generate Artificial, Non-linear Data for Simple Regression
 #'
-#' @description This command generates a dataframe of two variables, x and y, which can be both transformed by a normalized, lambda-deformed logarithm (aka. Box-Cox-transformation). The purpose of this command is to generate datasets that represent a non-linear relationship between exogenous and endogenous variable. These datasets can be used to train linearization and heteroskedasticity issues. Note that the error term is also transformed to make it normal and homoscedastic after re-transformation to linearity. This is why generated datasets may have non-constant variance depending on the transformation parameters.
+#' @description This command generates a data frame of two variables, x and y, which can be both transformed by a normalized, lambda-deformed logarithm (aka. Box-Cox-transformation). The purpose of this command is to generate data sets that represent a non-linear relationship between exogenous and endogenous variable. These data sets can be used to train linearization and heteroskedasticity issues. Note that the error term is also transformed to make it normal and homoscedastic after re-transformation to linearity. This is why generated data sets may have non-constant variance depending on the transformation parameters.
 #'
 #' @param lambda.x deformation parameter for the x-values: -1 = inverse, 0 = log, 0.5 = root, 1 = linear, 2 = square ...
 #' @param lambda.y deformation parameter for the y-values (see \code{lambda.x}).
@@ -10,11 +10,11 @@
 #' @param sigma standard deviation of the error term.
 #' @param seed randomization seed.
 #'
-#' @return Dataframe of x- and y-values.
+#' @return Data frame of x- and y-values.
 #' @export
 #'
 #' @examples
-#' ## Compare 4 datasets generated differently
+#' ## Compare 4 data sets generated differently
 #' par(mfrow = c(2,2))
 #'
 #' ## Linear data shifted by 3
@@ -34,6 +34,8 @@
 #' plot(C.dat, main = "concave scatter")
 #' plot(D.dat, main = "concave scatter, x transf.")
 #' par(mfrow = c(1,1))
+#'
+#' @concept plot, scatter, regression line, confidence band, prediction band
 #'
 makedata.bc = function(lambda.x = 1, lambda.y = 1, a = 0, x.max = 5, n = 200, sigma = 1, seed = NULL){
  set.seed(seed)

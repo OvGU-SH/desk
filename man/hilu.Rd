@@ -9,22 +9,22 @@ hilu(mod, data = list(), range = seq(-1, 1, 0.01), details = FALSE)
 \arguments{
 \item{mod}{estimated linear model object or formula.}
 
-\item{data}{dataframe to be specified if \code{mod} is a formula.}
+\item{data}{data frame to be specified if \code{mod} is a formula.}
 
-\item{range}{defines the range and stepsize of rho values.}
+\item{range}{defines the range and step size of rho values.}
 
 \item{details}{logical value, indicating whether details should be printed.}
 }
 \value{
-List object including:
+A list object including:
 \tabular{ll}{
-\code{results} \tab dataframe of basic regression results.\cr
+\code{results} \tab data frame of basic regression results.\cr
 \code{idx.opt} \tab index of regression that minimizes SSR.\cr
 \code{nregs} \tab number of regressions performed.\cr
 \code{rho.opt} \tab rho-value of regression that minimizes SSR.\cr
 \code{y.trans} \tab optimal transformed y-values.\cr
 \code{X.trans} \tab optimal transformed x-values (incl. z).\cr
-\code{all.regs} \tab dataframe of regression results for all considered rho values.\cr
+\code{all.regs} \tab data frame of regression results for all considered rho values.\cr
 \code{rho.vals} \tab vector of used rho values.\cr
 }
 }
@@ -51,3 +51,4 @@ print(X, details = FALSE)
 plot(X)
 
 }
+\concept{VKQ, Hildreth-Lu, autocorrelation, AR1 process}

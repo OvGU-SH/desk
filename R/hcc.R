@@ -3,8 +3,8 @@
 #' @description Calculates Whites (1980) heteroskedasticity corrected covariance matrix in a linear model.
 #'
 #' @param mod estimated linear model object or formula.
-#' @param data number of decimal digits in rounded values.
-#' @param digits if \code{mod} is a formula then the corresponding dataframe has to be specified.
+#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
+#' @param digits number of decimal digits in rounded values.
 #'
 #' @return The heteroskedasticity corrected covariance matrix.
 #'
@@ -20,6 +20,8 @@
 #' hcc(rent.est)
 #'
 #' hcc(wage ~ educ + age, data = data.wage)
+#'
+#' @concept heteroskedasticity, correction
 #'
 hcc = function(mod, data = list(), digits = 4) {
 

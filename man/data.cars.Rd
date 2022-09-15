@@ -12,7 +12,7 @@ A data frame of 50 observations with the following two variables:
 }
 }
 \source{
-R package datasets (object cars).
+R package data sets (object cars).
 
 Ezekiel, M. (1930): Methods of Correlation Analysis, Wiley.
 }

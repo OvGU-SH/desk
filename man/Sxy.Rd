@@ -9,7 +9,7 @@ Sxy(x, y = x, na.rm = FALSE)
 \arguments{
 \item{x}{vector of one variable.}
 
-\item{y}{vector of another variable (optional). If specified then the covariation of \code{x} and \code{y} is calculated. If ommitted then the variation of \code{x} is calculated.}
+\item{y}{vector of another variable (optional). If specified then the covariation of \code{x} and \code{y} is calculated. If omitted then the variation of \code{x} is calculated.}
 
 \item{na.rm}{a logical value indicating whether NA values should be stripped before the computation proceeds.}
 }
@@ -31,3 +31,4 @@ Sxy(x)
 Sxy(x, na.rm = TRUE)
 
 }
+\concept{variation, covariation, variance, covariance}

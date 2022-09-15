@@ -9,7 +9,7 @@ ivr(formula, data = list(), endog, iv, contrasts = NULL, details = FALSE, ...)
 \arguments{
 \item{formula}{model formula.}
 
-\item{data}{name of the dataframe used. To be specified if variables are not stored in environment.}
+\item{data}{name of the data frame used. To be specified if variables are not stored in environment.}
 
 \item{endog}{character vector of endogenous (to be instrumented) regressors.}
 
@@ -27,7 +27,7 @@ A list object including:
 \code{adj.r.squ} \tab adjusted coefficient of determination (adj. R-squared).\cr
 \code{coefficients} \tab IV-estimators of model parameters.\cr
 \code{data/model} \tab matrix of the variables' data used.\cr
-\code{data.name} \tab name of the dataframe used.\cr
+\code{data.name} \tab name of the data frame used.\cr
 \code{df} \tab degrees of freedom in the model (number of observations minus rank).\cr
 \code{exogenous} \tab exogenous regressors.\cr
 \code{f.hausman} \tab exogeneity test: F-value for simultaneous significance of all instrument parameters. If H0: "Instruments are exogenous" is rejected, usage of IV-regression can be justified against OLS.\cr
@@ -123,3 +123,4 @@ Kmenta, J. (1971): Elements of Econometrics, 2nd ed., The University of Michigan
 
 Murray, M.P. (2006): Econometrics - A Modern Introduction, Pearson.
 }
+\concept{endogeneity, instrument variable}

@@ -16,10 +16,10 @@ makedata.corr(n = 10, k = 2, CORR, sample = FALSE)
 \item{sample}{logical value indicating whether the correlation structure is applied to the population (false) or the sample (true).}
 }
 \value{
-The generated dataframe of exogenous variables.
+The generated data frame of exogenous variables.
 }
 \description{
-This command generates a dataframe of exogenous normal regression data with given correlation between the variables. This can, for example, be used for analyzing the effects of autocorrelation.
+This command generates a data frame of exogenous normal regression data with given correlation between the variables. This can, for example, be used for analyzing the effects of autocorrelation.
 }
 \examples{
 ## Generate desired correlation structure
@@ -34,3 +34,4 @@ X <- makedata.corr(n = 10, k = 2, CORR = corr.mat, sample = TRUE)
 cor(X) # exact values of corr.mat
 
 }
+\concept{variation, covariation, variance, covariance}

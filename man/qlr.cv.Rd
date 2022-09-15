@@ -33,7 +33,7 @@ A list object including:
 }
 }
 \description{
-Returns critical values of the Quandt Liekelihood Ratio test according to Andrews (2003).
+Returns critical values of the Quandt Likelihood Ratio-test according to Andrews (2003).
 }
 \examples{
 qlr.cv(tAll = 60)
@@ -42,3 +42,4 @@ qlr.cv(tAll = 60)
 \references{
 Andrews, D.W.K. (2003): Tests for Parameter Instability and Structural Change with Unknown Change Point: A Corrigendum. Econometrica 71, 395-397.
 }
+\concept{Quandt Likelihood Ratio, QLR, critical value, structural break}
