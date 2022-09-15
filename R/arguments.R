@@ -15,6 +15,9 @@
 #' @examples
 #' arguments(sample.rep)
 #'
+#' @keywords arguments, function, default value
+#' @concept default value
+#'
 arguments = function (fun, width = options("width")$width) {
     out = paste(deparse(args(fun))[-length(deparse(args(fun)))],
         collapse = "", sep = "--")

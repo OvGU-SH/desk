@@ -7,4 +7,4 @@
 - Typos verbessert, auf Konsistenz geachtet und Format-Konventionen umgesetzt in help-files  
 - @importFrom für Cross-refs
 - Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
-  - 
+  - exp.def -> def.exp

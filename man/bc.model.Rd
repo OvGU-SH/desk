@@ -16,7 +16,7 @@ bc.model(mod, data = list(), range = seq(-2, 2, 0.1), details = FALSE)
 \item{details}{logical value indicating whether specific details about the test should be returned.}
 }
 \value{
-List object including:
+A list object including:
 \tabular{ll}{
 \code{results} \tab regression results with minimal SSR.\cr
 \code{lambda} \tab optimal lambda-values.\cr
@@ -35,3 +35,5 @@ my.mod <- ols(y ~ x)
 bc.model(my.mod)
 
 }
+\concept{deformed logarithm}
+\keyword{Box-Cox-Model}

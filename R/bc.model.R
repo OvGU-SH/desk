@@ -7,7 +7,7 @@
 #' @param range range and stepsize of lambda values. Default is a range from -2 to 2 at a stepsize of 0.1.
 #' @param details logical value indicating whether specific details about the test should be returned.
 #'
-#' @return List object including:
+#' @return A list object including:
 #' \tabular{ll}{
 #' \code{results} \tab regression results with minimal SSR.\cr
 #' \code{lambda} \tab optimal lambda-values.\cr
@@ -25,6 +25,9 @@
 #' x <- c(1,2,4)
 #' my.mod <- ols(y ~ x)
 #' bc.model(my.mod)
+#'
+#' @keywords Box-Cox-Model
+#' @concept deformed logarithm
 #'
 bc.model = function(mod, data = list(), range = seq(-2,2,0.1), details = FALSE){
 

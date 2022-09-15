@@ -24,3 +24,8 @@ arguments(sample.rep)
 \seealso{
 \code{\link[base]{args}}
 }
+\concept{default value}
+\keyword{arguments,}
+\keyword{default}
+\keyword{function,}
+\keyword{value}
