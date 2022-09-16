@@ -28,21 +28,11 @@
 ### Offene Fragen
 
 -   Formatierung Buch und Artikel-Quellen festlegen >> CRAN?
-<<<<<<< HEAD
 -   Konsistenz ref/source?
-=======
-  - Konsistenz ref/source?
->>>>>>> 7890ebd45cc39727639d5de505fbaad44959eb43
 -   www.oekonometrie-lernen.de >> https >> Mail an Zimk
 -   datasets() >> Labor? -> Labor aus + Murray rein
 -   online Murray 2006 data? (cochorc.R/ivr.R examples) >> siehe ToDo
 
-<<<<<<< HEAD
-=======
--   return/value: "A list object" / "None."!
--   onAttach.R (zzz.R) >> message ok? >> U+L-Buch
-
->>>>>>> 7890ebd45cc39727639d5de505fbaad44959eb43
 ### ToDo
 
 - für CRAN release: https://r-pkgs.org/check.html nochmals durchgehen
@@ -50,10 +40,7 @@
 - mit Ludwig
   - Raus? arguments(), showfile()&Labor.txt
 - weitere Keywords? (.R-files durchgehen) >> Zoom
-<<<<<<< HEAD
 -   onAttach.R (zzz.R) >> message ok? >> U+L-Buch
-=======
->>>>>>> 7890ebd45cc39727639d5de505fbaad44959eb43
 - Sönke: IV/ivplot ergänzen
 - Kap.22: dyn. Modelle für DESK >> Tobi
 - Murray data >> Ordner von Sönke
