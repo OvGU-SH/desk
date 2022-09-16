@@ -45,7 +45,11 @@ ols.predict(fert.est)
 ols.predict(fert.est, xnew = my.mat)
 
 ## Returns re-transformed predicted values and est. var. of pred. error
+<<<<<<< HEAD
 ols.predict(fert.est, xnew = my.mat, antilog = TRUE, details = TRUE)
+=======
+ols.predict(fert.est, xnew = my.mat, antilog = T, details = TRUE)
+>>>>>>> 7890ebd45cc39727639d5de505fbaad44959eb43
 
 }
 \concept{predicted values, linear model}

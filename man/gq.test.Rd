@@ -56,7 +56,7 @@ gq.test(rent ~ dist, split = 5, ah = "increasing", data = data.rent)
 
 ## Ordered by population size
 eu.mod <- ols(expend ~ pop + gdp + farm + votes + mship, data = data.eu)
-results <- gq.test(eu.mod, split = 13, order.by = data.eu$pop, details = TRUE)
+results <- gq.test(eu.mod, split = 13, order.by = data.eu$pop, details = TRUE) # ordered by population size
 results
 
 plot(results)
