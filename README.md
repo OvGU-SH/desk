@@ -16,13 +16,16 @@
     -   t.coef.test >> par.t.test
     -   f.coef.test >> par.f.test (Konsistenz)
 -   @examples: Console output gelöscht (da sonst teilweise über 500 Zeilen)
+-   CRAN erlaubt nur ASCII: stringi::stri_escape_unicode("Ö") etc. für ASCII Äquivalent
 
-### Literatur und Zitierung
+### Literatur und Zitierung (mit ASCII Äquivalent für Umlaute)
 
 - Auer, L.v. (2023) Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler.
-  - Auer (2023)
+    - Auer, L.v. (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed., Springer-Gabler.
+    - Auer (2023)
 - Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
-  - Auer et al. (2023)
+    - Auer, L.v., S. Hoffmann & T. Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
+    - Auer et al. (2023)
 
 
 ### Offene Fragen
@@ -40,7 +43,6 @@
 - mit Ludwig
   - Raus? arguments(), showfile()&Labor.txt
 - weitere Keywords? (.R-files durchgehen) >> Zoom
--   onAttach.R (zzz.R) >> message ok? >> U+L-Buch
 - Sönke: IV/ivplot ergänzen
 - Kap.22: dyn. Modelle für DESK >> Tobi
 - Murray data >> Ordner von Sönke
