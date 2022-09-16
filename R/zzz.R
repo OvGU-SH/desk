@@ -20,9 +20,9 @@
     "\n
 *******************************************************************
 * Package DESK is released for EDUCATIONAL PURPOSES, accompanying *
-*								                                       *
+*								  *
 *  L. von Auer: Oekonometrie - Eine Einfuehrung, Springer-Gabler. *
-*								                                       *
+*								  *
 *******************************************************************
 \n"
   )
