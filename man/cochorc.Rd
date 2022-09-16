@@ -68,14 +68,13 @@ print(X, details = FALSE)
 plot(X)
 
 ## Replicate Table 11.3 and 11.7 from Murray (2006)
-#data.murray =
-#read.table("http://wps.aw.com/wps/media/objects/2387/2445250/Data_Sets/ASCII/poverty1.csv",
-#header = TRUE, sep = ",")
-#poverty.est <- ols(POVERTY ~ UNEMPLOY, data = data.murray)
-#cochorc(poverty.est, iter = 30, tol = 0.000001)
+data.murray <- read.table(system.file("extdata", "poverty1.csv", package = "desk"),
+                          header = TRUE, sep = ",")
+poverty.est <- ols(POVERTY ~ UNEMPLOY, data = data.murray)
+cochorc(poverty.est, iter = 30, tol = 0.000001)
 
 ## Example with interaction
-dummy = as.numeric(data.sick$year >= 2005)
+dummy <-  as.numeric(data.sick$year >= 2005)
 kstand.str.est <- ols(sick ~ dummy + jobless + dummy*jobless, data = data.sick)
 cochorc(kstand.str.est)
 

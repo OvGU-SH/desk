@@ -20,31 +20,27 @@
 
 ### Literatur und Zitierung (mit ASCII Äquivalent für Umlaute)
 
-- Auer, L.v. (2023) Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler.
-    - Auer, L.v. (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed., Springer-Gabler.
-    - Auer (2023)
-- Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
-    - Auer, L.v., S. Hoffmann & T. Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
-    - Auer et al. (2023)
+-   Auer, L.v. (2023) Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler.
+    -   Auer, L.v. (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed., Springer-Gabler.
+    -   Auer (2023)
+-   Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
+    -   Auer, L.v., S. Hoffmann & T. Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
+    -   Auer et al. (2023)
+-   (von Auer >> Konsistenz! sonst egal)    
 
 
 ### Offene Fragen
 
--   Formatierung Buch und Artikel-Quellen festlegen >> CRAN?
--   Konsistenz ref/source?
--   www.oekonometrie-lernen.de >> https >> Mail an Zimk
--   datasets() >> Labor? -> Labor aus + Murray rein
--   online Murray 2006 data? (cochorc.R/ivr.R examples) >> siehe ToDo
+-   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
 
 ### ToDo
 
-- für CRAN release: https://r-pkgs.org/check.html nochmals durchgehen
-- devtools::build_site()
-- mit Ludwig
-  - Raus? arguments(), showfile()&Labor.txt
-- weitere Keywords? (.R-files durchgehen) >> Zoom
-- Sönke: IV/ivplot ergänzen
-- Kap.22: dyn. Modelle für DESK >> Tobi
-- Murray data >> Ordner von Sönke
-- v.Auer -> Konsistenz! sonst egal
-- Ludwig: andronikoss/desk ist noch online
+-   für CRAN-release nochmals durchgehen: 
+    -   https://r-pkgs.org/check.html
+    -   https://cran.r-project.org/web/packages/policies.html
+-   devtools::build_site()
+-   weitere Keywords? (.R-files durchgehen) >> Zoom
+-   www.oekonometrie-lernen.de >> https >> Mail an ZIMK
+-   Ludwig: andronikoss/desk ist noch online
+-   Sönke: IV/ivplot ergänzen
+-   Tobi: dyn. Modelle für DESK (Kap.22)
