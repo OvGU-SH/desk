@@ -22,6 +22,7 @@ This can be used as an estimator for rho in an AR(1) process.
 ## Simulate AR(1) Process with 30 observations and positive autocorrelation
 X <- ar1sim(n = 30, u0 = 2.0, rho = 0.7, var.e = 0.1)
 acc(X$u.sim, lag = 1)
+
 ## Equivalent result using acf (stats)
 acf(X$u.sim, lag.max = 1, plot = FALSE)$acf[2]
 
