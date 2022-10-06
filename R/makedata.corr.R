@@ -1,3 +1,4 @@
+#####
 #' Generate Exogenous Normal Data with Specified Correlations
 #'
 #' @description This command generates a data frame of exogenous normal regression data with given correlation between the variables. This can, for example, be used for analyzing the effects of autocorrelation.
@@ -27,6 +28,7 @@
 #'
 #' @concept variation, covariation, variance, covariance
 #'
+#####
 makedata.corr = function(n = 10, k = 2, CORR, sample = FALSE){
 
 # Function to generate random correlation matrix
