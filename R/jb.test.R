@@ -1,3 +1,4 @@
+#####
 #' Jarque-Bera Test
 #'
 #' @description Jarque-Bera test for normality. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -46,6 +47,7 @@
 #'
 #' @concept normality, normal distribution, test
 #'
+#####
 jb.test = function(x, data = list(), sig.level = 0.05, details = FALSE, hyp = TRUE){
 
   if (inherits(x, "lm")){ # if x is a fitted lm object ...

@@ -1,3 +1,4 @@
+#####
 #' Durbin Watson Distribution
 #'
 #' @description Calculates density values of the null distribution in the Durbin Watson test. Uses the saddlepoint approximation by Paolella (2007).
@@ -26,6 +27,7 @@
 #'
 #' @concept Durbin Watson, null distribution
 #'
+#####
 ddw = function(x, mod, data = list()){
 
   sparoot = function(s0,x,lambda,df,q,lower,upper){

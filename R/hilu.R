@@ -1,3 +1,4 @@
+#####
 #' Estimating Linear Models under AR(1) Autocorrelation with Hildreth and Lu Method
 #'
 #' @description If autocorrelated errors can be modeled by an AR(1) process (rho as parameter) then this function finds the rho value that that minimizes SSR in a Prais-Winsten transformed linear model. This is known as Hildreth and Lu estimation. The object returned by this command can be plotted using the \code{plot()} function.
@@ -42,6 +43,7 @@
 #'
 #' @concept VKQ, Hildreth-Lu, autocorrelation, AR1 process
 #'
+#####
 hilu = function(mod, data = list(), range = seq(-1, 1, 0.01), details = FALSE){
 
   if (!inherits(mod, "formula")) { # Wenn Modell übergeben ...

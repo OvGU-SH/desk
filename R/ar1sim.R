@@ -1,3 +1,4 @@
+#####
 #' Simulate AR(1) Process
 #'
 #' @description Simulates an autoregressive process of order 1.
@@ -68,6 +69,7 @@
 #'
 #' @concept AR1 process, autocorrelated errors, simulation
 #'
+#####
 ar1sim = function(n = 50, rho, u0 = 0, var.e = 1, details = FALSE, seed = NULL){
   set.seed(seed)
   e = rnorm(n, 0, var.e) # random error

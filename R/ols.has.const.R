@@ -1,3 +1,4 @@
+#####
 #' Check if Model has a Constant
 #'
 #' @description Checks if a linear model included a constant level parameter (alpha).
@@ -16,6 +17,7 @@
 #'
 #' @concept level parameter, constant, intercept, linear model
 #'
+#####
 ols.has.const = function(mod){
   if (attr(mod$terms,"intercept") == 0){
     return(FALSE)}

@@ -1,3 +1,4 @@
+#####
 #' Datasets in DESK
 #'
 #' @description Generates a table of data set names and descriptions available in package \code{desk}.
@@ -13,6 +14,7 @@
 #'
 #' @concept datasets, desk
 #'
+#####
 datasets = function(){
   cat("====================================\n")
   cat("Available datasets in package desk. \n")

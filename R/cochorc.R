@@ -1,3 +1,4 @@
+#####
 #' Estimating Linear Models under AR(1) with Cochrane-Orcutt Iteration
 #'
 #' @description If autocorrelated errors can be modeled by an AR(1) process (rho as parameter) then this function performs a Cochrane-Orcutt iteration. If model coefficients and the estimated rho value converge with the number of iterations, this procedure provides valid solutions. The object returned by this command can be plotted using the \code{plot()} function.
@@ -62,6 +63,7 @@
 #' kstand.str.est <- ols(sick ~ dummy + jobless + dummy*jobless, data = data.sick)
 #' cochorc(kstand.str.est)
 #'
+#####
 cochorc = function(mod, data = list(), iter = 10, tol = 0.0001, pwt = TRUE, details = FALSE){
 
   if (!inherits(mod, "formula")) { # Wenn Modell übergeben ...

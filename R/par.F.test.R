@@ -1,3 +1,4 @@
+#####
 #' F-test on Multiple Linear Combinations of Estimated Parameters in a Linear Model
 #'
 #' @description Performs an F-test (non-directional) on multiple (L) linear combinations of parameters in a linear model.
@@ -56,6 +57,7 @@
 #'
 #' @concept F-test, linear combination, linear hypothesis, linear model
 #'
+#####
 par.f.test = function(mod,
                        data = list(),
                        nh,

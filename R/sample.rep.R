@@ -1,3 +1,4 @@
+#####
 #' Generates OLS Data and Confidence/Prediction Intervals for Repeated Samples
 #'
 #' @description This command simulates repeated samples given fixed data of the exogenous predictors and given (true) regression parameters. For each sample generated the results from an OLS regression with level parameter and confidence intervals (CIs) as well as prediction intervals are calculated.
@@ -102,6 +103,7 @@
 #'
 #' @concept repeated samples, simulation, ordinary least squares, confidence interval, CI, prediction interval, omitted variable bias, true regression parameters
 #'
+#####
 sample.rep = function(x, true.par, omit = 0, mean = 0, sd = 1, rep = 100,
                        xnew = x, sig.level = 0.05, seed = NULL){
 

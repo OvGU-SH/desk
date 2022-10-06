@@ -1,3 +1,4 @@
+#####
 #' Lambda Deformed Logarithm
 #'
 #' @description Calculates the lambda deformed logarithm.
@@ -18,6 +19,7 @@
 #'
 #' @concept deformation, logarithm
 #'
+#####
 def.log = function(x, lambda = 0, normalize = FALSE){
   if(normalize){
       corr = (exp(mean(log(x))))^(lambda - 1)

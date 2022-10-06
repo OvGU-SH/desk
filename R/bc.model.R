@@ -1,3 +1,4 @@
+#####
 #' One Dimensional Box-Cox Model
 #'
 #' @description Finds lambda-values for which the one dimensional Box-Cox model has lowest SSR.
@@ -28,6 +29,7 @@
 #'
 #' @concept Box-Cox-Model, deformed logarithm
 #'
+#####
 bc.model = function(mod, data = list(), range = seq(-2,2,0.1), details = FALSE){
 
   if (!inherits(mod, "formula")) { # Wenn Modell übergeben ...

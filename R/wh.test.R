@@ -1,3 +1,4 @@
+#####
 #' White Heteroskedasticity Test
 #'
 #' @description White's test for heteroskedastic errors.
@@ -39,6 +40,7 @@
 #'
 #' @concept White test, heteroscedastic errors, heteroskedastic errors
 #'
+#####
 wh.test = function(mod,
                    data = list(),
                    sig.level = 0.05,

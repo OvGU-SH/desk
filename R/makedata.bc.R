@@ -1,3 +1,4 @@
+#####
 #' Generate Artificial, Non-linear Data for Simple Regression
 #'
 #' @description This command generates a data frame of two variables, x and y, which can be both transformed by a normalized, lambda-deformed logarithm (aka. Box-Cox-transformation). The purpose of this command is to generate data sets that represent a non-linear relationship between exogenous and endogenous variable. These data sets can be used to train linearization and heteroskedasticity issues. Note that the error term is also transformed to make it normal and homoscedastic after re-transformation to linearity. This is why generated data sets may have non-constant variance depending on the transformation parameters.
@@ -37,6 +38,7 @@
 #'
 #' @concept plot, scatter, regression line, confidence band, prediction band
 #'
+#####
 makedata.bc = function(lambda.x = 1, lambda.y = 1, a = 0, x.max = 5, n = 200, sigma = 1, seed = NULL){
  set.seed(seed)
  x = def.log(seq(from = 1, to = x.max, length.out = n), lambda = lambda.x)

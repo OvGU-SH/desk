@@ -1,3 +1,4 @@
+#####
 #' Two-Stage Least Squares (2SLS) Instrument Variable Regression
 #'
 #' @description Performs a two-stage least squares regression.
@@ -112,6 +113,7 @@
 #'
 #' @concept endogeneity, instrument variable
 #'
+#####
 ivr = function(formula,
                data = list(),
                endog,

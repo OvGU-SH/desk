@@ -1,3 +1,4 @@
+#####
 #' Add a Command to User R Startup File Rprofile.site
 #'
 #' @description Adds a specified R command to file "Rprofile.site" for automatic execution during startup.
@@ -12,6 +13,7 @@
 #'
 #' @concept R, startup, configuration, Rprofile.site
 #'
+#####
 rprofile.add = function(line){
   write(line, file = paste(R.home(component = "etc"),"/Rprofile.site", sep =""), append = T)
 }

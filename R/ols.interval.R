@@ -1,3 +1,4 @@
+#####
 #' Calculate Different Types of Intervals in a Linear Model
 #'
 #' @description Calculates different types of intervals in a linear model.
@@ -48,6 +49,7 @@
 #'
 #' @concept confidence interval, acceptance interval, prediction interval, linear model
 #'
+#####
 ols.interval = function(mod,
                         data = list(),
                         type = c("confidence", "prediction", "acceptance"),

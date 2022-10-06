@@ -1,3 +1,4 @@
+#####
 #' Variation and Covariation
 #'
 #' @description Calculates the variation of one variable or the covariation of two different variables.
@@ -23,6 +24,7 @@
 #'
 #' @concept variation, covariation, variance, covariance
 #'
+#####
 Sxy = function(x, y = x, na.rm = FALSE){
   if(na.rm){
     x = na.omit(x)

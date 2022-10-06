@@ -1,3 +1,4 @@
+#####
 #' Get a Random Draw from Specified Group of Numbers
 #'
 #' @description Get a random draw from specified group of numbers. This can be used for assigning groups of students to some exercises.
@@ -13,6 +14,7 @@
 #'
 #' @concept sample
 #'
+#####
 get.group = function(grps = seq(1,5)){
   set.seed(NULL) # reset seed in case it is stored in an environment image
   dgrp = sample(grps, size = 1) # Ziehe Gruppe

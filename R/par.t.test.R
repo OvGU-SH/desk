@@ -1,3 +1,4 @@
+#####
 #' t-Test on Estimated Parameters of a Linear Model
 #'
 #' @description Performs a t-test on a single parameter hypothesis or a hypothesis containing a linear combination of parameters of a linear model. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -37,6 +38,7 @@
 #'
 #' @concept t-test, linear hypothesis, linear model
 #'
+#####
 par.t.test = function(mod,
                        data = list(),
                        nh,

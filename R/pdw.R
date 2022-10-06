@@ -1,3 +1,4 @@
+#####
 #' Durbin-Watson Distribution
 #'
 #' @description Calculates cumulative distribution values of the null distribution in the Durbin-Watson test. Uses saddle point approximation by Paolella (2007).
@@ -23,6 +24,7 @@
 #'
 #' @concept Durbin-Watson, null distribution
 #'
+#####
 pdw = function(x, mod, data = list()){
 
   spa = function(daniels, xvec, lambda, df = rep(1, length(lambda)), q = rep(0, length(lambda)), s = 0){

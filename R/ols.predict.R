@@ -1,3 +1,4 @@
+#####
 #' Predictions in a Linear Model
 #'
 #' @description Calculates the predicted values of a linear model based on specified values of the exogenous variables. Optionally the estimated variance of the prediction error is returned.
@@ -38,6 +39,7 @@
 #'
 #' @concept predicted values, linear model
 #'
+#####
 ols.predict = function(mod, data = list(), xnew, antilog = FALSE, details = FALSE){
 
   if (inherits(mod, "formula")) { # Wenn Formel übergeben ...

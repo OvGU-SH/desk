@@ -3,7 +3,7 @@
 ### Änderungen: 1.0.3 >> 1.1.0 (CRAN)
 
 -   help-file mit roxygen2-Code in .R-file als Präamble (z.B. \\description >> @description)
-    -   Vorteil: alles in einer Datei
+    -   Vorteil: alles in einer Datei (help-Teil mit ##### zuklappbar)
     -   auch data-Infos nun in .R-file mit roxygen2-Code und "dataset.abc"
 -   @keywords >> @concept: Phrasen (z.B. deformed logarithm) und nicht nur einzelne Wörter werden gefunden
     - keine Sonderzeichen, z.B. AR(1) >> AR1

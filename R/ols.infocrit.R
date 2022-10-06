@@ -1,3 +1,4 @@
+#####
 #' Calculate Common Information Criteria
 #'
 #' @description Calculates three common information criteria of models estimated by \code{ols()}.
@@ -20,6 +21,7 @@
 #'
 #' @concept Akaike Information Criterion, Schwarz Criterion, Prognostic Criterion
 #'
+#####
 ols.infocrit = function(mod, which = "all", scaled = FALSE){
   n = mod$nobs
   if (which == "aic"){

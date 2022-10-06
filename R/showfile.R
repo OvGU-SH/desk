@@ -1,3 +1,4 @@
+#####
 #' Print ASCII File to Console
 #'
 #' @description Print an ASCII encoded text file to the console. Useful for quickly viewing .txt or .csv data sets.
@@ -15,6 +16,7 @@
 #'
 #' @concept arguments, function, default value
 #'
+#####
 showfile = function(file, head = "all"){
   pos = regexpr("\\.([[:alnum:]]+)$", file)
   ext = ifelse(pos > -1L, substring(file, pos + 1L), "")

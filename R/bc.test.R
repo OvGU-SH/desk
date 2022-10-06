@@ -1,3 +1,4 @@
+#####
 #' Box-Cox Test
 #'
 #' @description Box-Cox test for functional form. Compares a base model with non transformed endogenous variable to a model with logarithmic endogenous variable. Exogenous variables can be transformed or non-transformed. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -41,6 +42,7 @@
 #'
 #' @concept htest
 #'
+#####
 bc.test = function(basemod, data = list(), exo = "same", sig.level = 0.05, details = TRUE, hyp = TRUE){
 
   if (!inherits(basemod, "formula")) { # Wenn Modell übergeben ...

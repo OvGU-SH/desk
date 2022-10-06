@@ -24,6 +24,7 @@
 #' acf(X$u.sim, lag.max = 1, plot = FALSE)$acf[2]
 #'
 #' @concept autocorrelation, autoregressive model, AR1, lagged variables
+#'
 #####
 acc = function(x, lag = 1){
   n = length(x)

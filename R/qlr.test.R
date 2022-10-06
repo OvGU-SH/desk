@@ -1,3 +1,4 @@
+#####
 #' Quandt Likelihood Ratio-Test for Structural Breaks in any Parameter with Unknown Break Date
 #'
 #' @description Performs Quandt Likelihood Ratio-test (QLR) for structural breaks with unknown break date. The object returned by this command can be plotted using the \code{plot()} function.
@@ -34,6 +35,7 @@
 #'
 #' @concept structural break, unknown breakdate, Quandt Likelihod Ratio test
 #'
+#####
 qlr.test = function(mod, data = list(), from, to, sig.level = 0.05, details = FALSE){
 
 ####################################################################

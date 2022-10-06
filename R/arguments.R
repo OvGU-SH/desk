@@ -1,3 +1,4 @@
+#####
 #' Arguments of a Function
 #'
 #' @description Shows the arguments and their default values of a function.
@@ -17,6 +18,7 @@
 #'
 #' @concept arguments, function, default value
 #'
+#####
 arguments = function (fun, width = options("width")$width) {
     out = paste(deparse(args(fun))[-length(deparse(args(fun)))],
         collapse = "", sep = "--")

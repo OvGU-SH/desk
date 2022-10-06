@@ -1,3 +1,4 @@
+#####
 #' Goldfeld-Quandt Test
 #'
 #' @description Goldfeld-Quandt test for heteroskedastic errors. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -41,6 +42,7 @@
 #'
 #' plot(results)
 #'
+#####
 gq.test = function (mod,
                     data = list(),
                     split = 0.5,

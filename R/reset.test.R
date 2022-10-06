@@ -1,3 +1,4 @@
+#####
 #' RESET Method for Non-linear Functional Form
 #'
 #' @description Ramsey's RESET for non-linear functional form. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -36,6 +37,7 @@
 #'
 #' @concept RESET, specification, functional form
 #'
+#####
 reset.test = function (mod,
                        data = list(),
                        m = 2,

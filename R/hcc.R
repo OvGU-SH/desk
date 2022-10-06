@@ -1,3 +1,4 @@
+#####
 #' Heteroskedasticity Corrected Covariance Matrix
 #'
 #' @description Calculates Whites (1980) heteroskedasticity corrected covariance matrix in a linear model.
@@ -23,6 +24,7 @@
 #'
 #' @concept heteroskedasticity, correction
 #'
+#####
 hcc = function(mod, data = list(), digits = 4) {
 
   if (!inherits(mod, "formula")) { # Wenn Modell übergeben ...

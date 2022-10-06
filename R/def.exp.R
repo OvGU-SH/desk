@@ -1,3 +1,4 @@
+#####
 #' Lambda Deformed Exponential
 #'
 #' @description Calculates the lambda deformed exponential.
@@ -18,6 +19,7 @@
 #'
 #' @concept deformation, exponential
 #'
+#####
 def.exp = function(x, lambda = 0, normalize = FALSE){
   if(normalize){
       corr = (exp(mean(log(x))))^(lambda - 1)

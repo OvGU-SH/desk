@@ -1,3 +1,4 @@
+#####
 #' Breusch-Pagan Test
 #'
 #' @description Breusch-Pagan test for heteroskedastic errors. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -44,6 +45,7 @@
 #'
 #' @concept heteroskedasticity, Breuch Pagan test, non-constant error variance
 #'
+#####
 bp.test = function(mod,
                    data = list(),
                    varmod = NULL,

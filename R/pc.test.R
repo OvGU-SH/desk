@@ -1,3 +1,4 @@
+#####
 #' Prognostic Chow Test on Structural Break
 #'
 #' @description Performs prognostic Chow test on structural break. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -34,6 +35,7 @@
 #'
 #' @concept structural break, chow test, prognostic chow test
 #'
+#####
 pc.test = function(mod,
                    data = list(),
                    split,

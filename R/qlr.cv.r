@@ -1,3 +1,4 @@
+#####
 #' Critical Values of the Quandt Likelihood Ratio-test (QLR-test)
 #'
 #' @description Returns critical values of the Quandt Likelihood Ratio-test according to Andrews (2003).
@@ -26,6 +27,7 @@
 #'
 #' @concept Quandt Likelihood Ratio, QLR, critical value, structural break
 #'
+#####
 qlr.cv = function(tAll, from = round(0.15*tAll), to = round(0.85*tAll), L = 2, sig.level = list(0.05, 0.01, 0.1)){
 
 sig.level = match.arg(NULL, sig.level)

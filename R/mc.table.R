@@ -1,3 +1,4 @@
+#####
 #' Generate R² Matrix of all Possible Regressions Among Regressors to Check Multicollinearity
 #'
 #' @description For a given set of regressors this command calculates the coefficient of determination of a regression of one specific regressor on all combinations of the remaining regressors. This provides an overview of potential multicollinearity. Needs at least three variables. For just two regressors the square of \code{cor()} can be used.
@@ -39,6 +40,7 @@
 #'
 #' @concept coefficient of determination, multicollinearity
 #'
+#####
 mc.table = function(x, intercept = TRUE, digits = 3){
 
 if (intercept) a = 1 else a = 0

@@ -1,3 +1,4 @@
+#####
 #' Durbin-Watson Test on AR(1) Autocorrelation
 #'
 #' @description Durbin-Watson Test on AR(1) autocorrelation of errors in a linear model. The object of test results returned by this command can be plotted using the \code{plot()} function.
@@ -44,6 +45,7 @@
 #'
 #' @concept Durbin Watson test, AR1, autocorrelation
 #'
+#####
 dw.test = function (mod, data = list(),
                     dir = c("left", "right", "both"),
                     method = c("pan1", "pan2", "paol", "spa"),
