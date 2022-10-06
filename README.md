@@ -1,5 +1,6 @@
 # desk
 
+
 ### Änderungen: 1.0.3 >> 1.1.0 (CRAN)
 
 -   help-file mit roxygen2-Code in .R-file als Präamble (z.B. \\description >> @description)
@@ -18,6 +19,7 @@
 -   @examples: Console output gelöscht (da sonst teilweise über 500 Zeilen)
 -   CRAN erlaubt nur ASCII: stringi::stri_escape_unicode("Ö") etc. für ASCII Äquivalent
 
+
 ### Literatur und Zitierung (mit ASCII Äquivalent für Umlaute)
 
 -   Auer, L.v. (2023) Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler.
@@ -33,6 +35,7 @@
 
 -   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
 
+
 ### ToDo
 
 -   für CRAN-release nochmals durchgehen: 
@@ -41,6 +44,6 @@
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen) >> Zoom
 -   www.oekonometrie-lernen.de >> https >> Mail an ZIMK
--   Ludwig: andronikoss/desk ist noch online
+-   Ludwig: andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)
 -   Sönke: IV/ivplot ergänzen
--   Tobi: dyn. Modelle für DESK (Kap.22)
+-   Tobi: dyn. Modelle für DESK (Kap.22) + Hausmann-Test; Refs in .R-files
