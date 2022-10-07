@@ -43,7 +43,6 @@
     -   https://cran.r-project.org/web/packages/policies.html
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen) >> Zoom
--   www.oekonometrie-lernen.de >> https >> Mail an ZIMK
 -   Ludwig: andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)
 -   Sönke: IV/ivplot ergänzen
 -   Tobi: dyn. Modelle für DESK (Kap.22) + Hausmann-Test; Refs in .R-files
