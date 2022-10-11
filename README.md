@@ -8,7 +8,7 @@
     -   auch data-Infos nun in .R-file mit roxygen2-Code und "dataset.abc"
 -   @keywords >> @concept: Phrasen (z.B. deformed logarithm) und nicht nur einzelne Wörter werden gefunden
     - keine Sonderzeichen, z.B. AR(1) >> AR1
--   Typos verbessert, auf Konsistenz geachtet und Format-Konventionen umgesetzt in help-files\
+-   Typos verbessert, auf Konsistenz geachtet und Format-Konventionen umgesetzt in help-files
 -   @importFrom für Cross-refs (mandatory)
 -   Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
     -   exp.def >> def.exp
