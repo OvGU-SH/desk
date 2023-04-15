@@ -43,7 +43,7 @@
     -   https://cran.r-project.org/web/packages/policies.html
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen)
+-   Refs in .R-files?
 -   ~~andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)~~
 -   ~~https://oekonometrie-lernen.de~~
--   Sönke: IV/ivplot ergänzen
--   Tobi: dyn. Modelle für DESK (Kap.22) + Hausmann-Test; Refs in .R-files
+
