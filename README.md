@@ -43,7 +43,7 @@
     -   https://cran.r-project.org/web/packages/policies.html
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen)
--   Refs in .R-files?
+-   Refs in .R-files, insb. LB/UB
 -   ~~andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)~~
 -   ~~https://oekonometrie-lernen.de~~
 

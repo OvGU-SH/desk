@@ -18,7 +18,7 @@ None.
 Shows the arguments and their default values of a function.
 }
 \examples{
-arguments(sample.rep)
+arguments(r.sample)
 
 }
 \seealso{
