@@ -13,7 +13,7 @@
 -   Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
     -   exp.def >> def.exp
     -   log.def >> def.log
-    -   rep.sample >> sample.rep
+    -   rep.sample >> r.sample
     -   t.coef.test >> par.t.test
     -   f.coef.test >> par.f.test (Konsistenz)
 -   @examples: Console output gelöscht (da sonst teilweise über 500 Zeilen)
