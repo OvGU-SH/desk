@@ -28,7 +28,7 @@
 -   Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
     -   Auer, L.v., S. Hoffmann & T. Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
     -   Auer et al. (2023)
--   (von Auer >> Konsistenz! sonst egal)    
+-   (von Auer: Konsistenz! sonst egal)    
 
 
 ### Offene Fragen

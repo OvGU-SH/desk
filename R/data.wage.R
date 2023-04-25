@@ -8,6 +8,8 @@
 #' \code{educ} \tab employee's extra education beyond the basic schooling degree (in years).\cr
 #' \code{age} \tab employee's age (in years).\cr
 #' \code{empl} \tab employee's time of employment in the company (in years).\cr
+#' \code{score} \tab employee's IQ test score.\cr
+#' \code{sex} \tab employee's sex (0 = male).\cr
 #' }
 #'
 #' @details
