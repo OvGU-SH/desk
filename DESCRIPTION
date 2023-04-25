@@ -4,9 +4,9 @@ Title: DESK - Didactic Econometrics Starter Kit
 Version: 1.1.0
 Author: Soenke Hoffmann
 Maintainer: Tobias Kranz <tobias.kranz@uni-trier.de>
-Description: This package is written to help undergraduate students to use R
-    for basic econometrics. Primarily, the package is meant to accompany the
-    german textbook: 
+Description: This package is written to help undergraduate as well as graduate
+    students to use R for basic econometrics. Primarily, the package is meant to 
+    accompany the german textbook: 
     Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 
     2nd ed., Springer-Gabler.
 License: GPL (>= 2)
