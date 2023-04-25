@@ -9,7 +9,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 *                                                               *
 *   Didactic Econometrics Starter Kit (DESK) is released for    *
-*   educational purposes, accompanying the german textbooks:    *                                         *
+*   educational purposes, accompanying the German textbooks:    *
 *                                                               *
 *   L.v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed.      *
 *                                                               *
