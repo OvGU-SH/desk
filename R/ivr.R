@@ -246,7 +246,7 @@ ivr = function(formula,
   out$p.instr = out$fsd[,2]
   out$shea = shea
 
-  # Hausman test (omitted variable version)
+  # Wu-Hausman test (omitted variable version of Hausman)
   if(length(endog) > 1L){
     aux.reg = lm.fit(Z, X[, which(colnames(X) %in% endog)])
   }

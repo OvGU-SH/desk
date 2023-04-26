@@ -372,8 +372,8 @@ print.desk = function (x, details, digits = 4, ...){
           etest = matrix(NA, 2L, 1L)
           etest[1] = obj$f.hausman
           etest[2] = obj$p.hausman
-          dimnames(etest) = list(c("Hausman Test (F-value):",
-                                 "Hausman Test (p-value):"),
+          dimnames(etest) = list(c("Wu-Hausman test (F-value):",
+                                 "Wu-Hausman test (p-value):"),
                                " ")
           etest = pretty.mat(etest, drop0trailing = TRUE)
           attr(etest,"title") = "Exogeneity (H0) test:"
