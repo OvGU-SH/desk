@@ -1,12 +1,12 @@
 #' German Economic Growth and Unemployment Rates
 #'
-#' @description This is a data set on German economic growth and unemployment rates from 1992 to 2014.
+#' @description This is a data set on German economic growth and unemployment rates from 1992 to 2021.
 #'
-#' @format A data frame with 23 observations on the following three variables:
+#' @format A data frame with 30 observations on the following three variables:
 #' \tabular{ll}{
 #' \code{year} \tab year.\cr
 #' \code{unempl} \tab change in German unemployment rate (in percentage points).\cr
-#' \code{gdp} \tab change in German gross domestic product (in percentage points).\cr
+#' \code{gdp} \tab change in German gross domestic product (in percentage).\cr
 #' }
 #'
 #' @details

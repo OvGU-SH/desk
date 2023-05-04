@@ -2,10 +2,12 @@
 #'
 #' @description This is a data set on twelve districts of a city. The data describe the district's distance to the city center and the average basic rent (it excludes additional costs).
 #'
-#' @format A data frame with 12 observations on the following two variables:
+#' @format A data frame with 12 observations on the following four variables:
 #' \tabular{ll}{
-#' \code{dist} \tab distance between district and city center (in km).\cr
 #' \code{rent} \tab district's basic rent (in euro per square meter).\cr
+#' \code{dist} \tab distance between district and city center (in km).\cr
+#' \code{share} \tab share of rental properties considered for random selection.\cr
+#' \code{area} \tab usable area (in square meter).\cr
 #' }
 #'
 #' @details

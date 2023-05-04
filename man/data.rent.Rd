@@ -5,10 +5,12 @@
 \alias{data.rent}
 \title{Average Basic Rent in City Districts}
 \format{
-A data frame with 12 observations on the following two variables:
+A data frame with 12 observations on the following four variables:
 \tabular{ll}{
-\code{dist} \tab distance between district and city center (in km).\cr
 \code{rent} \tab district's basic rent (in euro per square meter).\cr
+\code{dist} \tab distance between district and city center (in km).\cr
+\code{share} \tab share of rental properties considered for random selection.\cr
+\code{area} \tab usable area (in square meter).\cr
 }
 }
 \source{
