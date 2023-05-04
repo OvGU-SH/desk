@@ -36,6 +36,14 @@
 -   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
 
 
+### Befehle
+
+- usethis::use_data(as.data.frame(data.example), overwrite = T)
+- devtools::document()
+- devtools::check()
+- devtools::install("C:/Users/Administrator/Seafile/OekoBuch_Kranz/desk")
+
+
 ### ToDo
 
 -   für CRAN-release nochmals durchgehen: 
