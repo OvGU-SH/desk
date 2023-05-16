@@ -95,6 +95,13 @@ ols = function(formula, data = list(), na.action = NULL, contrasts = NULL, detai
   k = ncol(X) # Number of coefs in the model
   df = n - k # Number of coefs in the model
 
+  # Perfect Collinearity
+  qr.decomp <- qr(X)
+  diag.upper <- diag(qr.decomp$qr)[1:min(dim(X))]
+  if (any(abs(diag.upper) < 1e-10)) {
+    stop("There is the problem of perfect collinearity.", call. = F)
+  }
+
   # Regression
   if (!is.empty.model(mt)) {
     out = as.list(lm.fit(X, y, singular.ok = TRUE, ...))
