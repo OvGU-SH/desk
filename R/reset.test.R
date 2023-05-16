@@ -90,7 +90,7 @@ reset.test = function (mod,
                        row.names = "")
 
   out = list()
-  attr(out, "title") = "RESET Test for nonlinear functional form"
+  attr(out, "title") = "RESET Method for nonlinear functional form"
   out$hyp = H # Null and alternative hypothesis
   out$results = results # Basic test results
   out$SSR0 = SSR0 # SSR NH-model
