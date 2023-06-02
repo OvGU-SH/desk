@@ -15,7 +15,10 @@
 #' ols.has.const(my.modA)
 #' ols.has.const(my.modB)
 #'
-#' @concept level parameter, constant, intercept, linear model
+#' @concept level parameter
+#' @concept constant
+#' @concept intercept
+#' @concept linear model
 #'
 #####
 ols.has.const = function(mod){

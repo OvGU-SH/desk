@@ -33,4 +33,5 @@ Paolella, M.S. (2007): Intermediate Probability - A Computational Approach, Wile
 \seealso{
 \code{\link{ddw}}, \code{\link{dw.test}}.
 }
-\concept{Durbin-Watson, null distribution}
+\concept{Durbin-Watson}
+\concept{null distribution}

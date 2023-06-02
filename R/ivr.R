@@ -111,7 +111,8 @@
 #' abline(a = aD, b = bD)
 #' abline(a = aS, b = bS)
 #'
-#' @concept endogeneity, instrument variable
+#' @concept endogeneity
+#' @concept instrument variable
 #'
 #####
 ivr = function(formula,

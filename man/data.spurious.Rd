@@ -15,7 +15,7 @@ A data frame with yearly observations from 1880 to 2022 on the following five va
 }
 }
 \source{
-Downloaded in 2023 from \url{https://data.giss.nasa.gov/gistemp}, \url{https://iupac.org/what-we-do/periodic-table-of-elements}, Deutsche Bundesbank Zeitreihen-Datenbanken (BBEX3.A.XAU.USD.EA.AC.C08), and \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}.
+Downloaded in 2023 from \url{https://data.giss.nasa.gov/gistemp/}, \url{https://iupac.org/what-we-do/periodic-table-of-elements/}, Deutsche Bundesbank Zeitreihen-Datenbanken (BBEX3.A.XAU.USD.EA.AC.C08), and \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}.
 }
 \usage{
 data.spurious
@@ -27,6 +27,6 @@ The variables in this data set are non-stationary and help to understand spuriou
 In Auer, L von (2016, Chap. 22) and Auer, L. von, S. Hoffmann (2017, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

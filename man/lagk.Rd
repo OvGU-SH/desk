@@ -26,4 +26,6 @@ lagk(u,lag = 3)
 lagk(u,lag = 3, delete = FALSE)
 
 }
-\concept{lag, heteroscedasticity, lagged residuals}
+\concept{heteroscedasticity}
+\concept{lag}
+\concept{lagged residuals}

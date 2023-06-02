@@ -26,7 +26,10 @@
 #' X <- makedata.corr(n = 10, k = 2, CORR = corr.mat, sample = TRUE)
 #' cor(X) # exact values of corr.mat
 #'
-#' @concept variation, covariation, variance, covariance
+#' @concept variation
+#' @concept covariation
+#' @concept variance
+#' @concept covariance
 #'
 #####
 makedata.corr = function(n = 10, k = 2, CORR, sample = FALSE){

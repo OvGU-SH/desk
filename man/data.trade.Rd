@@ -29,6 +29,6 @@ This is a data set on German trade with its 27 EU-partners in 2014.
 In Auer, L. von, S. Hoffmann (2017, Chaps. 9 and 14) these data are used to illustrate the estimation and functional specification of a multivariate linear regression model.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

@@ -14,7 +14,7 @@ A data frame with 30 observations on the following four variables:
 }
 }
 \source{
-Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.insurance
@@ -26,6 +26,6 @@ This is a data set on the ability and success of salespersons in selling insuran
 In Auer (2016, Chap. 20) and Auer et al. (2017, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with an instrumental variable.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

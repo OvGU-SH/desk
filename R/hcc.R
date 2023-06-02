@@ -22,7 +22,8 @@
 #'
 #' hcc(wage ~ educ + age, data = data.wage)
 #'
-#' @concept heteroskedasticity, correction
+#' @concept heteroskedasticity
+#' @concept correction
 #'
 #####
 hcc = function(mod, data = list(), digits = 4) {

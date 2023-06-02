@@ -55,4 +55,6 @@ J.B. Ramsey (1969): Tests for Specification Error in Classical Linear Least Squa
 \seealso{
 \code{\link[lmtest]{resettest}}.
 }
-\concept{RESET, specification, functional form}
+\concept{RESET}
+\concept{functional form}
+\concept{specification}

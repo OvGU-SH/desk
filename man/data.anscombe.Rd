@@ -26,6 +26,6 @@ In von Auer and Hoffmann (2017, Chap. 3) these data are used to illustrate the s
 \references{
 Tufte, E.R. (1989): The Visual Display of Quantitative Information, 13-14. Graphics Press.
 
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

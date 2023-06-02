@@ -31,6 +31,6 @@ This is a data set on the prices and qualitative characteristics of US-cars sold
 In von Auer and Hoffmann (2017, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

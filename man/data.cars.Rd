@@ -26,6 +26,6 @@ The data give the speed of cars and the distances taken to stop. The data were r
 In Auer, L. von, S. Hoffmann (2017, Chaps. 5, 6, 7, 16) the data are used to illustrate the simple regression model and the consequences of truncated data.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

@@ -14,9 +14,9 @@
 #' In Auer, L von (2016, Chap. 17) and Auer, L. von, S. Hoffmann (2017, Chap. 17) these hypothetical data are used to illustrate the consequences of heteroskedastic error terms.
 #'
 #' @source
-#' Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.rent"

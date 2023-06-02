@@ -14,7 +14,9 @@
 #' showfile(MyPath) # show everything
 #' showfile(MyPath, head = 4) # show only first 4 lines
 #'
-#' @concept arguments, function, default value
+#' @concept arguments
+#' @concept function
+#' @concept default value
 #'
 #####
 showfile = function(file, head = "all"){

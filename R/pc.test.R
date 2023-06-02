@@ -33,7 +33,9 @@
 #'
 #' plot(X)
 #'
-#' @concept structural break, chow test, prognostic chow test
+#' @concept structural break
+#' @concept Chow test
+#' @concept prognostic Chow test
 #'
 #####
 pc.test = function(mod,

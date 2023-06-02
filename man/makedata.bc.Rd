@@ -58,4 +58,8 @@ plot(D.dat, main = "concave scatter, x transf.")
 par(mfrow = c(1,1))
 
 }
-\concept{plot, scatter, regression line, confidence band, prediction band}
+\concept{confidence band}
+\concept{plot}
+\concept{prediction band}
+\concept{regression line}
+\concept{scatter}

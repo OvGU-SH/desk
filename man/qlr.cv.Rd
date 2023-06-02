@@ -42,4 +42,7 @@ qlr.cv(tAll = 60)
 \references{
 Andrews, D.W.K. (2003): Tests for Parameter Instability and Structural Change with Unknown Change Point: A Corrigendum. Econometrica 71, 395-397.
 }
-\concept{Quandt Likelihood Ratio, QLR, critical value, structural break}
+\concept{QLR}
+\concept{Quandt Likelihood Ratio}
+\concept{critical value}
+\concept{structural break}

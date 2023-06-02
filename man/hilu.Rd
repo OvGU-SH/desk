@@ -51,4 +51,7 @@ print(X, details = FALSE)
 plot(X)
 
 }
-\concept{VKQ, Hildreth-Lu, autocorrelation, AR1 process}
+\concept{AR1 process}
+\concept{Hildreth-Lu}
+\concept{VKQ}
+\concept{autocorrelation}

@@ -45,7 +45,9 @@
 #' ## Plot the test result
 #' plot(X)
 #'
-#' @concept normality, normal distribution, test
+#' @concept normality
+#' @concept normal distribution
+#' @concept test
 #'
 #####
 jb.test = function(x, data = list(), sig.level = 0.05, details = FALSE, hyp = TRUE){

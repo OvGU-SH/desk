@@ -92,4 +92,6 @@ fert.est <- ols(barley ~ phos + nit, data = log(data.fertilizer), details = TRUE
 fert.est
 
 }
-\concept{ordinary least squares, linear model, regression}
+\concept{linear model}
+\concept{ordinary least squares}
+\concept{regression}

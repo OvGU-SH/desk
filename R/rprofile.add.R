@@ -11,7 +11,10 @@
 #' @examples
 #' if (FALSE) rprofile.add("library(desk)") # Makes package desk to be loaded at startup
 #'
-#' @concept R, startup, configuration, Rprofile.site
+#' @concept R
+#' @concept startup
+#' @concept configuration
+#' @concept Rprofile.site
 #'
 #####
 rprofile.add = function(line){

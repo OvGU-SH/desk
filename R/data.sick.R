@@ -13,9 +13,9 @@
 #' In Auer, L. von, S. Hoffmann (2017, Chap. 18) these data are used to illustrate the consequences of autocorrelated error terms.
 #'
 #' @source
-#' Federal Statistical Office of Germany (\url{https://www.destatis.de/DE/ZahlenFakten/Indikatoren/QualitaetArbeit/QualitaetDerArbeit.html}).
+#' Federal Statistical Office of Germany (\url{https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/_qualitaet-arbeit.html}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.sick"

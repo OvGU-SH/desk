@@ -47,7 +47,10 @@
 #' ## Three PI
 #' ols.interval(fert.est, type = "pred", xnew = my.mat, details = TRUE)
 #'
-#' @concept confidence interval, acceptance interval, prediction interval, linear model
+#' @concept confidence interval
+#' @concept acceptance interval
+#' @concept prediction interval
+#' @concept linear model
 #'
 #####
 ols.interval = function(mod,

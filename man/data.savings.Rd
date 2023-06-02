@@ -29,6 +29,6 @@ Under the life-cycle savings hypothesis as developed by Franco Modigliani, the s
 In Auer, L. von, S. Hoffmann (2017, Chaps. 9, 10, and 12) the data set is used to illustrate the econometric analysis of a multivariate linear regression model.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

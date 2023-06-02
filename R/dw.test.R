@@ -43,7 +43,9 @@
 #' ## Calculate DW null-distribution and plot the test results
 #' plot(test.results)
 #'
-#' @concept Durbin Watson test, AR1, autocorrelation
+#' @concept Durbin Watson test
+#' @concept AR1
+#' @concept autocorrelation
 #'
 #####
 dw.test = function (mod, data = list(),

@@ -31,7 +31,7 @@ plot(exp.values)
 
 ## Spurious regression example
 set.seed(123)
-N <- 10^4
+N <- 10^3
 p.values <- rep(NA, N)
 
 for (i in 1:N) {
@@ -49,4 +49,7 @@ for (i in 1:N) {
 sum(p.values < 0.05)/N    # share of significant results (~ 5\%)
 
 }
-\concept{rolling window, stationarity, non-stationarity, weak dependence}
+\concept{non-stationarity}
+\concept{rolling window}
+\concept{stationarity}
+\concept{weak dependence}

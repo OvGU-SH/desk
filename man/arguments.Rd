@@ -24,4 +24,6 @@ arguments(r.sample)
 \seealso{
 \code{\link[base]{args}}.
 }
-\concept{arguments, function, default value}
+\concept{arguments}
+\concept{default value}
+\concept{function}

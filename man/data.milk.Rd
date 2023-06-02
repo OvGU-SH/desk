@@ -12,7 +12,7 @@ A data frame with 12 observations on the following two variables:
 }
 }
 \source{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.milk
@@ -24,6 +24,6 @@ This is a data set on the use of concentrated feed for cows and their milk outpu
 In Auer, L von (2016, Chap. 14) and Auer, L. von, S. Hoffmann (2017, Chap. 14) these hypothetical data are used to illustrate the functional specification of a regression model.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

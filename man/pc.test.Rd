@@ -52,4 +52,6 @@ X
 plot(X)
 
 }
-\concept{structural break, chow test, prognostic chow test}
+\concept{Chow test}
+\concept{prognostic Chow test}
+\concept{structural break}

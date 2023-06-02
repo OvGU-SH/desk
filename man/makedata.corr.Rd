@@ -34,4 +34,7 @@ X <- makedata.corr(n = 10, k = 2, CORR = corr.mat, sample = TRUE)
 cor(X) # exact values of corr.mat
 
 }
-\concept{variation, covariation, variance, covariance}
+\concept{covariance}
+\concept{covariation}
+\concept{variance}
+\concept{variation}

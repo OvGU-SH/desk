@@ -17,7 +17,7 @@ A data frame with 25 observations on the following seven variables:
 }
 }
 \source{
-Downloaded in 2007 from \url{https://ec.europa.eu/budget/library}, \url{https://ec.europa.eu/eurostat}.
+Downloaded in 2007 from \url{https://commission.europa.eu/strategy-and-policy/eu-budget_en}, \url{https://ec.europa.eu/eurostat}.
 }
 \usage{
 data.eu
@@ -28,6 +28,6 @@ This is a data set on the shares of total EU-expenditures received by the indivi
 \references{
 Auer, L.v. (2008): Eine empirische Analyse der EU-Ausgabenpolitik, in H. Gischer, P. Reichling, T. Spengler, A. Wenig (eds.), Transformation in der Oekonomie - Festschrift fuer Gerhard Schwoediauer zum 65. Geburtstag, Gabler.
 
-Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

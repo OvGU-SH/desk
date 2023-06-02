@@ -48,4 +48,5 @@ ols.predict(fert.est, xnew = my.mat)
 ols.predict(fert.est, xnew = my.mat, antilog = TRUE, details = TRUE)
 
 }
-\concept{predicted values, linear model}
+\concept{linear model}
+\concept{predicted values}

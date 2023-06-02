@@ -18,4 +18,6 @@ This function implements an S3 method for plotting regression- and test-results 
 # see the help page of the commands, respectively
 
 }
-\concept{plot, regression results, test results}
+\concept{plot}
+\concept{regression results}
+\concept{test results}

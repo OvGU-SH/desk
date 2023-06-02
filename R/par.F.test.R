@@ -55,7 +55,10 @@
 #' plot(x) # Visualize the test result
 #' plot(x, plot.what = "ellipse", q = c(0.33, 0.33))
 #'
-#' @concept F-test, linear combination, linear hypothesis, linear model
+#' @concept F-test
+#' @concept linear combination
+#' @concept linear hypothesis
+#' @concept linear model
 #'
 #####
 par.f.test = function(mod,

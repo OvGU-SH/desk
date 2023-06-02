@@ -27,7 +27,8 @@
 #' my.mod <- ols(y ~ x)
 #' bc.model(my.mod)
 #'
-#' @concept Box-Cox-Model, deformed logarithm
+#' @concept Box-Cox-Model
+#' @concept deformed logarithm
 #'
 #####
 bc.model = function(mod, data = list(), range = seq(-2,2,0.1), details = FALSE){

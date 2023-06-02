@@ -16,7 +16,7 @@ A data frame with 20 observations on the following four variables:
 }
 }
 \source{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.wage
@@ -28,6 +28,6 @@ This is a data set on the wage structure in a company.
 In Auer, L von (2016, Chap. 13) and Auer, L. von, S. Hoffmann (2017, Chap. 13) these hypothetical data are used to illustrate the selection of the relevant exogenous variables.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

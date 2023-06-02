@@ -22,7 +22,8 @@
 #' filter.est <- ols(sales ~ price, data = data.filter)
 #' pdw(x = c(0.9, 1.7, 2.15), filter.est)
 #'
-#' @concept Durbin-Watson, null distribution
+#' @concept Durbin-Watson
+#' @concept null distribution
 #'
 #####
 pdw = function(x, mod, data = list()){

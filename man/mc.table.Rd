@@ -44,4 +44,5 @@ For a given set of regressors this command calculates the coefficient of determi
 mc.table(data.printer[,-1])
 
 }
-\concept{coefficient of determination, multicollinearity}
+\concept{coefficient of determination}
+\concept{multicollinearity}

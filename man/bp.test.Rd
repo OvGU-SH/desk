@@ -65,4 +65,6 @@ Koenker, R. (1981): A Note on Studentizing a Test for Heteroscedasticity. Journa
 \seealso{
 \code{\link{wh.test}}, \code{\link[lmtest]{bptest}}.
 }
-\concept{heteroskedasticity, Breuch Pagan test, non-constant error variance}
+\concept{Breuch Pagan test}
+\concept{heteroskedasticity}
+\concept{non-constant error variance}

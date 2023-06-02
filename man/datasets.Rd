@@ -16,4 +16,5 @@ Generates a table of data set names and descriptions available in package \code{
 datasets()
 
 }
-\concept{datasets, desk}
+\concept{datasets}
+\concept{desk}

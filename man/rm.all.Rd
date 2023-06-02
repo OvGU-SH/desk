@@ -27,4 +27,8 @@ rm.all(c("x","z"))
 rm.all()
 
 }
-\concept{objects, remove, delete, environment, .GlobalEnv}
+\concept{.GlobalEnv}
+\concept{delete}
+\concept{environment}
+\concept{objects}
+\concept{remove}

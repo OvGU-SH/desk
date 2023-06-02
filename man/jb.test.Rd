@@ -57,4 +57,6 @@ Jarque, C.M. & Bera, A.K. (1980): Efficient Test for Normality, Homoscedasticity
 \seealso{
 \code{\link[moments]{jarque.test}}.
 }
-\concept{normality, normal distribution, test}
+\concept{normal distribution}
+\concept{normality}
+\concept{test}

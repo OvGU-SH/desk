@@ -50,4 +50,6 @@ White, H. (1980): A Heteroskedasticity-Consistent Covariance Matrix Estimator an
 \seealso{
 \code{\link[lmtest]{bptest}}.
 }
-\concept{White test, heteroscedastic errors, heteroskedastic errors}
+\concept{White test}
+\concept{heteroscedastic errors}
+\concept{heteroskedastic errors}

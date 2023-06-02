@@ -41,7 +41,10 @@
 #' ## Plot SSR over rho-values to see minimum
 #' plot(X)
 #'
-#' @concept VKQ, Hildreth-Lu, autocorrelation, AR1 process
+#' @concept VKQ
+#' @concept Hildreth-Lu
+#' @concept autocorrelation
+#' @concept AR1 process
 #'
 #####
 hilu = function(mod, data = list(), range = seq(-1, 1, 0.01), details = FALSE){

@@ -22,6 +22,6 @@
 #' Chambers, J.M, W.S. Cleveland, B. Kleiner, P.A. Tukey (1983): Graphical Methods for Data Analysis, Wadsworth International Group.
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.auto"

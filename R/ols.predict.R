@@ -37,7 +37,8 @@
 #' ## Returns re-transformed predicted values and est. var. of pred. error
 #' ols.predict(fert.est, xnew = my.mat, antilog = TRUE, details = TRUE)
 #'
-#' @concept predicted values, linear model
+#' @concept predicted values
+#' @concept linear model
 #'
 #####
 ols.predict = function(mod, data = list(), xnew, antilog = FALSE, details = FALSE){

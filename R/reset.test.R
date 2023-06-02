@@ -35,7 +35,9 @@
 #' ## Plot the test result
 #' plot(X)
 #'
-#' @concept RESET, specification, functional form
+#' @concept RESET
+#' @concept specification
+#' @concept functional form
 #'
 #####
 reset.test = function (mod,

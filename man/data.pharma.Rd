@@ -14,7 +14,7 @@ A data frame with 24 quarterly observations on the following four variables:
 }
 }
 \source{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.pharma
@@ -26,6 +26,6 @@ This is a data set on quarterly commercials data of a pharmaceutical company.
 In Auer, L von (2016, Chap. 23) and Auer, L. von, S. Hoffmann (2017, Chap. 23) these hypothetical data are used to illustrate the estimation of simultaneous equation econometric models.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

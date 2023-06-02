@@ -27,4 +27,5 @@ def.log(3,2) # Deformed by lambda = 2
 \seealso{
 \code{\link{def.exp}}.
 }
-\concept{deformation, logarithm}
+\concept{deformation}
+\concept{logarithm}

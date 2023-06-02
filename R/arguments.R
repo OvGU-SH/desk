@@ -16,7 +16,9 @@
 #' @examples
 #' arguments(r.sample)
 #'
-#' @concept arguments, function, default value
+#' @concept arguments
+#' @concept function
+#' @concept default value
 #'
 #####
 arguments = function (fun, width = options("width")$width) {

@@ -25,8 +25,8 @@ This data set describes major macroeconomic variables determining the difference
 In Auer, L.v. (2016, Chap. 19) and Auer, L.v., S. Hoffmann (2017, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
 }
 \references{
-Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 
-Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

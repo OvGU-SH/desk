@@ -65,4 +65,6 @@ Paolella (2007): Intermediate Probability - A Computational Approach, Wiley.
 \seealso{
 \code{\link{ddw}}, \code{\link{pdw}}.
 }
-\concept{Durbin Watson test, AR1, autocorrelation}
+\concept{AR1}
+\concept{Durbin Watson test}
+\concept{autocorrelation}

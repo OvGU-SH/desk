@@ -31,4 +31,7 @@ Sxy(x)
 Sxy(x, na.rm = TRUE)
 
 }
-\concept{variation, covariation, variance, covariance}
+\concept{covariance}
+\concept{covariation}
+\concept{variance}
+\concept{variation}

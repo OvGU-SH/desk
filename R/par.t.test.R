@@ -36,7 +36,9 @@
 #' x = par.t.test(fert.est, nh = c(0,1,0), q = 0.5, dir = "right")
 #' plot(x)
 #'
-#' @concept t-test, linear hypothesis, linear model
+#' @concept t-test
+#' @concept linear hypothesis
+#' @concept linear model
 #'
 #####
 par.t.test = function(mod,

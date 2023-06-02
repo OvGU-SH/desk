@@ -16,8 +16,8 @@
 #' Mankiw, Romer and Weil (1992): A Contribution to the Empirics of Economic Growth. Quarterly Journal of Economics, 107, 407-437.
 #'
 #' @references
-#' Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
-#' Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.income"

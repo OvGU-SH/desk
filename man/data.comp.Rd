@@ -26,6 +26,6 @@ This is a data set on the monthly rentals of computers of different quality duri
 In Auer, L. von, S. Hoffmann (2017, Chaps. 13 and 14) these hypothetical data are used to illustrate the specification of a multivariate regression model.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

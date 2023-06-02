@@ -33,7 +33,9 @@
 #'
 #' plot(my.qlr) # Plot test results
 #'
-#' @concept structural break, unknown breakdate, Quandt Likelihod Ratio test
+#' @concept structural break
+#' @concept unknown breakdate
+#' @concept Quandt Likelihod Ratio test
 #'
 #####
 qlr.test = function(mod, data = list(), from, to, sig.level = 0.05, details = FALSE){

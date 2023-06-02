@@ -68,3 +68,5 @@ S.M. Goldfeld & R.E. Quandt (1965): Some Tests for Homoskedasticity. Journal of 
 \seealso{
 \code{\link{wh.test}}, \code{\link[lmtest]{gqtest}}.
 }
+\concept{heteroskedastic errors}
+\concept{heteroskedasticity}

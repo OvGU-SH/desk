@@ -17,7 +17,8 @@
 #' def.log(3)   # Natural log of 3
 #' def.log(3,2) # Deformed by lambda = 2
 #'
-#' @concept deformation, logarithm
+#' @concept deformation
+#' @concept logarithm
 #'
 #####
 def.log = function(x, lambda = 0, normalize = FALSE){

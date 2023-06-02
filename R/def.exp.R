@@ -17,7 +17,8 @@
 #' def.exp(3)   # Natural exponential of 3
 #' def.exp(3,2) # Deformed by lambda = 2
 #'
-#' @concept deformation, exponential
+#' @concept deformation
+#' @concept exponential
 #'
 #####
 def.exp = function(x, lambda = 0, normalize = FALSE){

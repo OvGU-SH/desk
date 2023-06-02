@@ -19,4 +19,7 @@ Adds a specified R command to file "Rprofile.site" for automatic execution durin
 if (FALSE) rprofile.add("library(desk)") # Makes package desk to be loaded at startup
 
 }
-\concept{R, startup, configuration, Rprofile.site}
+\concept{R}
+\concept{Rprofile.site}
+\concept{configuration}
+\concept{startup}

@@ -36,7 +36,11 @@
 #' plot(D.dat, main = "concave scatter, x transf.")
 #' par(mfrow = c(1,1))
 #'
-#' @concept plot, scatter, regression line, confidence band, prediction band
+#' @concept plot
+#' @concept scatter
+#' @concept regression line
+#' @concept confidence band
+#' @concept prediction band
 #'
 #####
 makedata.bc = function(lambda.x = 1, lambda.y = 1, a = 0, x.max = 5, n = 200, sigma = 1, seed = NULL){

@@ -38,7 +38,9 @@
 #' ## Plot the test result
 #' plot(X)
 #'
-#' @concept White test, heteroscedastic errors, heteroskedastic errors
+#' @concept White test
+#' @concept heteroscedastic errors
+#' @concept heteroskedastic errors
 #'
 #####
 wh.test = function(mod,

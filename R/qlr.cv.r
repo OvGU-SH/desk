@@ -25,7 +25,10 @@
 #' @examples
 #' qlr.cv(tAll = 60)
 #'
-#' @concept Quandt Likelihood Ratio, QLR, critical value, structural break
+#' @concept Quandt Likelihood Ratio
+#' @concept QLR
+#' @concept critical value
+#' @concept structural break
 #'
 #####
 qlr.cv = function(tAll, from = round(0.15*tAll), to = round(0.85*tAll), L = 2, sig.level = list(0.05, 0.01, 0.1)){

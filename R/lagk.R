@@ -16,7 +16,9 @@
 #' lagk(u,lag = 3)
 #' lagk(u,lag = 3, delete = FALSE)
 #'
-#' @concept lag, heteroscedasticity, lagged residuals
+#' @concept lag
+#' @concept heteroscedasticity
+#' @concept lagged residuals
 #'
 #####
 lagk = function(u, lag = 1, delete = TRUE){

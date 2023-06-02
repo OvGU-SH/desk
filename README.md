@@ -47,7 +47,8 @@
 ### ToDo
 
 -   für CRAN-release nochmals durchgehen: 
-    -   https://r-pkgs.org/check.html
+    -   ~~https://r-pkgs.org/check.html~~
+        - devtools::build(); cd ..; R CMD check desk_1.1.0.tar.gz
     -   https://cran.r-project.org/web/packages/policies.html
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen)

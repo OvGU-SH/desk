@@ -127,4 +127,11 @@ plot(out, plot.what = "scatter")
 plot(out, plot.what = "reglines")
 
 }
-\concept{repeated samples, simulation, ordinary least squares, confidence interval, CI, prediction interval, omitted variable bias, true regression parameters}
+\concept{CI}
+\concept{confidence interval}
+\concept{omitted variable bias}
+\concept{ordinary least squares}
+\concept{prediction interval}
+\concept{repeated samples}
+\concept{simulation}
+\concept{true regression parameters}

@@ -15,7 +15,7 @@
 #' In Auer, L.v., S. Hoffmann (2017, Chap. 17) these data are used to illustrate the consequences of heteroscedastic error terms.
 #'
 #' @source
-#' Data based on National Association of State #' Budget Officers (2015) State Expenditure Report, Table 1: Total State Expenditures - Capital Inclusive (\url{https://kff.org/state-category/demographics-and-the-economy/state-budgets}).
+#' Data based on National Association of State #' Budget Officers (2015) State Expenditure Report, Table 1: Total State Expenditures - Capital Inclusive (\url{https://www.kff.org/state-category/demographics-and-the-economy/state-budgets/}).
 #'
 #' U.S. Census Bureau (2015) Annual Surveys of State and Local Government Finances,Table 1: State and Local Government Finances by Level of Government and by State: 2012-13.
 #'
@@ -24,6 +24,6 @@
 #' U.S. Census Bureau (2015) Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico, Table 1.
 #'
 #' @references
-#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.govexpend"

@@ -45,4 +45,6 @@ my.qlr # Print test results
 plot(my.qlr) # Plot test results
 
 }
-\concept{structural break, unknown breakdate, Quandt Likelihod Ratio test}
+\concept{Quandt Likelihod Ratio test}
+\concept{structural break}
+\concept{unknown breakdate}

@@ -122,4 +122,5 @@ Kmenta, J. (1971): Elements of Econometrics, 2nd ed., The University of Michigan
 
 Murray, M.P. (2006): Econometrics - A Modern Introduction, Pearson.
 }
-\concept{endogeneity, instrument variable}
+\concept{endogeneity}
+\concept{instrument variable}

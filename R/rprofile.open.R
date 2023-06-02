@@ -9,7 +9,10 @@
 #' @examples
 #' if (FALSE) rprofile.open() # Open the file if statement = TRUE
 #'
-#' @concept R, startup, configuration, Rprofile.site
+#' @concept R
+#' @concept startup
+#' @concept configuration
+#' @concept Rprofile.site
 #'
 #####
 rprofile.open = function(){

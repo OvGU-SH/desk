@@ -32,4 +32,5 @@ White, H. (1980): A Heteroskedasticity-Consistent Covariance Matrix Estimator an
 \seealso{
 \code{\link{wh.test}}, \code{\link[lmtest]{bptest}}.
 }
-\concept{heteroskedasticity, correction}
+\concept{correction}
+\concept{heteroskedasticity}

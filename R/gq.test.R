@@ -42,6 +42,9 @@
 #'
 #' plot(results)
 #'
+#' @concept heteroskedasticity
+#' @concept heteroskedastic errors
+#'
 #####
 gq.test = function (mod,
                     data = list(),

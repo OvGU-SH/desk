@@ -72,4 +72,7 @@ ols.interval(fert.est, type = "pred", xnew = c(x1 = log(29), x2 = log(120)), det
 ols.interval(fert.est, type = "pred", xnew = my.mat, details = TRUE)
 
 }
-\concept{confidence interval, acceptance interval, prediction interval, linear model}
+\concept{acceptance interval}
+\concept{confidence interval}
+\concept{linear model}
+\concept{prediction interval}

@@ -16,4 +16,7 @@ Opens the user R startup file "Rprofile.site" for viewing or editing.
 if (FALSE) rprofile.open() # Open the file if statement = TRUE
 
 }
-\concept{R, startup, configuration, Rprofile.site}
+\concept{R}
+\concept{Rprofile.site}
+\concept{configuration}
+\concept{startup}

@@ -19,7 +19,11 @@
 #' ## Delete everything
 #' rm.all()
 #'
-#' @concept objects, remove, delete, environment, .GlobalEnv
+#' @concept objects
+#' @concept remove
+#' @concept delete
+#' @concept environment
+#' @concept .GlobalEnv
 #'
 #####
 rm.all = function(keep = NULL) {

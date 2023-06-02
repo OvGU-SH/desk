@@ -35,4 +35,5 @@ my.mod <- ols(y ~ x)
 bc.model(my.mod)
 
 }
-\concept{Box-Cox-Model, deformed logarithm}
+\concept{Box-Cox-Model}
+\concept{deformed logarithm}

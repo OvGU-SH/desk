@@ -12,7 +12,8 @@
 #' @examples
 #' datasets()
 #'
-#' @concept datasets, desk
+#' @concept datasets
+#' @concept desk
 #'
 #####
 datasets = function(){

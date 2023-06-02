@@ -13,6 +13,6 @@
 #' In Auer, L. von, S. Hoffmann (2017, Chap. 15) these hypothetical data are used to illustrate the consequences of a structural break.
 #'
 #' @source
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.burglary"

@@ -19,7 +19,9 @@
 #' ols.infocrit(wage.est, scaled = TRUE) # Return all criteria scaled
 #' ols.infocrit(wage.est, which = "pc") # Return Prognostic Criterion unscaled
 #'
-#' @concept Akaike Information Criterion, Schwarz Criterion, Prognostic Criterion
+#' @concept Akaike Information Criterion
+#' @concept Schwarz Criterion
+#' @concept Prognostic Criterion
 #'
 #####
 ols.infocrit = function(mod, which = "all", scaled = FALSE){

@@ -22,7 +22,10 @@
 #' Sxy(x)
 #' Sxy(x, na.rm = TRUE)
 #'
-#' @concept variation, covariation, variance, covariance
+#' @concept variation
+#' @concept covariation
+#' @concept variance
+#' @concept covariance
 #'
 #####
 Sxy = function(x, y = x, na.rm = FALSE){

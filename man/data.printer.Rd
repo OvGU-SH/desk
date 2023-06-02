@@ -17,7 +17,7 @@ A data frame with 44 observations on the following five variables:
 \source{
 Data from computer magazin c't (February 1992 to August 2001).
 
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.printer
@@ -29,6 +29,6 @@ This is a data set on the prices and qualitative characteristics of laser printe
 In Auer, L von (2016, Chap. 21) and Auer, L. von, S. Hoffmann (2017, Chap. 21) these hypothetical data are used to illustrate the consequences of multicollinear exogenous variables.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\url{https://www.oekonometrie-lernen.de}).
+Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

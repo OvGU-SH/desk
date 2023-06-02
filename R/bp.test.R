@@ -43,7 +43,9 @@
 #' ## Plot the test result
 #' plot(X)
 #'
-#' @concept heteroskedasticity, Breuch Pagan test, non-constant error variance
+#' @concept heteroskedasticity
+#' @concept Breuch Pagan test
+#' @concept non-constant error variance
 #'
 #####
 bp.test = function(mod,

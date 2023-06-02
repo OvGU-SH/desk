@@ -101,7 +101,14 @@
 #' ## Illustrate confidence bands in a regression
 #' plot(out, plot.what = "reglines")
 #'
-#' @concept repeated samples, simulation, ordinary least squares, confidence interval, CI, prediction interval, omitted variable bias, true regression parameters
+#' @concept repeated samples
+#' @concept simulation
+#' @concept ordinary least squares
+#' @concept confidence interval
+#' @concept CI
+#' @concept prediction interval
+#' @concept omitted variable bias
+#' @concept true regression parameters
 #'
 #####
 r.sample = function(x, true.par, omit = 0, mean = 0, sd = 1, rep = 100,
