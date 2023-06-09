@@ -24,9 +24,9 @@ data.spurious
 The variables in this data set are non-stationary and help to understand spurious regression in the context of time series analysis.
 }
 \details{
-In Auer, L von (2016, Chap. 22) and Auer, L. von, S. Hoffmann (2017, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
+In Auer  (2023, Chap. 22) and Auer et al. (2023, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

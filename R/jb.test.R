@@ -22,10 +22,10 @@
 #' \code{nulldist} \tab type of the Null distribution and its parameter(s).\cr
 #' }
 #'
+#' @export
+#'
 #' @references
 #' Jarque, C.M. & Bera, A.K. (1980): Efficient Test for Normality, Homoscedasticity and Serial Independence of Residuals. Economics Letters 6 Issue 3, 255-259.
-#'
-#' @export
 #'
 #' @seealso \code{\link[moments]{jarque.test}}.
 #'

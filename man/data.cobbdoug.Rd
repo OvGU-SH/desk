@@ -13,7 +13,7 @@ A data frame with 100 observations on the following three variables:
 }
 }
 \source{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.cobbdoug
@@ -22,9 +22,9 @@ data.cobbdoug
 This is a data set on a production process that can be formalized by a Cobb-Douglas production function.
 }
 \details{
-In Auer, L. von, S. Hoffmann (2017, Chap. 14) these hypothetical data are used to illustrate the functional specification of a regression model.
+In Auer et al. (2023, Chap. 14) these hypothetical data are used to illustrate the functional specification of a regression model.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

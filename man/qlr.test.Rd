@@ -45,6 +45,9 @@ my.qlr # Print test results
 plot(my.qlr) # Plot test results
 
 }
+\references{
+Quandt, R.E. (1960): Tests of the Hypothesis That a Linear Regression Obeys Two Separate Regimes. Journal of the American Statistical Association 55, 324–30.
+}
 \concept{Quandt Likelihod Ratio test}
 \concept{structural break}
 \concept{unknown breakdate}

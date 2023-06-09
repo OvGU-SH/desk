@@ -12,7 +12,7 @@
 #' }
 #'
 #' @details
-#' In Auer, L. von, S. Hoffmann (2017, Chaps. 9 and 14) these data are used to illustrate the estimation and functional specification of a multivariate linear regression model.
+#' In Auer et al. (2023, Chaps. 9 & 14) these data are used to illustrate the estimation and functional specification of a multivariate linear regression model.
 #'
 #' @source
 #' Downloaded in 2015 from online platform of Eurostat (\url{https://ec.europa.eu/eurostat/home}).
@@ -20,6 +20,6 @@
 #' Distances computed by FreeMapTools (\url{https://www.freemaptools.com}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.trade"

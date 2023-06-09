@@ -13,7 +13,7 @@ A data frame with 30 observations on the following three variables:
 }
 }
 \source{
-Auer, L.v. (2016) \emph{Oekonometrie - Eine Einfuehrung}, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.fertilizer
@@ -22,9 +22,9 @@ data.fertilizer
 This is a data set on the use of fertilizers (phosphate and nitrogen) in the cultivation of barley.
 }
 \details{
-In Auer, L.v. (2016, Chap. 9) and Auer, L.v. and Hoffmann, S. (2017, Chap. 9). These hypothetical data are used to illustrate the estimation of a multivariate linear regression model.
+In Auer (2023, Chap. 9) and Auer et al. (2023, Chap. 9). These hypothetical data are used to illustrate the estimation of a multivariate linear regression model.
 }
 \references{
-Auer, L.v. and Hoffmann, S. (2017) \emph{Oekonometrie - Das R-Arbeitsbuch}, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

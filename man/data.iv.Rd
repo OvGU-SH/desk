@@ -15,7 +15,7 @@ A data frame with 8 observations on the following five variables:
 }
 }
 \source{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.iv
@@ -24,6 +24,6 @@ data.iv
 This data set is on the use of instrumental variables.
 }
 \details{
-In Auer, L. von, S. Hoffmann (2017, Chap. 20) these hypothetical data are used to illustrate the use of two stage least squares estimation with instrumental variables.
+In Auer et al. (2023, Chap. 20) these hypothetical data are used to illustrate the use of two stage least squares estimation with instrumental variables.
 }
 \keyword{datasets}

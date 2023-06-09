@@ -28,7 +28,7 @@ ddw(x = c(0.9, 1.7, 2.15), filter.est)
 
 }
 \references{
-Durbin, J. and G.S. Watson (1950): Testing for Serial Correlation in Least Squares Regression I. Biometrika 37, 409-428.
+Durbin, J. & Watson, G.S. (1950): Testing for Serial Correlation in Least Squares Regression I. Biometrika 37, 409-428.
 
 Paolella (2007): Intermediate Probability - A Computational Approach, Wiley.
 }

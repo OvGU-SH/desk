@@ -12,13 +12,13 @@
 #' }
 #'
 #' @details
-#' In Auer, L von (2016, Chap. 21) and Auer, L. von, S. Hoffmann (2017, Chap. 21) these hypothetical data are used to illustrate the consequences of multicollinear exogenous variables.
+#' In Auer (2023, Chap. 21) and Auer et al. (2023, Chap. 21) these hypothetical data are used to illustrate the consequences of multicollinear exogenous variables.
 #' @source
 #' Data from computer magazin c't (February 1992 to August 2001).
 #'
-#' Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.printer"

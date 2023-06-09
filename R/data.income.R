@@ -10,14 +10,14 @@
 #' }
 #'
 #' @details
-#' In Auer, L.v. (2016, Chap. 19) and Auer, L.v., S. Hoffmann (2017, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
+#' In Auer (2023, Chap. 19) and Auer et al. (2023, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
 #'
 #' @source
-#' Mankiw, Romer and Weil (1992): A Contribution to the Empirics of Economic Growth. Quarterly Journal of Economics, 107, 407-437.
+#' Mankiw, N.G., Romer, D. & Weil, D.N. (1992): A Contribution to the Empirics of Economic Growth. Quarterly Journal of Economics, 107, 407-437.
 #'
 #' @references
-#' Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
-#' Auer, L.v., S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.income"

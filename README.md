@@ -9,6 +9,7 @@
 -   @keywords >> @concept: Phrasen (z.B. deformed logarithm) und nicht nur einzelne Wörter werden gefunden
     - keine Sonderzeichen, z.B. AR(1) >> AR1
 -   Typos verbessert, auf Konsistenz geachtet und Format-Konventionen umgesetzt in help-files
+-   Refs ergänzt und aktualisiert
 -   @importFrom für Cross-refs (mandatory)
 -   Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
     -   exp.def >> def.exp
@@ -22,18 +23,19 @@
 
 ### Literatur und Zitierung (mit ASCII Äquivalent für Umlaute)
 
--   Auer, L.v. (2023) Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler.
-    -   Auer, L.v. (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed., Springer-Gabler.
-    -   Auer (2023)
--   Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
-    -   Auer, L.v., S. Hoffmann & T. Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler.
-    -   Auer et al. (2023)
--   (von Auer: Konsistenz! sonst egal)    
+-   Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler
+-   Auer (2023) [im Text]
+-   L.v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed. [StartupMessage]
+
+-   Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler
+-   Auer et al. (2023) [im Text]
+-   L.v.Auer, S.Hoffmann & T.Kranz (2023) \u00d6konometrie - Das R-Arbeitsbuch, 2nd ed. [StartupMessage]
 
 
 ### Offene Fragen
 
 -   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
+  - LvA: auf Konsistenz achten
 
 
 ### Befehle
@@ -42,17 +44,17 @@
 - devtools::document()
 - devtools::check()
 - devtools::install("C:/Users/Administrator/Seafile/OekoBuch_Kranz/desk")
+- devtools::build(); cd ..; R CMD check desk_1.1.0.tar.gz
 
 
 ### ToDo
 
 -   für CRAN-release nochmals durchgehen: 
     -   ~~https://r-pkgs.org/check.html~~
-        - devtools::build(); cd ..; R CMD check desk_1.1.0.tar.gz
     -   https://cran.r-project.org/web/packages/policies.html
 -   devtools::build_site()
 -   weitere Keywords? (.R-files durchgehen)
--   Refs in .R-files, insb. LB/UB
+-   Refs in .R-files >> LB/UB ggf. angleichen
 -   ~~andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)~~
 -   ~~https://oekonometrie-lernen.de~~
 

@@ -11,12 +11,12 @@
 #' }
 #'
 #' @details
-#' In Auer (2016, Chap. 20) and Auer et al. (2017, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with an instrumental variable.
+#' In Auer (2023, Chap. 20) and Auer et al. (2023, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with an instrumental variable.
 #'
 #' @source
-#' Auer, L.v. (2016) Ökonometrie - Eine Einführung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Ökonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.insurance"

@@ -10,12 +10,12 @@
 #' }
 #'
 #' @details
-#' In Auer, L. von, S. Hoffmann (2017, Chap. 3) these hypothetical data are used to illustrate the use of the simple linear regression model.
+#' In Auer et al. (2023, Chap. 3) these hypothetical data are used to illustrate the use of the simple linear regression model.
 #'
 #' @source
 #' World Value Survey \url{https://www.worldvaluessurvey.org}.
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.lifesat"

@@ -19,6 +19,6 @@
 #' @references
 #' Auer, L.v. (2008): Eine empirische Analyse der EU-Ausgabenpolitik, in H. Gischer, P. Reichling, T. Spengler, A. Wenig (eds.), Transformation in der Oekonomie - Festschrift fuer Gerhard Schwoediauer zum 65. Geburtstag, Gabler.
 #'
-#' Auer, L.v., S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.eu"

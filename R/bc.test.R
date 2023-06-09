@@ -23,7 +23,7 @@
 #' @importFrom stats qchisq pchisq
 #'
 #' @references
-#' Box, G.E.P. and Cox, D.R. (1964): An analysis of transformations. Journal of the Royal Statistical Society, Series B. 26, 211-243.
+#' Box, G.E.P. & Cox, D.R. (1964): An Analysis of Transformations. Journal of the Royal Statistical Society, Series B. 26, 211-243.
 #'
 #' @seealso \code{\link[MASS]{boxcox}}.
 #'

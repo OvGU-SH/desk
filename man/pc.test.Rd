@@ -52,6 +52,9 @@ X
 plot(X)
 
 }
+\references{
+Chow, G.C. (1960): Tests of Equality Between Sets of Coefficients in Two Linear Regressions. Econometrica 28, 591-605.
+}
 \concept{Chow test}
 \concept{prognostic Chow test}
 \concept{structural break}

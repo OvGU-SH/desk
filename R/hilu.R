@@ -22,6 +22,9 @@
 #'
 #' @export
 #'
+#' @references
+#' Hildreth, C. & Lu, J.Y. (1960): Demand Relations with Autocorrelated Disturbances. AES Technical Bulletin 276, Michigan State University.
+#'
 #' @examples
 #' sales.est <- ols(sales ~ price, data = data.filter)
 #'

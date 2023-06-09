@@ -14,12 +14,12 @@
 #' @details
 #' Under the life-cycle savings hypothesis as developed by Franco Modigliani, the savings ratio (aggregate personal saving divided by disposable income) is explained by per-capita disposable income, the percentage rate of change in per-capita disposable income, and two demographic variables: the percentage of population less than 15 years old and the percentage of the population over 75 years old. The data are averaged over the decade 1960-1970 to remove the business cycle or other short-term fluctuations.
 #'
-#' In Auer, L. von, S. Hoffmann (2017, Chaps. 9, 10, and 12) the data set is used to illustrate the econometric analysis of a multivariate linear regression model.
+#' In Auer et al. (2023, Chaps. 9, 10 & 12) the data set is used to illustrate the econometric analysis of a multivariate linear regression model.
 #'
 #' @source
 #' R package data sets (object LifeCycleSavings).
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.savings"

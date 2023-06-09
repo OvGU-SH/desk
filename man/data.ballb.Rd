@@ -12,7 +12,7 @@ A data frame with seven observations on the following two variables:
 }
 }
 \source{
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.ballb
@@ -21,9 +21,9 @@ data.ballb
 This is a data set on the percentage of rejects in the production of ball bearings.
 }
 \details{
-In Auer, L. von (2016, Chap. 16) and Auer, L. von, S. Hoffmann (2017, Chap. 16) these hypothetical data are used to illustrate the consequences of error terms with an expected value deviating from zero.
+In Auer (2023, Chap. 16) and Auer et al. (2023, Chap. 16) these hypothetical data are used to illustrate the consequences of error terms with an expected value deviating from zero.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

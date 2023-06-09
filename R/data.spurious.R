@@ -11,12 +11,12 @@
 #' \code{cpi} \tab consumer price index: total all items for the United States (index 2015 = 100) starting in 1968.\cr
 #' }
 #' @details
-#' In Auer, L von (2016, Chap. 22) and Auer, L. von, S. Hoffmann (2017, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
+#' In Auer  (2023, Chap. 22) and Auer et al. (2023, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
 #'
 #' @source
 #' Downloaded in 2023 from \url{https://data.giss.nasa.gov/gistemp/}, \url{https://iupac.org/what-we-do/periodic-table-of-elements/}, Deutsche Bundesbank Zeitreihen-Datenbanken (BBEX3.A.XAU.USD.EA.AC.C08), and \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}.
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.spurious"

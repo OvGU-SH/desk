@@ -26,6 +26,9 @@
 #'
 #' @export
 #'
+#' @references
+#' Quandt, R.E. (1960): Tests of the Hypothesis That a Linear Regression Obeys Two Separate Regimes. Journal of the American Statistical Association 55, 324–30.
+#'
 #' @examples
 #' unemp.est <- ols(unempl ~ gdp, data = data.unempl)
 #' my.qlr <- qlr.test(unemp.est, from = 13, to = 17, details = TRUE)

@@ -7,7 +7,7 @@ Maintainer: Tobias Kranz <tobias.kranz@uni-trier.de>
 Description: Written to help undergraduate as well as graduate
     students to use R for basic econometrics. Primarily, the package is meant to 
     accompany the German textbook: 
-    Auer, L.v., S. Hoffmann & T. Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 
+    Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 
     2nd ed., Springer-Gabler.
 License: GPL (>= 2)
 Encoding: UTF-8

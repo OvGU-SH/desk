@@ -13,7 +13,7 @@ A data frame with 12 observations on the following three variables:
 }
 }
 \source{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.burglary
@@ -22,6 +22,6 @@ data.burglary
 This is a data set on the monthly number of burglaries and the number of power blackouts in a small town.
 }
 \details{
-In Auer, L. von, S. Hoffmann (2017, Chap. 15) these hypothetical data are used to illustrate the consequences of a structural break.
+In Auer et al. (2023, Chap. 15) these hypothetical data are used to illustrate the consequences of a structural break.
 }
 \keyword{datasets}

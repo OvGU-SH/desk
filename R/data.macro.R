@@ -17,6 +17,6 @@
 #' Downloaded in 2023 from \url{https://www-genesis.destatis.de/genesis/online} (Federal Statistical Office of Germany, data ID: 81000-0020).
 #'
 #' @references
-#' L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.macro"

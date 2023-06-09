@@ -27,7 +27,7 @@
 #' @export
 #'
 #' @references
-#' S.M. Goldfeld & R.E. Quandt (1965): Some Tests for Homoskedasticity. Journal of the American Statistical Association 60, 539-547.
+#' Goldfeld, S.M. & Quandt, R.E. (1965): Some Tests for Homoskedasticity. Journal of the American Statistical Association 60, 539-547.
 #'
 #' @seealso \code{\link{wh.test}}, \code{\link[lmtest]{gqtest}}.
 #'

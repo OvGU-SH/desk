@@ -9,7 +9,7 @@
 #' }
 #'
 #' @details
-#' In Auer, L. von, S. Hoffmann (2017, Chaps. 5, 6, 7, 16) the data are used to illustrate the simple regression model and the consequences of truncated data.
+#' In Auer et al. (2023, Chaps. 5, 6, 7 & 16) the data are used to illustrate the simple regression model and the consequences of truncated data.
 #'
 #' @source
 #' R package data sets (object cars).
@@ -17,6 +17,6 @@
 #' Ezekiel, M. (1930): Methods of Correlation Analysis, Wiley.
 #'
 #' @references
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.cars"

@@ -51,6 +51,9 @@ print(X, details = FALSE)
 plot(X)
 
 }
+\references{
+Hildreth, C. & Lu, J.Y. (1960): Demand Relations with Autocorrelated Disturbances. AES Technical Bulletin 276, Michigan State University.
+}
 \concept{AR1 process}
 \concept{Hildreth-Lu}
 \concept{VKQ}

@@ -23,7 +23,7 @@
 #' @export
 #'
 #' @references
-#' J.B. Ramsey (1969): Tests for Specification Error in Classical Linear Least Squares Regression Analysis. Journal of the Royal Statistical Society, Series B 31, 350-371.
+#' Ramsey, J.B. (1969): Tests for Specification Error in Classical Linear Least Squares Regression Analysis. Journal of the Royal Statistical Society, Series B 31, 350-371.
 #'
 #' @seealso \code{\link[lmtest]{resettest}}.
 #'

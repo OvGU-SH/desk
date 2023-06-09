@@ -19,7 +19,7 @@ A data frame with 52 observations on the following nine variables:
 }
 }
 \source{
-Chambers, J.M, W.S. Cleveland, B. Kleiner, P.A. Tukey (1983): Graphical Methods for Data Analysis, Wadsworth International Group.
+Chambers, J.M, Cleveland, W.S., Kleiner, B., Tukey, P.A. (1983): Graphical Methods for Data Analysis, Wadsworth International Group.
 }
 \usage{
 data.auto
@@ -28,9 +28,9 @@ data.auto
 This is a data set on the prices and qualitative characteristics of US-cars sold in 1979.
 }
 \details{
-In von Auer and Hoffmann (2017, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
+In Auer et al. (2023, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

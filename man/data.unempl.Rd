@@ -15,7 +15,7 @@ A data frame with 30 observations on the following three variables:
 \source{
 Online platform "Genesis" of the Federal Statistical Office of Germany (\url{https://www.destatis.de}).
 
-Auer, L. von (2016) Oekonometrie - Eine Einfuehrung, 7th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \usage{
 data.unempl
@@ -24,9 +24,9 @@ data.unempl
 This is a data set on German economic growth and unemployment rates from 1992 to 2021.
 }
 \details{
-In Auer, L von (2016, Chap. 15) and Auer, L. von, S. Hoffmann (2017, Chap. 15) these yearly data are used to illustrate the estimation of regression models that exhibit a structural break.
+In Auer (2023, Chap. 15) and Auer et al. (2023, Chap. 15) these yearly data are used to illustrate the estimation of regression models that exhibit a structural break.
 }
 \references{
-Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

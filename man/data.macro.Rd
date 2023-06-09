@@ -27,6 +27,6 @@ These National Accounts data are measured in real quantities (billions of chaine
 and are calendar and seasonally-adjusted (method: X13 JDemetra+).
 }
 \references{
-L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 \keyword{datasets}

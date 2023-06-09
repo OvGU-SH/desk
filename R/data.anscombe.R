@@ -10,7 +10,7 @@
 #' }
 #'
 #' @details
-#' In von Auer and Hoffmann (2017, Chap. 3) these data are used to illustrate the simple regression model.
+#' In Auer et al. (2023, Chap. 3) these data are used to illustrate the simple regression model.
 #'
 #' @source
 #' Anscombe, F.J. (1973): Graphs in Statistical Analysis. American Statistician, 27(1), 17-21.
@@ -18,6 +18,6 @@
 #' @references
 #' Tufte, E.R. (1989): The Visual Display of Quantitative Information, 13-14. Graphics Press.
 #'
-#' Auer, L. von, S. Hoffmann (2017) Oekonometrie - Das R-Arbeitsbuch, Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+#' Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 #'
 "data.anscombe"

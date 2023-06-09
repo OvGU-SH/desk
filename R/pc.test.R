@@ -23,6 +23,9 @@
 #'
 #' @export
 #'
+#' @references
+#' Chow, G.C. (1960): Tests of Equality Between Sets of Coefficients in Two Linear Regressions. Econometrica 28, 591-605.
+#'
 #' @examples
 #' ## Estimate model
 #' unemp.est <- ols(unempl ~ gdp, data = data.unempl[1:14,])
