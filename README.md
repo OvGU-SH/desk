@@ -35,7 +35,7 @@
 ### Offene Fragen
 
 -   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
-  - LvA: auf Konsistenz achten
+    - LvA: auf Konsistenz achten
 
 
 ### Befehle
@@ -52,7 +52,12 @@
 -   für CRAN-release nochmals durchgehen: 
     -   ~~https://r-pkgs.org/check.html~~
     -   https://cran.r-project.org/web/packages/policies.html
--   devtools::build_site()
+        -   The ownership of copyright >> SH
+        -   Packages should not modify the global environment >> SH (rm.all)
+        -   Binary packages are not accepted from maintainers >> SH
+        -   https://cran.r-project.org/web/packages/submission_checklist.html 
+        -   https://cran.r-project.org/submit.html
+-   ~~devtools::build_site() >> Non-standard directory (NOTE)~~
 -   weitere Keywords? (.R-files durchgehen)
 -   Refs in .R-files >> LB/UB ggf. angleichen
 -   ~~andronikoss/desk ist noch online (https://rdrr.io/github/andronikoss/desk/)~~
