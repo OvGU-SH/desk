@@ -22,7 +22,7 @@
 #' A.dat <- makedata.bc(a = 3)
 #'
 #' ## Log transformed y-data
-#' B.dat <- makedata.bc(lambda.y = 0, n = 100, sigma = 0.2, x.max = 3, seed = 123)
+#' B.dat <- makedata.bc(lambda.y = 0, n = 100, sigma = 0.2, x.max = 2, seed = 123)
 #'
 #' ## Concave scatter
 #' C.dat <- makedata.bc(lambda.y = 6, sigma = 0.4, seed = 12)
@@ -45,7 +45,7 @@
 #####
 makedata.bc = function(lambda.x = 1, lambda.y = 1, a = 0, x.max = 5, n = 200, sigma = 1, seed = NULL){
  set.seed(seed)
- x = def.log(seq(from = 1, to = x.max, length.out = n), lambda = lambda.x)
+ x = def.log(seq(from = 1, to = x.max + 1, length.out = n), lambda = lambda.x)
  y = def.exp(x + a + rnorm(n, sd = sigma), lambda = lambda.y)
  return(data.frame(x = x, y = y))
 }
