@@ -43,7 +43,7 @@ par(mfrow = c(2,2))
 A.dat <- makedata.bc(a = 3)
 
 ## Log transformed y-data
-B.dat <- makedata.bc(lambda.y = 0, n = 100, sigma = 0.2, x.max = 3, seed = 123)
+B.dat <- makedata.bc(lambda.y = 0, n = 100, sigma = 0.2, x.max = 2, seed = 123)
 
 ## Concave scatter
 C.dat <- makedata.bc(lambda.y = 6, sigma = 0.4, seed = 12)
