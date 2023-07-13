@@ -14,7 +14,7 @@
 #' @seealso \code{\link[base]{args}}.
 #'
 #' @examples
-#' arguments(r.sample)
+#' arguments(repeat.sample)
 #'
 #' @concept arguments
 #' @concept function

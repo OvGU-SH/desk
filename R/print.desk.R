@@ -60,8 +60,8 @@ print.desk = function (x, details, digits = 4, ...){
   # Funktion zum Unterstreichen eines Strings
   underline.it = function(s){
     cat(s,"\n")
-    #cat(rep("\u00af", nchar(as.character(s))), sep = "")
-    cat(rep("-", nchar(as.character(s))+1), sep = "")
+    cat(rep("\u00af", nchar(as.character(s))), sep = "")
+    #cat(rep("-", nchar(as.character(s))+1), sep = "")
   }
 
   # Funktion zur schönen Darstellung von Matrizen
