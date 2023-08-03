@@ -2,11 +2,14 @@
 #'
 #' @description This is a (time series) data set on macroeconomic data from Germany covering 129 consecutive quarters.
 #'
-#' @format A data frame with 129 observations on the following four variables:
+#' @format A data frame with 129 observations on the following seven variables:
 #' \tabular{ll}{
 #' \code{quarter} \tab identifies the time period in combination with \code{year}. \cr
 #' \code{year} \tab identifies the time period in combination with \code{quarter}. \cr
 #' \code{consump} \tab private consumption in the observed quarter. \cr
+#' \code{invest} \tab gross investments in the observed quarter. \cr
+#' \code{gov} \tab government expenditures in the observed quarter. \cr
+#' \code{net.ex} \tab net exports (exports - imports) in the observed quarter. \cr
 #' \code{gdp} \tab gross domestic product in the observed quarter. \cr
 #' }
 #' @details
