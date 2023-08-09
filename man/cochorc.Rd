@@ -8,7 +8,7 @@ cochorc(
   mod,
   data = list(),
   iter = 10,
-  tol = 0.0001,
+  tol = 1e-04,
   pwt = TRUE,
   details = FALSE
 )
