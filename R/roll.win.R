@@ -50,9 +50,20 @@
 roll.win <- function(x, window = 3, indicator = "mean", tau = NULL) {
 
   if (is.vector(x) == TRUE) {
+
     if (length(x) < window) {
-      stop("The window is too large.", call. = F)
+      stop("There are too few observations for this window size.", call. = F)
     }
+
+    if (!is.null(tau) & indicator == "cov") {
+      if (length(x) < window + tau) {
+        stop("For this window size, parameter tau is too large.", call. = F)
+      }
+      if (length(x) < tau) {
+        stop("Parameter tau is too large.", call. = F)
+      }
+    }
+
     n <- length(x) - window + 1
   }
   else {
@@ -66,13 +77,13 @@ roll.win <- function(x, window = 3, indicator = "mean", tau = NULL) {
     }
   }
 
-  if (indicator == "var") {
+  if (indicator == "var" | (indicator == "cov" & is.null(tau))) {
     for (i in 1:n) {
       out[i] <- var(x[i:(i+window-1)])
     }
   }
 
-  if (indicator == "cov") {
+  if (indicator == "cov" & !is.null(tau)) {
     n <- n - tau
     for (i in 1:n) {
       out[i] <- cov(x[i:(i+window-1)],x[(i+tau):(i+window-1+tau)])
