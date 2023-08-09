@@ -2,7 +2,7 @@
 #'
 #' @description This is a data set on the wage structure in a company.
 #'
-#' @format A data frame with 20 observations on the following four variables:
+#' @format A data frame with 20 observations on the following six variables:
 #' \tabular{ll}{
 #' \code{wage} \tab employee's monthly wage (in euro).\cr
 #' \code{educ} \tab employee's extra education beyond the basic schooling degree (in years).\cr

@@ -9,7 +9,7 @@
 #' \code{consump} \tab private consumption in the observed quarter. \cr
 #' \code{invest} \tab gross investment in the observed quarter. \cr
 #' \code{gov} \tab government expenditure in the observed quarter. \cr
-#' \code{net.ex} \tab net exports (exports - imports) in the observed quarter. \cr
+#' \code{netex} \tab net exports (exports - imports) in the observed quarter. \cr
 #' \code{gdp} \tab gross domestic product in the observed quarter. \cr
 #' }
 #' @details

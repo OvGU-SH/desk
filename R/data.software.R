@@ -2,10 +2,9 @@
 #'
 #' @description This is a (time series) data set on business data of a software company covering 36 consecutive months.
 #'
-#' @format A data frame with 36 observations on the following four variables:
+#' @format A data frame with 36 observations on the following three variables:
 #' \tabular{ll}{
-#' \code{month} \tab identifies the time period in combination with \code{year}. \cr
-#' \code{year} \tab identifies the time period in combination with \code{month}. \cr
+#' \code{period} \tab identifies the time period. \cr
 #' \code{empl} \tab number of employees in the observed month.\cr
 #' \code{orders} \tab number of new orders during the observed month.\cr
 #' }

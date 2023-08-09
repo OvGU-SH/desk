@@ -10,7 +10,7 @@ A data frame with 27 observations on the following five variables:
 \code{country} \tab name of member state.\cr
 \code{imports} \tab German imports from member state (in million euro).\cr
 \code{exports} \tab German exports to member state (in million euro).\cr
-\code{bip} \tab gross domestic product of member state (in million euro).\cr
+\code{gdp} \tab gross domestic product of member state (in million euro).\cr
 \code{dist} \tab distance between member state and Germany (in km).\cr
 }
 }

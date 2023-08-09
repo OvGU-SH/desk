@@ -5,7 +5,7 @@
 \alias{data.wage}
 \title{Wage Data in a Company}
 \format{
-A data frame with 20 observations on the following four variables:
+A data frame with 20 observations on the following six variables:
 \tabular{ll}{
 \code{wage} \tab employee's monthly wage (in euro).\cr
 \code{educ} \tab employee's extra education beyond the basic schooling degree (in years).\cr
