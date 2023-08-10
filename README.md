@@ -1,5 +1,6 @@
 # desk
 
+### Test
 
 ### Änderungen: 1.0.3 >> 1.1.0 (CRAN)
 
@@ -14,11 +15,16 @@
 -   Funktionen umbenannt, da Name (bzw. der Anfang) reserviert war
     -   exp.def >> def.exp
     -   log.def >> def.log
-    -   rep.sample >> r.sample
+    -   rep.sample >> repeat.sample
     -   t.coef.test >> par.t.test
     -   f.coef.test >> par.f.test (Konsistenz)
 -   @examples: Console output gelöscht (da sonst teilweise über 500 Zeilen)
 -   CRAN erlaubt nur ASCII: stringi::stri_escape_unicode("Ö") etc. für ASCII Äquivalent
+-   neue Funktionen roll.win() und reset()
+-   neue Datensätze data.macro, data.spurious, data.regional
+-   Ergänzung von Datensätzen
+-   zzz.R für .onLoad und .onAttach
+-   QR decomposition in ivr() anstatt Cholesky
 
 
 ### Literatur und Zitierung (mit ASCII Äquivalent für Umlaute)
@@ -34,8 +40,8 @@
 
 ### Offene Fragen
 
--   Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen
-    - LvA: auf Konsistenz achten
+-   ~~Formatierung Buch und Artikel-Quellen (@ref/@source) festlegen~~
+    - ~~LvA: auf Konsistenz achten~~
 
 
 ### Befehle
