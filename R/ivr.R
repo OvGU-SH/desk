@@ -224,7 +224,8 @@ ivr = function(formula,
   fsd = matrix(NA, length(endog), 3)
   for(i in 1:length(endog)) {
     bhat = aux.reg$coef[,endog[i]]
-    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
+    #ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
+    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(qr.R(qr(Z)))
     if(any(is.nan(ZZi))) {out$f.instr <- out$p.instr <- NA} else {
       nh = as.matrix(diag(ncol(Z))[- which(!(colnames(Z) %in% iv)),], ncol = ncol(Z))
       if (dim(nh)[2] == 1) nh = t(nh)
