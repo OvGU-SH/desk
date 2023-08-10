@@ -1,6 +1,7 @@
 .onLoad = function(libname, pkgname){
   # packageStartupMessage("\n\n Loading DESK ... \014")
   # set custom options for the package
+  options(scipen = 999)
 }
 
 .onAttach = function(libname, pkgname){
