@@ -1,7 +1,5 @@
 # desk
 
-### Test werwer
-
 ### Änderungen: 1.0.3 >> 1.1.0 (CRAN)
 
 -   help-file mit roxygen2-Code in .R-file als Präamble (z.B. \\description >> @description)
