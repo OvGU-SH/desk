@@ -2,8 +2,8 @@ Package: desk
 Type: Package
 Title: Didactic Econometrics Starter Kit (DESK)
 Version: 1.1.0
-Author: Soenke Hoffmann
-Maintainer: Tobias Kranz <tobias.kranz@uni-trier.de>
+Author: Soenke Hoffmann <sohoffma@ovgu.de>, Tobias Kranz <tobias.kranz@uni-trier.de>
+Maintainer: Soenke Hoffmann <sohoffma@ovgu.de>
 Description: Written to help undergraduate as well as graduate
     students to use R for basic econometrics. Primarily, the package is meant to 
     accompany the German textbook: 
