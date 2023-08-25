@@ -21,6 +21,6 @@
       cli::style_hyperlink("HERE", "https://www.vwl3.ovgu.de/Lehre/desk.html"),
       "due to name incompatibilies.          *",
       "\n*                                                               *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n\n")
 }
 
