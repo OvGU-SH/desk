@@ -143,6 +143,18 @@ ivr = function(formula,
     envirs[xin]
   }
 
+  # Check whether exogenous regressors are a subset of "iv", i.e. ex.reg. as controls in first stage
+  if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
+    if ( !(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) ) {
+      stop("All exogenous regressors have to be instruments as well.", call. = F)
+    }
+  }
+
+  # Check whether "endog" is a subset of "X", i.e. only regressors are used
+  if (!all(endog %in% colnames(X))) {
+    stop("For the option endog, only regressors are allowed.", call. = F)
+  }
+
   # Get model-matrix of instruments Z (and exogenous regressors)
   Xnames = colnames(X)
   iv.data = if (missing(data)) do.call(cbind, mget(iv, envir = as.environment(getEnv(iv)))) else data[, iv]
@@ -225,17 +237,22 @@ ivr = function(formula,
   for(i in 1:length(endog)) {
     bhat = aux.reg$coef[,endog[i]]
     #ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
-    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(qr.R(qr(Z)))
+    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(qr.R(qr(Z))) # QR decomp. (Cholesky not stable)
     if(any(is.nan(ZZi))) {out$f.instr <- out$p.instr <- NA} else {
       nh = as.matrix(diag(ncol(Z))[- which(!(colnames(Z) %in% iv)),], ncol = ncol(Z))
       if (dim(nh)[2] == 1) nh = t(nh)
       Rb = nh %*% bhat
       fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
+      # QR decomp. (Cholesky not stable):
+      #Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
+      # for qr(Z.qr): nh %*% ZZi %*% t(nh) = t(Z.qr) %*% Z.qr
+      #fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
       fsd[i, 2] = 1 - pf(fsd[i, 1], nrow(nh), aux.reg$df.res)}
     # Shea's partial R^2
       ols.reg = lm.fit(X, y, ...)
       sig2.ols = sum(ols.reg$residuals^2)/ols.reg$df.residual
-      V.ols = diag(sig2.ols * chol2inv(chol(t(X) %*% X)))
+      #V.ols = diag(sig2.ols * chol2inv(chol(t(X) %*% X)))
+      V.ols = diag(sig2.ols * chol2inv(qr.R(qr(X)))) # QR decomp. (Cholesky not stable)
       names(V.ols) = names(ols.reg$coef)
       V.2sls = diag(out$vcov)
       shea = (V.ols/V.2sls * out$sig.squ/sig2.ols)[endog]
@@ -257,13 +274,18 @@ ivr = function(formula,
   Z = cbind(X, xfit)
   aux.reg = lm.fit(Z, y)
   bhat = aux.reg$coef
-  ZZi = sum(aux.reg$resid^2)/aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
+  #ZZi = sum(aux.reg$resid^2)/aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
+  ZZi = sum(aux.reg$resid^2)/aux.reg$df.resid * chol2inv(qr.R(qr(Z))) # QR decomp. (Cholesky not stable)
   if(any(is.nan(ZZi))) {out$f.hausman <- out$p.hausman <- NA} else {
     nh = diag(ncol(Z))
     nh = as.matrix(nh[- (1:(dim(X)[2])),])
     if (dim(nh)[2] == 1) nh = t(nh)
     Rb = nh %*% bhat
     out$f.hausman = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
+    # QR decomp. (Cholesky not stable):
+    #Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
+    # for qr(Z.qr): nh %*% ZZi %*% t(nh) = t(Z.qr) %*% Z.qr
+    #out$f.hausman = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
     out$p.hausman = 1 - pf(out$f.hausman, nrow(nh), aux.reg$df.res)
   }
 
