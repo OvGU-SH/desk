@@ -242,11 +242,11 @@ ivr = function(formula,
       nh = as.matrix(diag(ncol(Z))[- which(!(colnames(Z) %in% iv)),], ncol = ncol(Z))
       if (dim(nh)[2] == 1) nh = t(nh)
       Rb = nh %*% bhat
-      fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
+      #fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
       # QR decomp. (Cholesky not stable):
-      #Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
+      Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
       # for qr(Z.qr): nh %*% ZZi %*% t(nh) = t(Z.qr) %*% Z.qr
-      #fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
+      fsd[i, 1] = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
       fsd[i, 2] = 1 - pf(fsd[i, 1], nrow(nh), aux.reg$df.res)}
     # Shea's partial R^2
       ols.reg = lm.fit(X, y, ...)
@@ -281,11 +281,11 @@ ivr = function(formula,
     nh = as.matrix(nh[- (1:(dim(X)[2])),])
     if (dim(nh)[2] == 1) nh = t(nh)
     Rb = nh %*% bhat
-    out$f.hausman = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
+    #out$f.hausman = as.numeric(t(Rb) %*% chol2inv(chol(nh %*% ZZi %*% t(nh))) %*% (Rb)/nrow(nh))
     # QR decomp. (Cholesky not stable):
-    #Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
+    Z.qr <- t(sqrtm(nh %*% ZZi %*% t(nh))) # package: expm
     # for qr(Z.qr): nh %*% ZZi %*% t(nh) = t(Z.qr) %*% Z.qr
-    #out$f.hausman = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
+    out$f.hausman = as.numeric(t(Rb) %*% chol2inv(qr.R(qr(Z.qr))) %*% (Rb)/nrow(nh))
     out$p.hausman = 1 - pf(out$f.hausman, nrow(nh), aux.reg$df.res)
   }
 
