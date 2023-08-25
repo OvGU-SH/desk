@@ -17,6 +17,10 @@
 *   L.v.Auer, S.Hoffmann & T.Kranz (2023) \u00d6konometrie - Das     *
 *   R-Arbeitsbuch, 2nd ed.                                      *
 *                                                               *
+*   Remark: Users of the 1st ed. should download v1.0.4         *
+*   [https://www.vwl3.ovgu.de/Lehre/desk.html]                  *
+*   due to possible compatibility issues.                       *
+*                                                               *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 \n"
   )
