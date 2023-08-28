@@ -17,7 +17,11 @@
 *   R-Arbeitsbuch, 2nd ed.                                      *
 *                                                               *
 *   REMARK: Users of the 1st ed. should download and use        *",
+<<<<<<< HEAD
       "\n*   desk v1.0.x from",
+=======
+      "\n*   desk v1.0.4 from",
+>>>>>>> f445e5138fffae9c1f86c8f58c8b28a458adb648
       cli::style_hyperlink("HERE", "https://cloud.ovgu.de/s/gMHr6p6iFD98WSf"),
       "due to name incompatibilies.          *",
       "\n*                                                               *
