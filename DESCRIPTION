@@ -1,7 +1,7 @@
 Package: desk
 Type: Package
 Title: Didactic Econometrics Starter Kit (DESK)
-Version: 1.1.0
+Version: 1.1.1
 Author: Soenke Hoffmann <sohoffma@ovgu.de>, Tobias Kranz <tobias.kranz@uni-trier.de>
 Maintainer: Soenke Hoffmann <sohoffma@ovgu.de>
 Description: Written to help undergraduate as well as graduate

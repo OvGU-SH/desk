@@ -1,36 +1,3 @@
-#####
-#' Critical Values of the Quandt Likelihood Ratio-test (QLR-test)
-#'
-#' @description Returns critical values of the Quandt Likelihood Ratio-test according to Andrews (2003).
-#'
-#' @param tAll total number of periods.
-#' @param from start period for Chow-F-statistics.
-#' @param to end period for Chow-F-statistics.
-#' @param L number of break parameters (linear combinations) to be tested.
-#' @param sig.level significance level. Valid values are: 0.01, 0.05 or 0.1.
-#'
-#' @return A list object including:
-#' \tabular{ll}{
-#' \code{lambda} \tab lambda-value correcting the critical value according to range.\cr
-#' \code{range} \tab selected range of periods in \code{tAll}.\cr
-#' \code{cv.chi2} \tab interval of critical chi^2 QLR-Values.\cr
-#' \code{cv.f} \tab interval of critical F-QLR-Values.\cr
-#' }
-#'
-#' @export
-#'
-#' @references
-#' Andrews, D.W.K. (2003): Tests for Parameter Instability and Structural Change with Unknown Change Point: A Corrigendum. Econometrica 71, 395-397.
-#'
-#' @examples
-#' qlr.cv(tAll = 60)
-#'
-#' @concept Quandt Likelihood Ratio
-#' @concept QLR
-#' @concept critical value
-#' @concept structural break
-#'
-#####
 qlr.cv = function(tAll, from = round(0.15*tAll), to = round(0.85*tAll), L = 2, sig.level = list(0.05, 0.01, 0.1)){
 
 sig.level = match.arg(NULL, sig.level)

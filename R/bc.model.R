@@ -1,36 +1,3 @@
-#####
-#' One Dimensional Box-Cox Model
-#'
-#' @description Finds lambda-values for which the one dimensional Box-Cox model has lowest SSR.
-#'
-#' @param mod estimated linear model object or formula.
-#' @param data if \code{mod} is a formula then the corresponding data frame has to be specified.
-#' @param range range and step size of lambda values. Default is a range from -2 to 2 at a step size of 0.1.
-#' @param details logical value indicating whether specific details about the test should be returned.
-#'
-#' @return A list object including:
-#' \tabular{ll}{
-#' \code{results} \tab regression results with minimal SSR.\cr
-#' \code{lambda} \tab optimal lambda-values.\cr
-#' \code{nregs} \tab no. of regressions performed.\cr
-#' \code{idx.opt} \tab index of optimal regression.\cr
-#' \code{val.opt} \tab minimal SSR value.\cr
-#' }
-#'
-#' @export
-#'
-#' @importFrom stats terms
-#'
-#' @examples
-#' y <- c(4,1,3)
-#' x <- c(1,2,4)
-#' my.mod <- ols(y ~ x)
-#' bc.model(my.mod)
-#'
-#' @concept Box-Cox-Model
-#' @concept deformed logarithm
-#'
-#####
 bc.model = function(mod, data = list(), range = seq(-2,2,0.1), details = FALSE){
 
   if (!inherits(mod, "formula")) { # Wenn Modell übergeben ...

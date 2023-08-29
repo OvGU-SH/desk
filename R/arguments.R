@@ -1,26 +1,3 @@
-#####
-#' Arguments of a Function
-#'
-#' @description Shows the arguments and their default values of a function.
-#'
-#' @param fun name of the function.
-#' @param width optional width for line breaking.
-#'
-#' @return None.
-#' @export
-#'
-#' @importFrom stats sd
-#'
-#' @seealso \code{\link[base]{args}}.
-#'
-#' @examples
-#' arguments(repeat.sample)
-#'
-#' @concept arguments
-#' @concept function
-#' @concept default value
-#'
-#####
 arguments = function (fun, width = options("width")$width) {
     out = paste(deparse(args(fun))[-length(deparse(args(fun)))],
         collapse = "", sep = "--")
