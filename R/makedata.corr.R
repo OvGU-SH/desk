@@ -1,37 +1,3 @@
-#####
-#' Generate Exogenous Normal Data with Specified Correlations
-#'
-#' @description This command generates a data frame of exogenous normal regression data with given correlation between the variables. This can, for example, be used for analyzing the effects of autocorrelation.
-#'
-#' @param n number of observations to be generated.
-#' @param k number of exogenous variables to be generated.
-#' @param CORR (k x k) Correlation matrix that specifies the desired correlation structure of the data to be generated. If not specified a random positive definite covariance matrix will be used.
-#' @param sample logical value indicating whether the correlation structure is applied to the population (false) or the sample (true).
-#'
-#' @return The generated data frame of exogenous variables.
-#'
-#' @export
-#'
-#' @importFrom stats cov
-#'
-#' @examples
-#' ## Generate desired correlation structure
-#' corr.mat <- cbind(c(1, 0.7),c(0.7, 1))
-#'
-#' ## Generate 10 observations of 2 exogenous variables
-#' X <- makedata.corr(n = 10, k = 2, CORR = corr.mat)
-#' cor(X) # not exact values of corr.mat
-#'
-#' ## Same structure applied to a sample
-#' X <- makedata.corr(n = 10, k = 2, CORR = corr.mat, sample = TRUE)
-#' cor(X) # exact values of corr.mat
-#'
-#' @concept variation
-#' @concept covariation
-#' @concept variance
-#' @concept covariance
-#'
-#####
 makedata.corr = function(n = 10, k = 2, CORR, sample = FALSE){
 
 # Function to generate random correlation matrix
