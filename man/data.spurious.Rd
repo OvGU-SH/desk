@@ -13,7 +13,7 @@ A data frame with yearly observations from 1880 to 2022 on the following five va
 }
 }
 \source{
-Downloaded in 2023 from NASA (\url{https://data.giss.nasa.gov/gistemp/}), IUPAC (\url{https://iupac.org/what-we-do/periodic-table-of-elements/}), LBMA (retrieved from Deutsche Bundesbank Zeitreihen-Datenbanken, BBEX3.A.XAU.USD.EA.AC.C08), and OECD (retrieved from FRED, \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}).
+Downloaded in 2023 from NASA (GISTEMP Team, 2023: GISS Surface Temperature Analysis (GISTEMP), version 4. NASA Goddard Institute for Space Studies. Dataset accessed 2023-05-11 at \url{https://data.giss.nasa.gov/gistemp/}), IUPAC (\url{https://iupac.org/what-we-do/periodic-table-of-elements/}), LBMA (retrieved from Deutsche Bundesbank Zeitreihen-Datenbanken, BBEX3.A.XAU.USD.EA.AC.C08), and OECD (retrieved from FRED, \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}).
 }
 \usage{
 data.spurious
