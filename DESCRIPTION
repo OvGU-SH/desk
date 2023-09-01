@@ -1,21 +1,34 @@
 Package: desk
 Type: Package
-Title: Didactic Econometrics Starter Kit (DESK)
+Title: Didactic Econometrics Starter Kit
 Version: 1.1.1
-Author: Soenke Hoffmann <sohoffma@ovgu.de>, Tobias Kranz <tobias.kranz@uni-trier.de>
-Maintainer: Soenke Hoffmann <sohoffma@ovgu.de>
+Authors@R: c(
+    person("Soenke", "Hoffmann", email = "sohoffma@ovgu.de", role = c("cre", "aut")),
+    person("Tobias", "Kranz", email = "tobias.kranz@uni-trier.de", role = "aut")
+    )
 Description: Written to help undergraduate as well as graduate
-    students to use R for basic econometrics. Primarily, the package is meant to 
-    accompany the German textbook: 
-    Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 
-    2nd ed., Springer-Gabler.
-License: GPL (>= 2)
+    students to get started with R for basic econometrics without the need to import specific functions
+    and datasets from many different sources. Primarily, the package is meant to 
+    accompany the German textbook:
+    Auer, L.v., Hoffmann, S. & Kranz, T. (2023): `Ökonometrie - Das R-Arbeitsbuch`, 
+    2nd ed., Springer.
+    from which the exercises cover all the topics from the textbook:
+    Auer, L.v. (2023): `Ökonometrie - Eine Einführung`. 8th ed., Springer
+URL: https://oekonometrie-lernen.de, https://github.com/OvGU-SH/desk
+BugReports: https://github.com/OvGU-SH/desk/issues    
+License: GPL (>=3)
 Encoding: UTF-8
 LazyData: true
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
 Imports: 
-    foreign, rstudioapi
+    cli,
+    rstudioapi,
+    stats,
+    graphics,
+    grDevices,
+    utils
+Suggests: 
+    stargazer,
+    foreign,
+    manipulate
 Depends: 
-    R (>= 2.10)
+    R (>= 3.1)
