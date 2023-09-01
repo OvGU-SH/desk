@@ -57,22 +57,6 @@ Performs a two-stage least squares regression.
 ## Insurance Example, Chapter 20, Textbook
 ivr(contr ~ score, endog = "score", iv = "contrprev", data = data.insurance, details = TRUE)
 
-## Replicating Murray (2006) Table 14.1 (page 612)
-data.graddy = read.table(system.file("extdata", "whiting.csv", package = "desk"),
-                         header = TRUE, sep = ",")
-ivr(QTY ~ PRICE, endog = c("PRICE"), iv = "WINDSPD", details = TRUE, data = data.graddy)
-
-## Replicating Murray (2006) Table 14.3 (page 622-623)
-endog <- c("PRICE")
-iv <- c("WINDSPD","WINDSPD2", "STORMY", "COLD", "RAINY", "MIXED")
-ivr(QTY ~ PRICE + DAY1 + DAY2 + DAY3 + DAY4, endog = endog, iv = iv,
-    details = TRUE, data = data.graddy)
-
-endog <- c("QTY")
-iv <- c("DAY1", "DAY2", "DAY3", "DAY4")
-ivr(PRICE ~ QTY + WINDSPD + WINDSPD2 + STORMY + COLD + RAINY + MIXED, endog = endog, iv = iv,
-    details = TRUE, data = data.graddy)
-
 ## Demand and supply estimation (Kmenta, 1971)
 ## Copy variables to environment
 consump <- data.kmenta$consump

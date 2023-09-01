@@ -2,11 +2,11 @@
 \alias{qlr.cv}
 \title{Calculates the critical value in a Quandt Likelihood Ratio-Test for Structural Breaks in a Parameter with Unknown Break Date}
 \usage{
-qlr.cv(tAll, from = round(0.15*tAll), to = round(0.85*tAll), L = 2, sig.level = list(0.05, 0.01, 0.1))
+qlr.cv(tAll, from = round(0.15*tAll), to = round(0.85*tAll),
+L = 2, sig.level = list(0.05, 0.01, 0.1))
 }
 \arguments{
 \item{tAll}{sample size.}
-\item{data}{name of the data frame to be used if \code{mod} is only a formula.}
 \item{from}{start period of range to be analyzed for a break.}
 \item{to}{end period of range to be analyzed for a break.}
 \item{L}{number of parameters.}

@@ -13,7 +13,7 @@ A data frame with yearly observations from 1880 to 2022 on the following five va
 }
 }
 \source{
-Downloaded in 2023 from \url{https://data.giss.nasa.gov/gistemp/}, \url{https://iupac.org/what-we-do/periodic-table-of-elements/}, Deutsche Bundesbank Zeitreihen-Datenbanken (BBEX3.A.XAU.USD.EA.AC.C08), and \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}.
+Downloaded in 2023 from NASA (GISTEMP Team, 2023: GISS Surface Temperature Analysis (GISTEMP), version 4. NASA Goddard Institute for Space Studies. Dataset accessed 2023-05-11 at \url{https://data.giss.nasa.gov/gistemp/}), IUPAC (\url{https://iupac.org/what-we-do/periodic-table-of-elements/}), LBMA (retrieved from Deutsche Bundesbank Zeitreihen-Datenbanken, BBEX3.A.XAU.USD.EA.AC.C08), and OECD (retrieved from FRED, \url{https://fred.stlouisfed.org/series/CPALTT01USA661S}).
 }
 \usage{
 data.spurious
@@ -22,7 +22,7 @@ data.spurious
 The variables in this data set are non-stationary and help to understand spurious regression in the context of time series analysis.
 }
 \details{
-In Auer  (2023, Chap. 22) and Auer et al. (2023, Chap. 22) these hypothetical data are used to illustrate the estimation of dynamic regression models.
+In Auer et al. (2023, Chap. 22) these data are used to illustrate the estimation of dynamic regression models.
 }
 \references{
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).

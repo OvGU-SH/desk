@@ -53,7 +53,7 @@ plot(X)
 Jarque, C.M. & Bera, A.K. (1980): Efficient Test for Normality, Homoscedasticity and Serial Independence of Residuals. Economics Letters 6 Issue 3, 255-259.
 }
 \seealso{
-\code{\link[moments]{jarque.test}}.
+`jarque.test()` in Package `moments`.
 }
 \concept{normal distribution}
 \concept{normality}

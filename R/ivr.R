@@ -26,13 +26,14 @@ ivr = function(formula,
     envirs[xin]
   }
 
+  ### Produces error in Murray example
   # Check whether exogenous regressors are a subset of "iv"
-  if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
-    if (colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) {
-      stop("For the option iv, exogenous regressors should not be listed by the user.
-              They are included automatically in the first stage regression.", call. = F)
-    }
-  }
+  #  if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
+  #  if (colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) {
+  #    stop("For the option iv, exogenous regressors should not be listed by the user.
+  #            They are included automatically in the first stage regression.", call. = F)
+  #  }
+  #}
 
   # Check whether "endog" is a subset of "X", i.e. only regressors are used
   if (!all(endog %in% colnames(X))) {
@@ -120,7 +121,7 @@ ivr = function(formula,
   fsd = matrix(NA, length(endog), 3)
   for(i in 1:length(endog)) {
     bhat = aux.reg$coef[,endog[i]]
-    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(qr.R(qr(Z)))
+    ZZi = sum(aux.reg$resid[,endog[i]]^2) / aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
     if(any(is.nan(ZZi))) {out$f.instr <- out$p.instr <- NA} else {
       nh = as.matrix(diag(ncol(Z))[- which(!(colnames(Z) %in% iv)),], ncol = ncol(Z))
       if (dim(nh)[2] == 1) nh = t(nh)
@@ -130,7 +131,7 @@ ivr = function(formula,
     # Shea's partial R^2
       ols.reg = lm.fit(X, y, ...)
       sig2.ols = sum(ols.reg$residuals^2)/ols.reg$df.residual
-      V.ols = diag(sig2.ols * chol2inv(qr.R(qr(X))))
+      V.ols = diag(sig2.ols * chol2inv(chol(t(X) %*% X)))
       names(V.ols) = names(ols.reg$coef)
       V.2sls = diag(out$vcov)
       shea = (V.ols/V.2sls * out$sig.squ/sig2.ols)[endog]
@@ -152,7 +153,7 @@ ivr = function(formula,
   Z = cbind(X, xfit)
   aux.reg = lm.fit(Z, y)
   bhat = aux.reg$coef
-  ZZi = sum(aux.reg$resid^2)/aux.reg$df.resid * chol2inv(qr.R(qr(Z)))
+  ZZi = sum(aux.reg$resid^2)/aux.reg$df.resid * chol2inv(chol(t(Z) %*% Z))
   if(any(is.nan(ZZi))) {out$f.hausman <- out$p.hausman <- NA} else {
     nh = diag(ncol(Z))
     nh = as.matrix(nh[- (1:(dim(X)[2])),])

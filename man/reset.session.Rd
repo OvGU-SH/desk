@@ -2,7 +2,7 @@
 \alias{reset.session}
 \title{R Session Reset}
 \usage{
-reset(cd = TRUE)
+reset.session(cd = TRUE)
 }
 \arguments{
 \item{cd}{if cd = FALSE, the working directory is not be changend. The default, cd = TRUE, sets the working directory to source file loction.}

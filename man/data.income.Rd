@@ -20,7 +20,7 @@ data.income
 This data set describes major macroeconomic variables determining the differences in per capita income of 75 countries in 1985.
 }
 \details{
-In Auer (2023, Chap. 19) and Auer et al. (2023, Chap. 19) these hypothetical data are used to illustrate the detection and consequences of error terms that are not normally distributed.
+In Auer (2023, Chap. 19) and Auer et al. (2023, Chap. 19) these data are used to illustrate the detection and consequences of error terms that are not normally distributed.
 }
 \references{
 Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
