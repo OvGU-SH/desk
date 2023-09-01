@@ -13,7 +13,7 @@ Description: Written to help undergraduate as well as graduate
     Auer, L.v., Hoffmann, S. & Kranz, T. (2023): `Ökonometrie - Das R-Arbeitsbuch`, 
     2nd ed., Springer.
     from which the exercises cover all the topics from the textbook:
-    Auer, L.v. (2023): `Ökonometrie - Eine Einführung`. 8th ed., Springer
+    Auer, L.v. (2023): `Ökonometrie - Eine Einführung`, 8th ed., Springer.
 URL: https://oekonometrie-lernen.de, https://github.com/OvGU-SH/desk
 BugReports: https://github.com/OvGU-SH/desk/issues    
 License: GPL (>=3)
