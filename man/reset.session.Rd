@@ -1,5 +1,5 @@
-\name{reset}
-\alias{reset}
+\name{reset.session}
+\alias{reset.session}
 \title{R Session Reset}
 \usage{
 reset(cd = TRUE)
@@ -15,7 +15,7 @@ Removes all objects from global environment. Removes all plots. Resets the scien
 }
 \examples{
 ## R Session reset without changing the current working directory
-reset(FALSE) # reset(F)
+reset.session(FALSE) # reset.session(F)
 
 }
 \concept{.GlobalEnv}

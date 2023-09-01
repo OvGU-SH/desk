@@ -4,23 +4,27 @@
   options(scipen = 999)
 }
 
-.onAttach = function(libname, pkgname){
-  cat("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-*                                                               *
-*   Didactic Econometrics Starter Kit (DESK) v",as.character(utils::packageVersion("desk")),"           *
-*   is released for educational purposes, accompanying the      *
-*   the German textbooks:                                       *
-*                                                               *
-*   L.v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed.      *
-*                                                               *
-*   L.v.Auer, S.Hoffmann & T.Kranz (2023) \u00d6konometrie - Das     *
-*   R-Arbeitsbuch, 2nd ed.                                      *
-*                                                               *
-*   REMARK: Users of the 1st ed. should download and use        *",
-      "\n*   desk v1.0.x from",
-      cli::style_hyperlink("HERE", "https://cloud.ovgu.de/s/gMHr6p6iFD98WSf"),
-      "due to name incompatibilies.          *",
-      "\n*                                                               *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n\n")
+.onAttach <- function(libname, pkgname){
+  packageStartupMessage(StartWelcomeMessage())
 }
 
+StartWelcomeMessage <- function(){
+  paste("\n",
+        "====================== \U0001f173\U0001f174\U0001f182\U0001f17a v",utils::packageDescription("desk")$Version, " ======================\n\n",
+        " Didactic Econometrics Starter Kit (desk) is released for", "\n",
+        " educational purposes, accompanying the German textbooks:", "\n\n",
+        " - L. v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed.", "\n",
+        " - L. v.Auer, S. Hoffmann & T. Kranz (2023) \u00d6konometrie - ", "\n",
+        "   Das R-Arbeitsbuch, 2nd ed.", "\n\n",
+        " REMARK: Users of the 1st ed. of the book should install", "\n",
+        " and use desk v1.0.x manually from:", "\n\n",
+        "        ", cli::style_hyperlink("https://cloud.ovgu.de/s/gMHr6p6iFD98WSf", "https://cloud.ovgu.de/s/gMHr6p6iFD98WSf"),"\n\n",
+        "===========================================================","\n\n",
+        sep="")
+}
+
+packageStartupMessage(StartWelcomeMessage())
+
+# .onUnload <- function (libpath) {
+#   library.dynam.unload("mypackage", libpath)
+# }

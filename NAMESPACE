@@ -4,7 +4,10 @@ S3method(print,desk)
 import(
   "stats",
   "graphics",
-  "foreign"
+  "rstudioapi",
+  "cli",
+  "grDevices",
+  "utils"
   )
 
 export(
@@ -41,7 +44,7 @@ export(
   qlr.cv,
   qlr.test,
   repeat.sample,
-  reset,
+  reset.session,
   reset.test,
   rm.all,
   roll.win,

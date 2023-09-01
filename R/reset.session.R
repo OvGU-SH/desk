@@ -1,4 +1,4 @@
-reset = function(cd = TRUE) {
+reset.session = function(cd = TRUE) {
   if (cd == TRUE) {
     # if(!require("rstudioapi",character.only = T)) {
     #   install.packages("rstudioapi")

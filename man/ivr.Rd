@@ -4,21 +4,17 @@
 \usage{
 ivr(formula, data = list(), endog, iv, contrasts = NULL, details = FALSE, ...)
 }
+
 \arguments{
 \item{formula}{model formula.}
-
 \item{data}{name of the data frame used. To be specified if variables are not stored in environment.}
-
 \item{endog}{character vector of endogenous (to be instrumented) regressors.}
-
 \item{iv}{character vector of (exogenous) instrumental variables.}
-
 \item{contrasts}{an optional list. See the \code{contrasts.arg} of \code{\link[stats]{model.matrix.default}}.}
-
 \item{details}{logical value indicating whether details should be printed out by default.}
-
 \item{...}{further arguments that \code{lm.fit()} understands.}
 }
+
 \value{
 A list object including:
 \tabular{ll}{
@@ -60,12 +56,6 @@ Performs a two-stage least squares regression.
 \examples{
 ## Insurance Example, Chapter 20, Textbook
 ivr(contr ~ score, endog = "score", iv = "contrprev", data = data.insurance, details = TRUE)
-
-## Stata example
-library(foreign)
-data.educwages <- read.dta("http://www.stata-press.com/data/r12/educwages.dta")
-ivr(wages ~ union + education, endog = "education", iv = c("meducation", "feducation"),
-data = data.educwages)
 
 ## Replicating Murray (2006) Table 14.1 (page 612)
 data.graddy = read.table(system.file("extdata", "whiting.csv", package = "desk"),
