@@ -6,7 +6,6 @@ Authors@R: c(
     person("Soenke", "Hoffmann", email = "sohoffma@ovgu.de", role = c("cre", "aut")),
     person("Tobias", "Kranz", email = "tobias.kranz@uni-trier.de", role = "aut")
     )
-<<<<<<< HEAD
 Description: Written to help undergraduate as well as graduate students
     to get started with R for basic econometrics without the need to import specific functions
     and datasets from many different sources. Primarily, the package is meant to
@@ -22,7 +21,6 @@ Description: Written to help undergraduate as well as graduate
     2nd ed., Springer.
     from which the exercises cover all the topics from the textbook:
     Auer, L.v. (2023): `Ökonometrie - Eine Einführung`, 8th ed., Springer.
->>>>>>> f9c7a052fd96d19be182e67909d6910b0988a29c
 URL: https://oekonometrie-lernen.de, https://github.com/OvGU-SH/desk
 BugReports: https://github.com/OvGU-SH/desk/issues    
 License: GPL (>=3)
