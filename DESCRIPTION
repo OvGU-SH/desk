@@ -6,13 +6,6 @@ Authors@R: c(
     person("Soenke", "Hoffmann", email = "sohoffma@ovgu.de", role = c("cre", "aut")),
     person("Tobias", "Kranz", email = "tobias.kranz@uni-trier.de", role = "aut")
     )
-Description: Written to help undergraduate as well as graduate students
-    to get started with R for basic econometrics without the need to import specific functions
-    and datasets from many different sources. Primarily, the package is meant to
-    accompany the German textbook `Auer, L.v., Hoffmann, S. & Kranz, T. (2023), Ökonometrie - Das R-Arbeitsbuch, 
-    2nd ed., Springer`. The included exercises cover all the topics from the textbook
-    `Auer, L.v. (2023), Ökonometrie - Eine Einführung. 8th ed., Springer`.
-=======
 Description: Written to help undergraduate as well as graduate
     students to get started with R for basic econometrics without the need to import specific functions
     and datasets from many different sources. Primarily, the package is meant to 
