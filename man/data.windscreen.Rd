@@ -25,6 +25,6 @@ data.windscreen
 This is a data set on the business statistics of 248 branches of a car glass service company in 2015.
 }
 \details{
-In Auer et al. (2023, Chap. 20) these data illustrate the use of two stage least squares estimation with instrumental variables.
+In Auer et al. (2023, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with instrumental variables.
 }
 \keyword{datasets}

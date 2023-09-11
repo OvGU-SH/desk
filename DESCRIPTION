@@ -1,7 +1,7 @@
 Package: desk
 Type: Package
 Title: Didactic Econometrics Starter Kit
-Version: 1.1.1
+Version: 1.1.0
 Authors@R: c(
     person("Soenke", "Hoffmann", email = "sohoffma@ovgu.de", role = c("cre", "aut")),
     person("Tobias", "Kranz", email = "tobias.kranz@uni-trier.de", role = "aut")
@@ -11,7 +11,7 @@ Description: Written to help undergraduate as well as graduate
     and datasets from many different sources. Primarily, the package is meant to 
     accompany the German textbook:
     Auer, L.v., Hoffmann, S. & Kranz, T. (2023): `Ökonometrie - Das R-Arbeitsbuch`, 
-    2nd ed., Springer.
+    2nd ed., Springer,
     from which the exercises cover all the topics from the textbook:
     Auer, L.v. (2023): `Ökonometrie - Eine Einführung`, 8th ed., Springer.
 URL: https://oekonometrie-lernen.de, https://github.com/OvGU-SH/desk
