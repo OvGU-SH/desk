@@ -2,36 +2,34 @@
 
 This is the first official CRAN release accompanying
 
-L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer.
-
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer.
 
 ## Modifications (compared to non-CRAN 1st ed. releases):
 
-* Function renames
+-   Function renames
 
-    exp.def >> def.exp
-    log.def >> def.log
-    rep.sample >> repeat.sample
-    t.coef.test >> par.t.test
-    f.coef.test >> par.f.test
+    `def.exp` (old: exp.def)
+
+    `def.log` (old: log.def)
+
+    `par.f.test` (old: f.coef.test)
+
+    `par.t.test` (old: t.coef.test)
+
+    `repeat.sample` (old: rep.sample)
 
 ## Additions:
 
-* New functions
+-   New functions
 
-    `roll.win()`
-    `reset.session()`
+    `reset.session()` `roll.win()`
 
-* New datasets
+-   New datasets
 
-    `data.macro`
-    `data.spurious`
-    `data.regional`
+    `data.macro` `data.regional` `data.spurious`
 
-* New welcome screen with download link for 1.0.x version (first edition of book)
+-   New welcome screen with download link for 1.0.x version (first edition of book)
 
 ## Fixes:
 
-* dataset and function help files updated and completed
-
-
+-   dataset and function help files updated and completed
