@@ -50,7 +50,6 @@ export(
   roll.win,
   rprofile.add,
   rprofile.open,
-  showfile,
   Sxy,
   wh.test
 )
