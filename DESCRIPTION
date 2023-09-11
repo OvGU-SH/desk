@@ -29,10 +29,6 @@ Imports:
 Suggests: 
     stargazer,
     foreign,
-<<<<<<< HEAD
     readxl
-=======
-    manipulate,
->>>>>>> de71cfba208707e7a90c6e3604818426872f943d
 Depends: 
     R (>= 3.1)
