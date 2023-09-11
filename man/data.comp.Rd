@@ -21,9 +21,11 @@ data.comp
 This is a data set on the monthly rentals of computers of different quality during the 1960s.
 }
 \details{
-In Auer et al. (2023, Chaps. 13 & 14) these hypothetical data are used to illustrate the specification of a multivariate regression model.
+In Auer et al. (2023, Chaps. 13 & 14) these data are used to illustrate the specification of a multivariate regression model.
 }
 \references{
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+
+Chow, G.C. (1967): Technological Change and the Demand for Computers. The American Economic Review, 57, 1117–1130.
 }
 \keyword{datasets}

@@ -1,8 +1,8 @@
-# desk 1.1.1
+# desk 1.1.0
 
 This is the first official CRAN release accompanying
 
-L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer
+L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer.
 
 
 ## Modifications (compared to non-CRAN 1st ed. releases):
@@ -20,10 +20,9 @@ L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed.,
 * New functions
 
     `roll.win()`
-    `reset()`
-    `showfile()`
+    `reset.session()`
 
-* New datasets:
+* New datasets
 
     `data.macro`
     `data.spurious`
@@ -33,6 +32,6 @@ L.v.Auer, S.Hoffmann & T.Kranz (2023) Ökonometrie - Das R-Arbeitsbuch, 2nd ed.,
 
 ## Fixes:
 
-* dataset help files updated and completetd
+* dataset and function help files updated and completed
 
 

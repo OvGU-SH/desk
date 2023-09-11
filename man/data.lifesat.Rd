@@ -11,7 +11,7 @@ A data frame of 40 observations with the following three variables:
 }
 }
 \source{
-World Value Survey \url{https://www.worldvaluessurvey.org}.
+World Value Survey (\url{https://www.worldvaluessurvey.org}).
 }
 \usage{
 data.lifesat
@@ -24,5 +24,7 @@ In Auer et al. (2023, Chap. 3) these hypothetical data are used to illustrate th
 }
 \references{
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+
+Inglehart, R. et al. (2014): World Values Survey: All Rounds - Country-Pooled Datafile Version: https://www.worldvaluessurvey.org/WVSDocumentationWVL.jsp., R. Inglehart, C. Haerpfer, A. Moreno, C. Welzel, K. Kizilova, J. Diez-Medrano, M. Lagos, P. Norris, E. Ponarin & B. Puranen (eds.), Madrid: JD Systems Institute.
 }
 \keyword{datasets}
