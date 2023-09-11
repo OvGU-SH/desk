@@ -8,12 +8,12 @@
   packageStartupMessage(StartWelcomeMessage())
 }
 
+# desk logo in unicode: \U0001f173\U0001f174\U0001f182\U0001f17a
 StartWelcomeMessage <- function(){
   paste("\n",
-        "========================== \U0001f173\U0001f174\U0001f182\U0001f17a =========================\n\n",
-        " Didactic Econometrics Starter Kit (desk) v",utils::packageDescription("desk")$Version," is re-", "\n",
-        " leased for educational purposes, accompanying the Ger-\n",
-        " man textbooks:\n\n",
+        "====================== desk v",utils::packageDescription("desk")$Version, " ========================\n\n",
+        " Didactic Econometrics Starter Kit (desk) is released for", "\n",
+        " educational purposes, accompanying the German textbooks\n\n",
         " - L. v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed.", "\n",
         " - L. v.Auer, S. Hoffmann & T. Kranz (2023) \u00d6konometrie - ", "\n",
         "   Das R-Arbeitsbuch, 2nd ed.", "\n\n",
