@@ -1,7 +1,11 @@
 \docType{data}
+
 \name{data.auto}
+
 \alias{data.auto}
+
 \title{Prices and Qualitative Characteristics of US-Cars}
+
 \format{
 A data frame with 52 observations on the following nine variables:
 \tabular{ll}{
@@ -16,19 +20,27 @@ A data frame with 52 observations on the following nine variables:
 \code{displacement} \tab displacement (in cubic inch).\cr
 }
 }
+
 \source{
-Chambers, J.M, Cleveland, W.S., Kleiner, B., Tukey, P.A. (1983): Graphical Methods for Data Analysis, Wadsworth International Group.
+This data frame was imported from an SAS dataset provided by \href{http://euclid.psych.yorku.ca/ftp/sas/sssg/data/auto.sas}{York University, CA}
 }
+
 \usage{
 data.auto
 }
+
 \description{
 This is a data set on the prices and qualitative characteristics of US-cars sold in 1979.
 }
+
 \details{
 In Auer et al. (2023, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
 }
+
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Originally published in: Chambers, J.M, Cleveland, W.S., Kleiner, B., Tukey, P.A. (1983): Graphical Methods for Data Analysis, Wadsworth International Group, pages 352-355.
+
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.oekonometrie-lernen.de}{Homepage}).
 }
+
 \keyword{datasets}
