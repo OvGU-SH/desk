@@ -41,6 +41,11 @@ roll.win <- function(x, window = 3, indicator = "mean", tau = NULL) {
     }
   }
 
+  # adding NAs depending on the window width to match the original time series
+  first.NAs <- rep(NA, ceiling((window - 1)/2))
+  last.NAs <- rep(NA, floor((window - 1)/2))
+  out <- c(first.NAs, out, last.NAs)
+
   return(out)
 
 }
