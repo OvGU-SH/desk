@@ -1,7 +1,11 @@
 \docType{data}
+
 \name{data.cobbdoug}
+
 \alias{data.cobbdoug}
+
 \title{Cobb-Douglas Production Function}
+
 \format{
 A data frame with 100 observations on the following three variables:
 \tabular{ll}{
@@ -10,6 +14,7 @@ A data frame with 100 observations on the following three variables:
 \code{capital} \tab input of capital.\cr
 }
 }
+
 \source{
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
@@ -17,12 +22,15 @@ Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2
 data.cobbdoug
 }
 \description{
-This is a data set on a production process that can be formalized by a Cobb-Douglas production function.
+This data set can be used to model a Cobb-Douglas production process.
 }
+
 \details{
-In Auer et al. (2023, Chap. 14) these hypothetical data are used to illustrate the functional specification of a regression model.
+In Auer et al. (2023, Chap. 14) these hypothetical data are used to illustrate the functional specification of a non-linear regression model.
 }
+
 \references{
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
+
 \keyword{datasets}

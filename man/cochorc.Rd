@@ -48,7 +48,7 @@ cochorc(sales.est)
 cochorc(sales.est, tol = 0.0000000000001)
 
 ## If we allow not more than 4 iterations, a warning message is generated
-cochorc(sales.est, iter = 4, tol = 0.0000000000001)
+## cochorc(sales.est, iter = 4, tol = 0.0000000000001)
 
 ## Direct usage of a model formula
 X <- cochorc(sick ~ jobless, data = data.sick[1:14,], details = TRUE)
@@ -64,12 +64,6 @@ print(X, details = FALSE)
 
 ## Plot rho over iterations to see convergence
 plot(X)
-
-## Replicate Table 11.3 and 11.7 from Murray (2006)
-data.murray <- read.table(system.file("extdata", "poverty1.csv", package = "desk"),
-                          header = TRUE, sep = ",")
-poverty.est <- ols(POVERTY ~ UNEMPLOY, data = data.murray)
-cochorc(poverty.est, iter = 30, tol = 0.000001)
 
 ## Example with interaction
 dummy <-  as.numeric(data.sick$year >= 2005)
