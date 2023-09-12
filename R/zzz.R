@@ -1,11 +1,11 @@
 .onLoad = function(libname, pkgname){
   # packageStartupMessage("\n\n Loading DESK ... \014")
   # set custom options for the package
-  options(scipen = 999)
 }
 
 .onAttach <- function(libname, pkgname){
   packageStartupMessage(StartWelcomeMessage())
+  options(scipen = 999)
 }
 
 # desk logo in unicode: \U0001f173\U0001f174\U0001f182\U0001f17a
