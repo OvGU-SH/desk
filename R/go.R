@@ -1,4 +1,4 @@
-reset.session = function(cd = TRUE) {
+go = function(cd = TRUE, sci = FALSE) {
   if (cd == TRUE) {
     # if(!require("rstudioapi",character.only = T)) {
     #   install.packages("rstudioapi")
@@ -10,6 +10,10 @@ reset.session = function(cd = TRUE) {
     }
   }
 
+  if (sci == TRUE) {
+    options(scipen = 0)
+  }
+
   y = function() {
     dev.new()
     x = par(no.readonly = T)
@@ -17,8 +21,6 @@ reset.session = function(cd = TRUE) {
     x
   }
   par(y())
-
-  options(scipen = 0)
 
   dev.off()
 
