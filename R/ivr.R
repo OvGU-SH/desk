@@ -26,14 +26,13 @@ ivr = function(formula,
     envirs[xin]
   }
 
-  ### Produces error in Murray example
   # Check whether exogenous regressors are a subset of "iv"
-  #  if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
-  #  if (colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) {
-  #    stop("For the option iv, exogenous regressors should not be listed by the user.
-  #            They are included automatically in the first stage regression.", call. = F)
-  #  }
-  #}
+   if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
+   if (colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) {
+     stop("For the option iv, exogenous regressors should not be listed by the user.
+             They are included automatically in the first stage regression.", call. = F)
+   }
+  }
 
   # Check whether "endog" is a subset of "X", i.e. only regressors are used
   if (!all(endog %in% colnames(X))) {
