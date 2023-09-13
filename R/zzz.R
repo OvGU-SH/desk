@@ -16,7 +16,7 @@ StartWelcomeMessage <- function(){
         " educational purposes, accompanying the German textbooks\n\n",
         " (1) L. v.Auer (2023) \u00d6konometrie - Eine Einf\u00fchrung, 8th ed.", "\n",
         " (2) L. v.Auer, S. Hoffmann & T. Kranz (2023) \u00d6konometrie - ", "\n",
-        "   Das R-Arbeitsbuch, 2nd ed.", "\n\n",
+        "     Das R-Arbeitsbuch, 2nd ed.", "\n\n",
         " More information on these books:\n\n",
         " ", cli::style_hyperlink("https://oekonometrie-lernen.de", "https://www.uni-trier.de/index.php?id=15929"),"\n\n",
         " REMARK: Users of the 1st ed. of book (2) should install", "\n",
