@@ -32,7 +32,7 @@ In Auer et al. (2023, Chaps. 5, 6, 7 & 16) the data are used to illustrate the s
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.oekonometrie-lernen.de}{Homepage}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

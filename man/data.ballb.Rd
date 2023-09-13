@@ -15,7 +15,7 @@ A data frame with seven observations on the following two variables:
 }
 
 \source{
-Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\href{https://www.oekonometrie-lernen.de}{Homepage}).
+Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \usage{
@@ -31,7 +31,7 @@ In Auer (2023, Chap. 16) and Auer et al. (2023, Chap. 16) these hypothetical dat
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.oekonometrie-lernen.de}{Homepage}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

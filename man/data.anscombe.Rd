@@ -33,7 +33,7 @@ In Auer et al. (2023, Chap. 3) these data are used to illustrate the simple regr
 \references{
 Tufte, E.R. (1989): The Visual Display of Quantitative Information, 13-14. Graphics Press.
 
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.oekonometrie-lernen.de}{Homepage}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}
