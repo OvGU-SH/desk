@@ -20,7 +20,7 @@ A data frame with 25 observations on the following seven variables:
 }
 
 \source{
-Imported in 2007 from the Website of the \href{https://commission.europa.eu/strategy-and-policy/eu-budget_en}{EU commission} and \href{https://ec.europa.eu/eurostat}{Eurostat}.
+Imported 2007 from the Website of the \href{https://commission.europa.eu/strategy-and-policy/eu-budget_en}{EU commission} and \href{https://ec.europa.eu/eurostat}{Eurostat}. Published by Auer (2008).
 }
 
 \usage{
@@ -36,4 +36,5 @@ Auer, L.v. (2008): Gestaltungspolitik oder Kuhhandel? Eine empirische Analyse de
 
 Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
+
 \keyword{datasets}
