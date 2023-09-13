@@ -57,7 +57,7 @@ Performs a two-stage least squares regression.
 ## Insurance Example, Chapter 20, Textbook
 ivr(contr ~ score, endog = "score", iv = "contrprev", data = data.insurance, details = TRUE)
 
-## Demand and supply estimation (Kmenta, 1971)
+## Demand and supply estimation (Kmenta, 1986)
 ## Copy variables to environment
 consump <- data.kmenta$consump
 price <- data.kmenta$price
@@ -90,7 +90,7 @@ abline(a = aS, b = bS)
 \references{
 Greene, W.H. (1993): Econometric Analysis, 2nd ed., Macmillan.
 
-Kmenta, J. (1971): Elements of Econometrics, 2nd ed., The University of Michigan Press.
+Kmenta, J. (1986): Elements of Econometrics, 2nd ed., The University of Michigan Press.
 
 Murray, M.P. (2006): Econometrics - A Modern Introduction, Pearson.
 }
