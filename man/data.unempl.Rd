@@ -16,7 +16,7 @@ A data frame with 30 observations on the following three variables:
 }
 
 \source{
-Imported from \href{https://www.destatis.de}{Genesis, Federal Statistical Office of Germany}.
+Imported from \href{https://www-genesis.destatis.de/genesis/online}{Genesis, Federal Statistical Office of Germany}.
 
 Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
