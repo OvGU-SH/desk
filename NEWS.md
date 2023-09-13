@@ -22,7 +22,7 @@ Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2
 
 -   New functions
 
-    `reset.session()` `roll.win()`
+    `go()` `roll.win()`
 
 -   New datasets
 
