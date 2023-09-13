@@ -1,6 +1,6 @@
 \name{ivr}
 \alias{ivr}
-\title{Two-Stage Least Squares (2SLS) Instrument Variable Regression}
+\title{Two-Stage Least Squares (2SLS) Instrumental Variable Regression}
 \usage{
 ivr(formula, data = list(), endog, iv, contrasts = NULL, details = FALSE, ...)
 }

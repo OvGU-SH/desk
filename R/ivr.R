@@ -28,7 +28,7 @@ ivr = function(formula,
 
   # Check whether exogenous regressors are a subset of "iv"
    if ( length(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))]) != 0 ) {
-   if (colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv) {
+   if (any(colnames(X)[- which(colnames(X) %in% c("(Intercept)", endog))] %in% iv)) {
      stop("For the option iv, exogenous regressors should not be listed by the user.
              They are included automatically in the first stage regression.", call. = F)
    }
