@@ -543,7 +543,11 @@ print.desk = function (x, details, digits = 4, ...){
   ##########################################
 
   # Print title
-  if (!is.null(attr(obj, "title"))) underline.it(attr(obj, "title"))
+  cat("\n")
+  if (!is.null(attr(obj, "title"))) {
+    underline.it(attr(obj, "title"))
+    cat("\n")
+  }
 
   # Print results
   for (i in 1:length(results)){
