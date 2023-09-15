@@ -1,8 +1,8 @@
-\name{go}
-\alias{go}
+\name{new.session}
+\alias{new.session}
 \title{R Session Reset}
 \usage{
-go(cd = TRUE, sci = FALSE)
+new.session(cd = TRUE, sci = FALSE)
 }
 \arguments{
 \item{cd}{if cd = FALSE, the working directory is not be changend. The default, cd = TRUE, sets the working directory to source file loction.}
@@ -16,7 +16,7 @@ Removes all objects from global environment. Removes all plots. Clears the conso
 }
 \examples{
 ## R Session reset without changing the current working directory
-go(FALSE) # go(F)
+new.session(FALSE) # new.session(F)
 
 }
 \concept{.GlobalEnv}

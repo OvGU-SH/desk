@@ -1,4 +1,4 @@
-go = function(cd = TRUE, sci = FALSE) {
+new.session = function(cd = TRUE, sci = FALSE) {
   if (cd == TRUE) {
     # if(!require("rstudioapi",character.only = T)) {
     #   install.packages("rstudioapi")

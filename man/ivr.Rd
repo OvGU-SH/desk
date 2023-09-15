@@ -54,45 +54,75 @@ A list object including:
 Performs a two-stage least squares regression on a single equation including endogenous regressors Y and exogenous regressors X on the right hand-side. Note that by specifying the set of endogenous regressors Y by \code{endog} the set of remaining regressors X are assumed to be exogenous and therefore automatically considered as part of the instrument in the first stage of the 2SLS. These variables are not to be specified in the \code{iv} argument. Here only instrumental variables outside the equation under consideration are specified.
 }
 \examples{
-## Insurance Example, Chapter 20, Textbook
+## Numerical Illustration 20.1 in Auer (2023)
 ivr(contr ~ score, endog = "score", iv = "contrprev", data = data.insurance, details = TRUE)
 
-## Demand and supply estimation (Kmenta, 1986)
-## Copy variables to environment
-consump <- data.kmenta$consump
-price <- data.kmenta$price
-income <- data.kmenta$income
-farmPrice <- data.kmenta$farmPrice
-trend <- data.kmenta$trend
+## Replicating an example of Ani Katchova (econometric academy)
+## (https://www.youtube.com/watch?v=lm3UvcDa2Hc)
+## on U.S. Women's Labor-Force Participation (data from Wooldridge 2013)
+library(wooldridge)
+data(mroz)
 
-## Define model equations
-eqD <- consump ~ price + income
-eqS <- consump ~ price + farmPrice + trend
+# Select only working women
+mroz = mroz[mroz$"inlf" == 1,]
+mroz = mroz[, c("lwage", "educ", "exper", "expersq", "fatheduc", "motheduc")]
+attach(mroz)
 
-## Estimate demand function with instruments "farmPrice"" and "trend""
-D.est <- ivr(eqD, endog = "price", iv = c("farmPrice", "trend"))
+# Regular ols of lwage on educ, where educ is suspected to be endogenous
+# hence estimators are biased
+ols(lwage ~ educ, data = mroz)
 
-## Estimate supply function with instrument "income"
-S.est <- ivr(eqS, endog = "price", iv = "income")
+# Manual calculation of ols coeff
+Sxy(educ, lwage)/Sxy(educ)
 
-## Calculate y-axis intersection and slope with averaged exogenous regressors
-aD <- c(1, mean(income)) \%*\% D.est$coef[-2]
-bD <- D.est$coef[2]
-aS <- c(1, mean(farmPrice), mean(mean(trend))) \%*\% S.est$coef[-2]
-bS <- S.est$coef[2]
+# Manual calculation of iv regression coeff
+# with fatheduc as instrument for educ
+Sxy(fatheduc, lwage)/Sxy(fatheduc, educ)
 
-## Plot data and estimated functions
-plot(price, consump, xlim = c(0,120), ylim = c(0,120))
-abline(a = aD, b = bD)
-abline(a = aS, b = bS)
+# Calculation with 2SLS
+educ_hat = ols(educ ~ fatheduc)$fitted
+ols(lwage ~ educ_hat)
+
+# Verify that educ_hat is completely determined by values of fatheduc
+head(cbind(educ,fatheduc,educ_hat), 10)
+
+# Calculation with ivr()
+ivr(lwage ~ educ, endog = "educ", iv = "fatheduc", data = mroz, details = TRUE)
+
+# Multiple regression model with 1 endogenous regressor (educ)
+# and two exogenous regressors (exper, expersq)
+
+# Biased ols estimation
+ols(lwage ~ educ + exper + expersq, data = mroz)
+
+# Unbiased 2SLS estimation with fatheduc and motheduc as instruments
+# for the endogenous regressor educ
+ivr(lwage ~ educ + exper + expersq,
+    endog = "educ", iv = c("fatheduc", "motheduc"),
+    data = mroz)
+
+# Manual 2SLS
+# First stage: Regress endog. regressor on all exogen. regressors
+# and instruments -> get exogenous part of educ
+stage1.mod = ols(educ ~ exper + expersq + fatheduc + motheduc)
+educ_hat = stage1.mod$fitted
+
+# Second stage: Replace endog regressor with predicted value educ_hat
+# See the uncorrected standard errors!
+stage2.mod = ols(lwage ~ educ_hat + exper + expersq, data = mroz)
+
+## Simple test for endogeneity of educ:
+## Include endogenous part of educ into model and see if it is signif.
+## (is signif. at 10% level)
+uhat = ols(educ ~ exper + expersq + fatheduc + motheduc)$resid
+ols(lwage ~ educ + exper + expersq + uhat)
+detach(mroz)
 
 }
 \references{
-Greene, W.H. (1993): Econometric Analysis, 2nd ed., Macmillan.
+Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 
-Kmenta, J. (1986): Elements of Econometrics, 2nd ed., The University of Michigan Press.
-
-Murray, M.P. (2006): Econometrics - A Modern Introduction, Pearson.
+Wooldridge, J.M. (2013): Introductory Econometrics: A Modern Approach, 5th Edition, Cengage Learning, Datasets available for download at \href{https://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20b&product_isbn_issn=9781111531041}{Cengage Learning}
 }
 \concept{endogeneity}
 \concept{instrument variable}
