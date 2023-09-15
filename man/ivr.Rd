@@ -9,7 +9,7 @@ ivr(formula, data = list(), endog, iv, contrasts = NULL, details = FALSE, ...)
 \item{formula}{model formula.}
 \item{data}{name of the data frame used. To be specified if variables are not stored in environment.}
 \item{endog}{character vector of endogenous (to be instrumented) regressors.}
-\item{iv}{character vector of (exogenous) instrumental variables.}
+\item{iv}{character vector of predetermined/exogenous instrumental variables NOT already included in the model formula.}
 \item{contrasts}{an optional list. See the \code{contrasts.arg} of \code{\link[stats]{model.matrix.default}}.}
 \item{details}{logical value indicating whether details should be printed out by default.}
 \item{...}{further arguments that \code{lm.fit()} understands.}
@@ -51,7 +51,7 @@ A list object including:
 }
 }
 \description{
-Performs a two-stage least squares regression.
+Performs a two-stage least squares regression on a single equation including endogenous regressors Y and exogenous regressors X on the right hand-side. Note that by specifying the set of endogenous regressors Y by \code{endog} the set of remaining regressors X are assumed to be exogenous and therefore automatically considered as part of the instrument in the first stage of the 2SLS. These variables are not to be specified in the \code{iv} argument. Here only instrumental variables outside the equation under consideration are specified.
 }
 \examples{
 ## Insurance Example, Chapter 20, Textbook
