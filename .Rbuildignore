@@ -9,3 +9,4 @@ dev
 tests
 ^CRAN-SUBMISSION$
 ^cran-comments\.md$
+^revdep$
