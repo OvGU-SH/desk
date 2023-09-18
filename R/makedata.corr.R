@@ -25,9 +25,5 @@ if (sample){
 }
 X = X %*% chol(CORR)
 colnames(X) = var.names
-#cat("Covariance matrix is: \n")
-#print(cov(X))
-#cat("Correlation matrix is: \n")
-#print(cor(X))
 return(as.data.frame(X))
 }

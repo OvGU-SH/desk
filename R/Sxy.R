@@ -6,6 +6,6 @@ Sxy = function(x, y = x, na.rm = FALSE){
   if(length(x) == length(y)){
   return(sum( (x - mean(x)) * (y - mean(y))))
   } else {
-  cat("Variables must have same length!")
+  warning("Variables must have same length!")
   }
 }

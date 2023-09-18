@@ -55,6 +55,7 @@ plot(my.ar1$u.sim, type = 'l')
 
 ## Illustrate the effect of Rho on the AR(1)
 set.seed(12)
+parOrg = par(c("mfrow", "mar"))
 par(mfrow = c(2,4), mar = c(1,1,1,1))
 rhovalues <- c(0.1, 0.5, 0.8, 0.99)
 for (i in c(0, 0.3)){
@@ -64,16 +65,17 @@ for (i in c(0, 0.3)){
          acc.line = TRUE, ols.line = TRUE)
   }
 }
-par(mfrow = c(1,1))
+par(mfrow = parOrg$"mfrow", mar = parOrg$"mar")
 
 ## Illustrate the effect of Rho on the (non-)stationarity of the AR(1)
 set.seed(1324)
+parOrg = par(c("mfrow", "mar"))
 par(mfrow = c(2, 4), mar = c(1,1,1,1))
 for (rho in c(0.1, 0.9, 1, 1.04, -0.1, -0.9, -1, -1.04)){
   u.data <- ar1sim(n = 25, u0 = 5, rho = rho, var.e = 0)
   plot(u.data$u.sim, plot.what = "time", ylim = c(-8,8))
 }
-par(mfrow = c(1,1))
+par(mfrow = parOrg$"mfrow", mar = parOrg$"mar")
 
 }
 \concept{AR1 process}
