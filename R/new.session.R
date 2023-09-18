@@ -1,8 +1,9 @@
 new.session = function(cd = TRUE, sci = FALSE) {
+  # Set new working directory:
   if (cd == TRUE) {
-    # if(!require("rstudioapi",character.only = T)) {
-    #   install.packages("rstudioapi")
-    # }
+    oldwd <- getwd()
+    on.exit(setwd(oldwd))
+
     requireNamespace("rstudioapi", quietly = TRUE)
 
     if (getActiveDocumentContext()$path != "") {
@@ -10,9 +11,14 @@ new.session = function(cd = TRUE, sci = FALSE) {
     }
   }
 
+  # Restore scientific notation:
   if (sci == TRUE) {
     options(scipen = 0)
   }
+
+  # Restore parameter settings:
+  oldpar <- par(no.readonly = TRUE)
+  on.exit(par(oldpar))
 
   y = function() {
     dev.new()
@@ -22,9 +28,12 @@ new.session = function(cd = TRUE, sci = FALSE) {
   }
   par(y())
 
+  # Delete graphics:
   dev.off()
 
+  # Delete objects:
   rm(list=ls(pos = .GlobalEnv), pos = .GlobalEnv)
 
+  # Delete console:
   cat('\014')
 }
