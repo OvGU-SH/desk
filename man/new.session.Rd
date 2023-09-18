@@ -15,9 +15,7 @@ None.
 Removes all objects from global environment. Removes all plots. Clears the console. As default, sets the working directory to source file loction in case the function is used from an R script. As an option, resets the scientific notation (e.g., 1e-04).
 }
 \examples{
-## R Session reset without changing the current working directory
-new.session(FALSE) # new.session(F)
-
+# No example available to avoid possibly unwanted object deletion in user environment.
 }
 \concept{.GlobalEnv}
 \concept{delete}

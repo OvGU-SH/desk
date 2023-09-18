@@ -35,6 +35,7 @@ This command generates a data frame of two variables, x and y, which can be both
 }
 \examples{
 ## Compare 4 data sets generated differently
+parOrg = par("mfrow")
 par(mfrow = c(2,2))
 
 ## Linear data shifted by 3
@@ -53,7 +54,7 @@ plot(A.dat, main = "linear data shifted by 3")
 plot(B.dat, main = "log transformed y-data")
 plot(C.dat, main = "concave scatter")
 plot(D.dat, main = "concave scatter, x transf.")
-par(mfrow = c(1,1))
+par(mfrow = parOrg)
 
 }
 \concept{confidence band}

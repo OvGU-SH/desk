@@ -47,9 +47,6 @@ cochorc(sales.est)
 ## For a higher precision we need 6 iterations
 cochorc(sales.est, tol = 0.0000000000001)
 
-## If we allow not more than 4 iterations, a warning message is generated
-## cochorc(sales.est, iter = 4, tol = 0.0000000000001)
-
 ## Direct usage of a model formula
 X <- cochorc(sick ~ jobless, data = data.sick[1:14,], details = TRUE)
 

@@ -1,0 +1,19 @@
+Version: 1.1.0
+Date: 2023-09-15 14:52:07 UTC
+SHA: fatal: detected dubious ownership in repository at 'O:/github/desk'
+
+Version: 1.1.0
+Date: 2023-09-15 14:52:07 UTC
+SHA: 'O:/github/desk' is on a file system that does not record ownership
+
+Version: 1.1.0
+Date: 2023-09-15 14:52:07 UTC
+SHA: To add an exception for this directory, call:
+
+Version: 1.1.0
+Date: 2023-09-15 14:52:07 UTC
+SHA:
+
+Version: 1.1.0
+Date: 2023-09-15 14:52:07 UTC
+SHA: git config --global --add safe.directory O:/github/desk

@@ -11,19 +11,10 @@ rm.all(keep = NULL)
 None.
 }
 \description{
-Removes all objects from global environment, except specified ones.
+Removes all objects from global environment, except those that are specified by argument \code{keep}.
 }
 \examples{
-x = c(1,2)
-y = c(4,1)
-z = c(3,1)
-
-## Delete all but x and z
-rm.all(c("x","z"))
-
-## Delete everything
-rm.all()
-
+# No example available to avoid possibly unwanted object deletion in user environment.
 }
 \concept{.GlobalEnv}
 \concept{delete}
