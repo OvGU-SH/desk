@@ -12,7 +12,7 @@ new.session(cd = TRUE, sci = FALSE)
 None.
 }
 \description{
-Removes all objects from global environment. Removes all plots. Clears the console. As default, sets the working directory to source file loction in case the function is used from an R script. As an option, resets the scientific notation (e.g., 1e-04).
+\code{new.session} removes all objects from global environment, removes all plots, clears the console, and restores parameter settings. As default, sets the working directory to source file loction in case the function is used from an R script. As an option, resets the scientific notation (e.g., 1e-04).
 }
 \examples{
 # No example available to avoid possibly unwanted object deletion in user environment.
