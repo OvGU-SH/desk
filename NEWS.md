@@ -22,11 +22,17 @@ Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2
 
 -   New functions
 
-    `go()` `roll.win()`
+    `new.session()` 
+    
+    `roll.win()`
 
 -   New datasets
 
-    `data.macro` `data.regional` `data.spurious`
+    `data.macro` 
+    
+    `data.regional` 
+    
+    `data.spurious`
 
 -   New welcome screen with download link for 1.0.x version (first edition of book)
 
