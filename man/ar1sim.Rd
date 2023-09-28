@@ -5,7 +5,7 @@
 ar1sim(n = 50, rho, u0 = 0, var.e = 1, details = FALSE, seed = NULL)
 }
 \arguments{
-\item{n}{number of observations to be simulated.}
+\item{n}{total number of observations to be generated (one predetermined start value u0 and n-1 random values)}
 
 \item{rho}{true rho value of the AR(1) process to be simulated.}
 
