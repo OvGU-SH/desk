@@ -15,6 +15,7 @@ A data frame with 20 observations on the following six variables:
 \code{empl} \tab employee's time of employment in the company (in years).\cr
 \code{score} \tab employee's IQ test score.\cr
 \code{sex} \tab employee's sex (0 = male).\cr
+\code{religion} \tab employee's religion (factor variable).\cr
 }
 }
 
