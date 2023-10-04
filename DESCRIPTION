@@ -1,7 +1,7 @@
 Package: desk
 Type: Package
 Title: Didactic Econometrics Starter Kit
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: c(
     person("Soenke", "Hoffmann", email = "sohoffma@ovgu.de", role = c("cre", "aut")),
     person("Tobias", "Kranz", email = "tobias.kranz@uni-trier.de", role = "aut")
