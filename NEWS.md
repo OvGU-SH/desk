@@ -1,17 +1,13 @@
 ## desk 1.1.1
 
 # Additions:
-
 -   New variable `religion` in data.wage
-
-# Additions:
 
 ## desk 1.1.0
 
 This is the first official CRAN release
 
 # Modifications (compared to non-CRAN 1st ed. releases):
-
 - Function renames
     `def.exp` (old: exp.def)
     `def.log` (old: log.def)
@@ -20,18 +16,14 @@ This is the first official CRAN release
     `repeat.sample` (old: rep.sample)
 
 # Additions:
-
 -   New functions
     `new.session()` 
     `roll.win()`
-
 -   New datasets
     `data.macro` 
     `data.regional` 
     `data.spurious`
-
 -   New welcome screen with download link for 1.0.x version (first edition of book)
 
 # Fixes:
-
 -   dataset and function help files updated and completed
