@@ -28,7 +28,7 @@ data.macro
 }
 
 \description{
-This is a (time series) data set on macroeconomic data from Germany covering 129 consecutive quarters.
+This is a (time series) data set on macroeconomic data from Germany covering 129 consecutive quarters (Q1 1990 -- Q1 2023).
 }
 
 \details{
