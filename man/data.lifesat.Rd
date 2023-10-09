@@ -28,7 +28,7 @@ A data set describing the life satisfaction and per capita income in 40 countrie
 }
 
 \details{
-In Auer et al. (2023, Chap. 3) these hypothetical data are used to illustrate the use of the simple linear regression model.
+In Auer et al. (2023, Chap. 3) these data are used to illustrate the use of the simple linear regression model.
 }
 
 \references{
