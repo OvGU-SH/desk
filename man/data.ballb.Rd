@@ -7,7 +7,7 @@
 \title{Defective Ball Bearings}
 
 \format{
-A data frame with seven observations on the following two variables:
+A data frame with six observations on the following two variables:
 \tabular{ll}{
 \code{defbb} \tab share of defective ball bearings (per thousand).\cr
 \code{nshifts} \tab number of shifts between two maintenances.\cr
