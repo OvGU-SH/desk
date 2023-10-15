@@ -2,6 +2,8 @@
 
 # Additions:
 -   New variable `religion` in data.wage
+-   Delete function `makedata.bc`
+-   Change variable name `exp` to `expend` in data.govexpend
 
 ## desk 1.1.0
 
