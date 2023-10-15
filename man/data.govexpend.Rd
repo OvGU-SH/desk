@@ -10,7 +10,7 @@
 A data frame with 50 observations on the following 5 variables:
 \tabular{ll}{
 \code{state} \tab name of the state.\cr
-\code{exp} \tab total state expenditures per capita (in dollar).\cr
+\code{expend} \tab total state expenditures per capita (in dollar).\cr
 \code{aid} \tab federal aid received by this state (in million dollar).\cr
 \code{gdp} \tab gross domestic product (in million dollar).\cr
 \code{pop} \tab population (in million).\cr
