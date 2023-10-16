@@ -50,7 +50,7 @@ wh.test = function(mod,
   wh = mod$r.squ * mod$nobs
 
   if (hyp){
-    H = c("sig2(t) = sig2 (Homosked.)", "sig2(t) <> sig2 (Heterosked.)")
+    H = c("sig2(i) = sig2 (Homosked.)", "sig2(i) <> sig2 (Heterosked.)")
     names(H) = c("H0:", "H1:")
     H = t(H)
   } else {
