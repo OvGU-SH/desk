@@ -2,9 +2,12 @@
 
 # Additions:
 -   New variable `religion` in data.wage
+<<<<<<< HEAD
 -   Delete function `makedata.bc`
 -   Change variable name `exp` to `expend` in `data.govexpend`
 -   Minor changes in `data.eu`, `bp.test`, `wh.test`
+=======
+>>>>>>> parent of 0e0a96f (delete makedata.bc)
 
 ## desk 1.1.0
 

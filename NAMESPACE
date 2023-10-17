@@ -29,6 +29,7 @@ export(
   ivr,
   jb.test,
   lagk,
+  makedata.bc,
   makedata.corr,
   mc.table,
   new.session,
