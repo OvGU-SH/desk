@@ -1,4 +1,6 @@
-roll.win <- function(x, window = 3, indicator = "mean", tau = NULL) {
+roll.win <- function(x, window = 3, indicator = c("mean", "var", "cov"), tau = NULL) {
+
+  indicator = match.arg(indicator)
 
   if (is.vector(x) == TRUE) {
 
