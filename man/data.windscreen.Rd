@@ -12,10 +12,10 @@ A data frame with 248 observations on the following eight variables:
 \code{screen} \tab number of windscreen replacements in the branch.\cr
 \code{foreman} \tab foremen employed in the branch.\cr
 \code{assist} \tab assistants employed in the branch.\cr
-\code{f_wage} \tab foremen's average wage in the branch.\cr
-\code{a_wage} \tab assistants' average wage in the branch.\cr
-\code{f_age} \tab foremen's average age in the branch.\cr
-\code{a_age} \tab assistants' average age in the branch.\cr
+\code{f.wage} \tab foremen's average wage in the branch.\cr
+\code{a.wage} \tab assistants' average wage in the branch.\cr
+\code{f.age} \tab foremen's average age in the branch.\cr
+\code{a.age} \tab assistants' average age in the branch.\cr
 \code{capital} \tab total value of machines used for windscreen replacement in the branch (in euro).\cr
 }
 }
