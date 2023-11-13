@@ -1,6 +1,7 @@
 ## desk 1.1.1
 
 # Additions:
+-   Change in `plot.desk`: legend without background color
 -   New variable `religion` in data.wage
 -   Change variable name `exp` to `expend` in `data.govexpend`
 -   Change variable names `f_wage`, `a_wage`, `f_age`, `a_age` to 
