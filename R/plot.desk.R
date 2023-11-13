@@ -263,7 +263,8 @@ plot.desk = function (x, ...){
                legendbg = rgb(218/255, 228/255, 240/255) # darker blue
              } else if(Sys.getenv("PUBVERSION") == "ONLINE") {
                # legendbg = rgb(1, 247/255, 229/255) # brighter orange
-               legendbg = rgb(254/255, 238/255, 229/255) # darker orange
+               # legendbg = rgb(254/255, 238/255, 229/255) # darker orange
+               legendbg = rgb(218/255, 228/255, 240/255) # darker blue
              } else {
                legendbg = "white"}
 
