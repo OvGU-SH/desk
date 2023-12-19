@@ -22,7 +22,7 @@ new.session = function(cd = TRUE, sci = FALSE) {
 
   y = function() {
     dev.new()
-    x = par(no.readonly = T)
+    x = par(no.readonly = TRUE)
     dev.off()
     x
   }
@@ -30,6 +30,7 @@ new.session = function(cd = TRUE, sci = FALSE) {
 
   # Delete graphics:
   dev.off()
+  plot.new() # bypass Warning from par(oldpar)
 
   # Delete objects:
   rm(list=ls(pos = .GlobalEnv), pos = .GlobalEnv)
