@@ -1,14 +1,26 @@
-## desk 1.1.1
+## desk 1.1.2
 
 # Additions:
+-   package vignette
+
+# Fixes:
+-   year of publication of `Ökonometrie - Das R-Arbeitsbuch, 2nd ed.`: 2023 to 2024
+-   fix in `ols` when decimal separator is switched to a comma
+
+## desk 1.1.1
+
+# Modifications:
 -   Change in `plot.desk`: legend without background color
--   Minor fix in `new.session`
--   New variable `religion` in data.wage
+-   Minor changes in `data.eu`, `bp.test`, `roll.win`, `wh.test`
 -   Change variable name `exp` to `expend` in `data.govexpend`
 -   Change variable names `f_wage`, `a_wage`, `f_age`, `a_age` to 
     `f.wage`, `a.wage`, `f.age`, `a.age` in `data.windscreen`
--   Minor changes in `data.eu`, `bp.test`, `roll.win`, `wh.test`
+    
+# Additions:
+-   New variable `religion` in data.wage
 
+# Fixes:
+-   Minor fix in `new.session`
 
 ## desk 1.1.0
 

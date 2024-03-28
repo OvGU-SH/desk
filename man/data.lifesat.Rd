@@ -28,12 +28,12 @@ A data set describing the life satisfaction and per capita income in 40 countrie
 }
 
 \details{
-In Auer et al. (2023, Chap. 3) these data are used to illustrate the use of the simple linear regression model.
+In Auer et al. (2024, Chap. 3) these data are used to illustrate the use of the simple linear regression model.
 }
 
 \references{
 
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 
 Inglehart, R. et al. (2014): World Values Survey: All Rounds - Country-Pooled Datafile Version, R. Inglehart, C. Haerpfer, A. Moreno, C. Welzel, K. Kizilova, J. Diez-Medrano, M. Lagos, P. Norris, E. Ponarin & B. Puranen (eds.), Madrid: JD Systems Institute.
 }

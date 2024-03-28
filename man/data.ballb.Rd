@@ -27,11 +27,11 @@ This is a data set on the percentage of defective units in the production of bal
 }
 
 \details{
-In Auer (2023, Chap. 16) and Auer et al. (2023, Chap. 16) these hypothetical data are used to illustrate the consequences of error terms with an expected value deviating from zero.
+In Auer (2023, Chap. 16) and Auer et al. (2024, Chap. 16) these hypothetical data are used to illustrate the consequences of error terms with an expected value deviating from zero.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

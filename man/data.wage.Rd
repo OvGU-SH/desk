@@ -32,11 +32,11 @@ This is a data set on the wage structure in a company.
 }
 
 \details{
-In Auer (2023, Chap. 13) and Auer et al. (2023, Chap. 13) these hypothetical data are used to illustrate the selection of the relevant exogenous variables.
+In Auer (2023, Chap. 13) and Auer et al. (2024, Chap. 13) these hypothetical data are used to illustrate the selection of the relevant exogenous variables.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\bold{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

@@ -32,11 +32,11 @@ This is a data set on regional wages and the regional levels of the cost of livi
 }
 
 \details{
-In Auer et al. (2023, Chap. 22) these data are used to illustrate the estimation of simultaneous equations models.
+In Auer et al. (2024, Chap. 22) these data are used to illustrate the estimation of simultaneous equations models.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).\cr
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).\cr
 
 Auer, L.v., Weinand, S. (2022): A nonlinear generalization of the Country-Product-Dummy method, Discussion Paper No. 45/2022, Deutsche Bundesbank.\cr
 

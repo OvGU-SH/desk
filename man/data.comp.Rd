@@ -29,11 +29,11 @@ This is a data set on the monthly rentals of computers of different quality duri
 }
 
 \details{
-In Auer et al. (2023, Chaps. 13 & 14) these data are used to illustrate the specification of a multivariate regression model.
+In Auer et al. (2024, Chaps. 13 & 14) these data are used to illustrate the specification of a multivariate regression model.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 
 Chow, G.C. (1967): Technological Change and the Demand for Computers. The American Economic Review, 57, 1117–1130.
 

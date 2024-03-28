@@ -27,11 +27,11 @@ This is a hypothetical data set on the bills and the corresponding tips given in
 }
 
 \details{
-In Auer (2023, Chap. 17) and Auer et al. (2023, Chap. 17) these hypothetical data provide a data set for estimating a simple linear regression model.
+In Auer (2023, Chap. 3) and Auer et al. (2024, Chap. 3) these hypothetical data provide a data set for estimating a simple linear regression model.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

@@ -21,7 +21,7 @@ A data frame with 248 observations on the following eight variables:
 }
 
 \source{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \usage{
@@ -33,7 +33,7 @@ This is a data set on the business statistics of 248 branches of a car glass ser
 }
 
 \details{
-In Auer et al. (2023, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with instrumental variables.
+In Auer et al. (2024, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with instrumental variables.
 }
 
 \keyword{datasets}

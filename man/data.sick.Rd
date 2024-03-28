@@ -28,11 +28,11 @@ This is a data set on the unemployment rates and the sick leave in Germany in th
 }
 
 \details{
-In Auer et al. (2023, Chap. 18) these data are used to illustrate the consequences of autocorrelated error terms.
+In Auer et al. (2024, Chap. 18) these data are used to illustrate the consequences of autocorrelated error terms.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

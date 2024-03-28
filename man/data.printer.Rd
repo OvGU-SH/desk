@@ -32,11 +32,11 @@ This is a data set on the prices and qualitative characteristics of laser printe
 }
 
 \details{
-In Auer (2023, Chap. 21) and Auer et al. (2023, Chap. 21) these hypothetical data are used to illustrate the consequences of multicollinear exogenous variables.
+In Auer (2023, Chap. 21) and Auer et al. (2024, Chap. 21) these hypothetical data are used to illustrate the consequences of multicollinear exogenous variables.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

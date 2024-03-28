@@ -16,7 +16,7 @@ A data frame with 12 observations on the following three variables:
 }
 
 \source{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \usage{
@@ -28,7 +28,7 @@ This is a data set on the monthly number of burglaries and the number of power b
 }
 
 \details{
-In Auer et al. (2023, Chap. 15) these hypothetical data are used to illustrate the consequences of a structural break.
+In Auer et al. (2024, Chap. 15) these hypothetical data are used to illustrate the consequences of a structural break.
 }
 
 \keyword{datasets}

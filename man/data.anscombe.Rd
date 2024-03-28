@@ -27,13 +27,13 @@ This data set comprises four individual x-y-data sets which have the same statis
 }
 
 \details{
-In Auer et al. (2023, Chap. 3) these data are used to illustrate the simple regression model and the importance to visually evaluate datasets before a numerical analysis is performed.
+In Auer et al. (2024, Chap. 3) these data are used to illustrate the simple regression model and the importance to visually evaluate datasets before a numerical analysis is performed.
 }
 
 \references{
 Tufte, E.R. (1989): The Visual Display of Quantitative Information, 13-14. Graphics Press.
 
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

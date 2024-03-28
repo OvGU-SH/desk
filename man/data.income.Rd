@@ -30,13 +30,13 @@ This data set describes major macroeconomic variables determining the difference
 }
 
 \details{
-In Auer (2023, Chap. 19) and Auer et al. (2023, Chap. 19) these data are used to illustrate the detection and consequences of error terms that are not normally distributed.
+In Auer (2023, Chap. 19) and Auer et al. (2024, Chap. 19) these data are used to illustrate the detection and consequences of error terms that are not normally distributed.
 }
 
 \references{
 Auer, L.v. (2023): Ökonometrie - Eine Einführung, 8th ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

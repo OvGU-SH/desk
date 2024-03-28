@@ -29,11 +29,11 @@ This is a data set on the ability and success of salespersons in selling insuran
 }
 
 \details{
-In Auer (2023, Chap. 20) and Auer et al. (2023, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with an instrumental variable.
+In Auer (2023, Chap. 20) and Auer et al. (2024, Chap. 20) these hypothetical data illustrate the use of two stage least squares estimation with an instrumental variable.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

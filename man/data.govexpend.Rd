@@ -38,11 +38,11 @@ This is a data set on the yearly expenditures of the US-States in 2013. Furtherm
 }
 
 \details{
-In Auer et al. (2023, Chap. 17) these data are used to illustrate the consequences of heteroscedastic error terms.
+In Auer et al. (2024, Chap. 17) these data are used to illustrate the consequences of heteroscedastic error terms.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

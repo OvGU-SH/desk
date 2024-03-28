@@ -34,13 +34,13 @@ This is a data set on the prices and qualitative characteristics of US-cars sold
 }
 
 \details{
-In Auer et al. (2023, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
+In Auer et al. (2024, Chap. 13) these data are used to illustrate the selection process of exogenous variables.
 }
 
 \references{
 Originally published in: Chambers, J.M, Cleveland, W.S., Kleiner, B., Tukey, P.A. (1983): Graphical Methods for Data Analysis, Wadsworth International Group, pages 352-355.
 
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}

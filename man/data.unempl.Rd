@@ -30,11 +30,11 @@ This is a data set on German economic growth and unemployment rates from 1992 to
 }
 
 \details{
-In Auer (2023, Chap. 15) and Auer et al. (2023, Chap. 15) these yearly data are used to illustrate the estimation of regression models that exhibit a structural break.
+In Auer (2023, Chap. 15) and Auer et al. (2024, Chap. 15) these yearly data are used to illustrate the estimation of regression models that exhibit a structural break.
 }
 
 \references{
-Auer, L.v., Hoffmann, S. & Kranz, T. (2023): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
+Auer, L.v., Hoffmann, S. & Kranz, T. (2024): Ökonometrie - Das R-Arbeitsbuch, 2nd ed., Springer-Gabler (\href{https://www.uni-trier.de/index.php?id=15929}{https://www.oekonometrie-lernen.de}).
 }
 
 \keyword{datasets}
