@@ -1,0 +1,63 @@
+---
+title: "Introduction to the desk-package"
+output: rmarkdown::html_vignette
+#toc: true
+vignette: >
+  %\VignetteIndexEntry{Introduction to the desk-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+Sys.setenv(LANGUAGE="en")
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+<br/><br/>
+The primary purpose of desk: students, teachers, casual users
+
+1. **Provide visualizations that speed up the learning process and enhance the understanding of economietrics**
+2. **Lowering barriers for the use of R in general**
+
+```{r setup, echo=FALSE, results=FALSE}
+suppressMessages(library(desk))
+```
+
+## Ordinary Least Squares: `ols()`
+similar to lm-function (linear model, base function in R)
+
+more appealing output
+
+show scatter plot with regression line
+
+
+## t-Test: `par.t.test()`
+visualization of test results
+
+various other tests with visualizations
+
+same principle for other funktions
+
+
+## Available data: `datasets()`
+The simple command `datasets()` (without arguments, i.e. with empty brackets) shows available datasets in the package. Typing in the name shows data. Data manuals ...
+```{r, echo=TRUE, results=FALSE}
+datasets()
+data.anscombe
+my_data <- data.anscombe
+```
+
+## Simulated data: `repeat.sample()`
+
+didactic tool for teachers
+
+show several scatter plots (4 or 9) with different realizations
+
+# useful tools
+`arguments()`
+`rm.all()`
+`new.session()`
+

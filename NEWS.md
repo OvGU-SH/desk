@@ -1,7 +1,7 @@
 ## desk 1.1.2
 
 # Additions:
--   package vignette
+-   package vignette `desk-intro`
 
 # Fixes:
 -   year of publication of `Ökonometrie - Das R-Arbeitsbuch, 2nd ed.`: 2023 to 2024
