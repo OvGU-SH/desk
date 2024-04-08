@@ -18,8 +18,10 @@ StartWelcomeMessage <- function(){
         "     Das R-Arbeitsbuch, 2nd ed.", "\n\n",
         " More information on these books:\n",
         " ", cli::style_hyperlink("https://oekonometrie-lernen.de", "https://www.uni-trier.de/index.php?id=15929"),"\n\n",
+        " For an EASY-TO-READ introduction, type in the Console:", "\n",
+        " vignette(\u0022desk-intro\u0022)", "\n\n",
         " REMARK: Users of the 1st ed. of book (2) should install", "\n",
-        " and use desk v1.0.x (pre-CRAN release) manually from:", "\n",
+        " and use desk v1.0.x (pre-CRAN release) manually from", "\n",
         " ", cli::style_hyperlink("https://github.com/OvGU-SH/desk1A/releases", "https://github.com/OvGU-SH/desk1A/releases"),"\n\n",
         "=============================================================",
         sep="")

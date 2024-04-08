@@ -17,10 +17,12 @@ knitr::opts_chunk$set(
 )
 ```
 <br/><br/>
-The primary purpose of desk: students, teachers, casual users
+The acronym **desk** stands for **didactic econometrics starter kit**. The primary audience of this package are students and teachers, but also casual users. **desk** ...
 
-1. **Provide visualizations that speed up the learning process and enhance the understanding of economietrics**
-2. **Lowering barriers for the use of R in general**
+1. **provides visualizations that speed up the learning process and enhance the understanding of econometrics.**
+2. **lowers barriers for the use of R in general.**
+
+In following, the most important and easy-to-grasp features are presented. We show this in form of functions and mostly in resulting graphical representations.
 
 ```{r setup, echo=FALSE, results=FALSE}
 suppressMessages(library(desk))
@@ -50,14 +52,17 @@ data.anscombe
 my_data <- data.anscombe
 ```
 
-## Simulated data: `repeat.sample()`
 
+## Simulated data: `repeat.sample()`
 didactic tool for teachers
 
 show several scatter plots (4 or 9) with different realizations
 
-# useful tools
+
+## Useful tools
 `arguments()`
+
 `rm.all()`
+
 `new.session()`
 
