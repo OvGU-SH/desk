@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-<br/><br/>
+<!-- <br/><br/> -->
 The acronym **desk** stands for **didactic econometrics starter kit**. The primary audience of this package are students and teachers, but also casual users. **desk** ...
 
 1. **provides visualizations that speed up the learning process and enhance the understanding of econometrics.**
@@ -29,40 +29,108 @@ suppressMessages(library(desk))
 ```
 
 ## Ordinary Least Squares: `ols()`
-similar to lm-function (linear model, base function in R)
+As the backbone of econometrics, the OLS-method is generally the starting point to compute an estimator. Our version is similar to lm-function (= linear model, base function in R), but with a more appealing output and various applications in combination with the base functions `plot()` and `print()`. The following code creates data points and plots these:
 
-more appealing output
+```{r}
+x <- c(1,2,3,4)
+y <- c(2,3,2,5)
+plot(x,y)
+```
 
-show scatter plot with regression line
+A regression line is now estimated and the results are presented both, numerically and as a straight line through the data points:
 
+```{r}
+my.model.est <- ols(y ~ x)
+my.model.est
+
+plot(my.model.est)
+```
+
+Being useful to calculate further figures or reproduce them, details of the estimation can be shown:
+
+```{r}
+print(my.model.est, details = TRUE)
+```
+
+In contrast to `summary(lm(y ~ x))`, the sum of squares residual and the sample's standard error ($\widehat{\sigma}^2$) are included. However, detailed information about the residuals is hidden, as it is rarely used.
 
 ## t-Test: `par.t.test()`
-visualization of test results
+To test a single linear combination of parameters, a t-Test is typically used. First, we replicate the standard test for the slope parameter from the OLS-results above: 
 
-various other tests with visualizations
+```{r}
+par.t.test(my.model.est, nh = c(0,1))
+```
 
-same principle for other funktions
+Furthermore, we save a similar, one-sided test to visualize the results:
+```{r, fig.width = 6}
+my.test <- par.t.test(my.model.est, nh = c(0,1), dir = "right")
 
+plot(my.test)
+```
+
+The same principle is true for other functions in our package. So, various tests can be displayed via visualizations.
 
 ## Available data: `datasets()`
-The simple command `datasets()` (without arguments, i.e. with empty brackets) shows available datasets in the package. Typing in the name shows data. Data manuals ...
-```{r, echo=TRUE, results=FALSE}
+The simple command `datasets()` (without arguments, i.e. with empty brackets) shows available datasets in the package alongside a short description:
+
+```{r}
 datasets()
+```
+
+Typing in a dataset's name shows the data in the console:
+
+```{r}
 data.anscombe
-my_data <- data.anscombe
+```
+
+It can also be saved into the global environment:
+```{r}
+my.data <- data.anscombe
+```
+
+As with functions, a question mark as prefix shows the help-file:
+```{r}
+?data.anscombe
+```
+
+## Simulated data: `repeat.sample()`
+A key insight of applied econometrics is restriction of repeated samples. The resulting assumption can be difficult to understand. As a didactic tool for teachers, random samples can be drawn but with the same population slope and intercept. We generate four samples with no intercept and a slope of 1 over the x-values of 1 to 30:
+
+```{r}
+x <- 1:30
+four.samples <- repeat.sample(x, true.par = c(0, 1), sd = 10, rep = 4)
+```
+
+```{r, echo=FALSE}
+plot(x,four.samples$y[,1], ylab = "", main = "1. Sample")
+plot(x,four.samples$y[,2], ylab = "", main = "2. Sample")
+plot(x,four.samples$y[,3], ylab = "", main = "3. Sample")
+plot(x,four.samples$y[,4], ylab = "", main = "4. Sample")
+```
+
+Further graphical representations help to unterstand the concepts between the true parameters and the estimated ones. To better see the distribution of the data points around the regression line and the different estimated regression lines, we only use a few x-values (1 to 10) and generate 100 samples, respectively:
+
+```{r}
+x <- 1:10
+hundred.samples <- repeat.sample(x, true.par = c(0, 1), sd = 1, rep = 100)
+
+plot(hundred.samples, plot.what = "scatter")
+plot(hundred.samples, plot.what = "reglines")
+```
+
+## Useful tools
+Besides the 35 functions relating to econometrics, **desk** includes some useful tools to make working with **R** easier. 
+
+`rm.all()` removes all objects from global environment. `new.session()` does the same and also resets most settings. In addtion, it sets the working directory to source file loction in case the function is used from an R script. Starting a script with this function can speed up the working flow. Both functions can be used without input.
+
+`arguments()` reveals a function's possible input in a simple way:
+
+```{r}
+arguments(par.t.test)
 ```
 
 
-## Simulated data: `repeat.sample()`
-didactic tool for teachers
-
-show several scatter plots (4 or 9) with different realizations
 
 
-## Useful tools
-`arguments()`
 
-`rm.all()`
-
-`new.session()`
 
