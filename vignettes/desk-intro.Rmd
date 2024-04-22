@@ -22,14 +22,14 @@ The acronym **desk** stands for **didactic econometrics starter kit**. The prima
 1. **provides visualizations that speed up the learning process and enhance the understanding of econometrics.**
 2. **lowers barriers for the use of R in general.**
 
-In following, the most important and easy-to-grasp features are presented. We show this in form of functions and mostly in resulting graphical representations.
+In the following, we present the most important and easy-to-grasp features. We illustrate these features in the form of functions and mostly through resulting graphical representations.
 
 ```{r setup, echo=FALSE, results=FALSE}
 suppressMessages(library(desk))
 ```
 
 ## Ordinary Least Squares: `ols()`
-As the backbone of econometrics, the OLS-method is generally the starting point to compute an estimator. Our version is similar to lm-function (= linear model, base function in R), but with a more appealing output and various applications in combination with the base functions `plot()` and `print()`. The following code creates data points and plots these:
+As the cornerstone of econometrics, the OLS method is typically the initial step in computing an estimator. Our version is similar to the **lm** function (**l**inear **m**odel, a base function in R), but it yields a more appealing output and various applications in combination with the base functions `plot()` and `print()`. The following code creates data points and plots them:
 
 ```{r}
 x <- c(1,2,3,4)
@@ -54,8 +54,8 @@ print(my.model.est, details = TRUE)
 
 In contrast to `summary(lm(y ~ x))`, the sum of squares residual and the sample's standard error ($\widehat{\sigma}^2$) are included. However, detailed information about the residuals is hidden, as it is rarely used.
 
-## t-Test: `par.t.test()`
-To test a single linear combination of parameters, a t-Test is typically used. First, we replicate the standard test for the slope parameter from the OLS-results above: 
+## t-test: `par.t.test()`
+To test a single linear combination of parameters, a t-test is typically employed. First, we replicate the standard test for the slope parameter using the OLS results above: 
 
 ```{r}
 par.t.test(my.model.est, nh = c(0,1))
@@ -68,7 +68,7 @@ my.test <- par.t.test(my.model.est, nh = c(0,1), dir = "right")
 plot(my.test)
 ```
 
-The same principle is true for other functions in our package. So, various tests can be displayed via visualizations.
+The same principle applies to other functions in our package, allowing for various tests to be visualized.
 
 ## Available data: `datasets()`
 The simple command `datasets()` (without arguments, i.e. with empty brackets) shows available datasets in the package alongside a short description:
@@ -94,7 +94,7 @@ As with functions, a question mark as prefix shows the help-file:
 ```
 
 ## Simulated data: `repeat.sample()`
-A key insight of applied econometrics is restriction of repeated samples. The resulting assumption can be difficult to understand. As a didactic tool for teachers, random samples can be drawn but with the same population slope and intercept. We generate four samples with no intercept and a slope of 1 over the x-values of 1 to 30:
+A fundamental insight in (applied) econometrics involves the restriction of repeated samples, which can be challenging to grasp. As a didactic aid for educators, random samples can be drawn while maintaining the same population slope and intercept. Here, we generate four samples with a slope of 1 and no intercept over x-values ranging from 1 to 30:
 
 ```{r}
 x <- 1:30
@@ -108,7 +108,7 @@ plot(x,four.samples$y[,3], ylab = "", main = "3. Sample")
 plot(x,four.samples$y[,4], ylab = "", main = "4. Sample")
 ```
 
-Further graphical representations help to unterstand the concepts between the true parameters and the estimated ones. To better see the distribution of the data points around the regression line and the different estimated regression lines, we only use a few x-values (1 to 10) and generate 100 samples, respectively:
+Additional graphical representations help to understand the relationship between the true parameters and the estimated ones. To better visualize the distribution of data points around the regression line and the various estimated regression lines, we limit the x-values to a range of 1 to 10 and generate 100 samples, respectively.
 
 ```{r}
 x <- 1:10
@@ -119,11 +119,11 @@ plot(hundred.samples, plot.what = "reglines")
 ```
 
 ## Useful tools
-Besides the 35 functions relating to econometrics, **desk** includes some useful tools to make working with **R** easier. 
+Alongside the 35 functions relating to econometrics, **desk** also includes some useful tools to make working with **R** easier. 
 
-`rm.all()` removes all objects from global environment. `new.session()` does the same and also resets most settings. In addtion, it sets the working directory to source file loction in case the function is used from an R script. Starting a script with this function can speed up the working flow. Both functions can be used without input.
+The function `rm.all()` removes all objects from global environment, while `new.session()` accomplishes the same task and additionally resets most settings. Moreover, it sets the working directory to the source file location if the function is used from an R script. Starting a script with this function can speed up the working flow. Both functions can be used without input.
 
-`arguments()` reveals a function's possible input in a simple way:
+Furthermore, the `arguments()` function reveals a function's possible input in a simple way:
 
 ```{r}
 arguments(par.t.test)
